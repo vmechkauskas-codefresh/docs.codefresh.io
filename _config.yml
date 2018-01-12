@@ -1,0 +1,84 @@
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+# Permalinks
+permalink:      pretty
+
+# Server
+source:         "."
+destination:    ./_gh_pages
+host:           127.0.0.1
+port:           19001
+baseurl:        ""
+url:            "https://codefresh.io"
+encoding:       UTF-8
+exclude:
+  - .git/
+  - .github/
+  - assets/scss/
+  - build/
+  - js/
+  - node_modules/
+  - nuget/
+  - scss/
+  - vendor/
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - sache.json
+  - twbsconfig.yml
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
+
+# Social
+title:              Codefresh | Docs
+description:        "Codefresh is a Docker-native CI/CD platform. Instantly build , test and deploy Docker images."
+twitter:            codefresh
+authors:            ""
+social_image_path:  /assets/brand/codefresh-social.png
+social_logo_path:   /assets/brand/codefresh-social-logo.png
+
+# Custom variables
+current_version:      4.0.0-beta.3
+current_ruby_version: 4.0.0.beta3
+docs_version:         v1.2
+repo:                 "https://github.com/codefresh/docs.codefresh.io"
+features:             "https://codefresh.io/features/"
+enterprise:           "https://codefresh.io/enterprise/"
+pricing:              "https://codefresh.io/pricing/"
+schedule_demo:        "https://codefresh.io/schedule-a-demo/"
+codefresh_login:      "http://g.codefresh.io/login"
+codefresh_signup:     "https://g.codefresh.io/signup"
+
+ga_tracking_code:     "UA-112283329-1"
+
+download:
+  source:           "https://github.com/twbs/bootstrap/archive/v4.0.0-beta.3.zip"
+  dist:             "https://github.com/twbs/bootstrap/releases/download/v4.0.0-beta.3/bootstrap-4.0.0-beta.3-dist.zip"
+
+cdn:
+  # See https://www.srihash.org for info on how to generate the hashes
+  css:              "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+  css_hash:         "sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+  js:               "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+  js_hash:          "sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+  jquery:           "https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  jquery_hash:      "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  popper:           "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  popper_hash:      "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+
+toc:
+  min_level:        2
+  max_level:        4

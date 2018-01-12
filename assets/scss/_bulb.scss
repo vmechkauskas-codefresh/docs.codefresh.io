@@ -1,0 +1,41 @@
+.bulb {
+  position: relative;
+  &::before,
+  &::after {
+    content: "";
+  }
+  &::before {
+    position: absolute;
+    top: -9px;
+    left: 16px;
+    display: inline-block;
+    padding: 2px 5px;
+    font-size: 10px;
+    line-height: 11px;
+    color: $bd-white;
+    content: attr(data-bulb-text);
+    background: $bd-dark;
+    border-radius: 3px;
+  }
+  &::after {
+    position: absolute;
+    top: 6px;
+    left: 34px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 4px solid $bd-dark;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+  &.bulb-red {
+    &::before {
+      color: $bd-white;
+      background: rgba($bd-bulb-red, .9);
+    }
+    &::after {
+      color: $bd-white;
+      border-top: 4px solid rgba($bd-bulb-red, .9);
+    }
+  }
+}
