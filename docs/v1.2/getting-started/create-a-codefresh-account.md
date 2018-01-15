@@ -20,6 +20,7 @@ To get started, create a Codefresh account.
 Navigate to the [Sign Up page](https://g.codefresh.io).  
 Sign up with Codefresh by linking your account to your Git provider.  
 We currently support Github and Bitbucket.
+
 {% callout info %}
 Codefresh also supports Stash. Check out our [documentation](doc:stash) for more information.
 {% endcallout %} 
