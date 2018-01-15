@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "keywords": [
     "jekyll",
-    "codefresh",
+    "codefresh"
   ],
   "homepage": "https://github.com/vmechkauskas-codefresh/docs.codefresh.io",
-  "author": "Codefresh",  
+  "author": "Codefresh",
   "scripts": {
     "bundlesize": "bundlesize",
     "css": "npm-run-all --parallel css-lint* css-compile* --sequential css-prefix* css-minify*",
@@ -60,7 +60,7 @@
     "watch-css": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run css\"",
     "watch-css-docs": "nodemon --ignore js/ --ignore dist/ -e scss -x \"npm run css-docs\"",
     "watch-js": "nodemon --ignore scss/ --ignore js/dist/ --ignore dist/ -e js -x \"npm run js-compile\""
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vmechkauskas-codefresh/docs.codefresh.io.git"

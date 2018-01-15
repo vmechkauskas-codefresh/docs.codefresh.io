@@ -21,9 +21,9 @@ Navigate to the [Sign Up page](https://g.codefresh.io).
 Sign up with Codefresh by linking your account to your Git provider.  
 We currently support Github and Bitbucket.
 
-{% callout info %}
+<div class="bd-callout bd-callout-info" markdown="1">
 Codefresh also supports Stash. Check out our [documentation](doc:stash) for more information.
-{% endcallout %} 
+</div>
 
 <figure markdown="1">
 ![Codefresh.io SignIn]({{ "https://files.readme.io/6a22e1e-screenshot-g.codefresh.io-2017-11-21-14-57-20.png"}}){:.img-thumbnail .mx-auto .d-block }
@@ -153,8 +153,8 @@ Verify new account page (click image to enlarge)
 [/block]
 {:/comment}
 
-{% callout info %}
+<div class="bd-callout bd-callout-info" markdown="1">
 ##### Multiple repositories / git providers with one account
 
 Currently, it is possible to have only one git provider per account. You have to create a separate Codefresh account for each of your git providers.
-{% endcallout %}
+</div>
