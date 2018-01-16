@@ -8,9 +8,21 @@
 <nav class="collapse bd-links" id="bd-docs-nav">
   {%- assign page_slug = page.url | split: '/' | last -%}
   {%- for group in site.data.nav -%}
+
+  {% if group.url %}
+    {%- assign group_slug = group.url | slugify -%}
+  {% else %}
+    {%- assign group_slug = group.title | slugify -%}
+  {% endif %}
+
   {%- assign link = group.pages | first -%}
-  {%- assign link_slug = link.title | slugify -%}
-  {%- assign group_slug = group.title | slugify -%}
+
+  {% if link.url %}
+    {%- assign link_slug = link.url | slugify -%}
+  {% else %}
+    {%- assign link_slug = link.title | slugify -%}
+  {% endif %}
+
   {%- assign active = nil -%}
 
   {%- if page.group == group_slug -%}
@@ -24,7 +36,13 @@
 
       <ul class="nav bd-sidenav">
         {%- for doc in group.pages -%}
-          {%- assign doc_slug = doc.title | slugify -%}
+
+          {% if doc.url %}
+            {%- assign doc_slug = doc.url | slugify -%}
+          {% else %}
+            {%- assign doc_slug = doc.title | slugify -%}
+          {% endif %}
+
           {%- assign active = nil -%}
 
           {%- if page.group == group_slug and page_slug == doc_slug -%}

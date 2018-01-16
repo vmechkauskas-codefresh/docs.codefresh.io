@@ -4,6 +4,8 @@ title: "Getting Started - Create a Basic Pipeline"
 description: "Configure a basic single-service container-based CI/CD pipeline."
 excerpt: ""
 group: getting-started
+redirect_from:
+  - /docs/getting-started-create-a-basic-pipeline
 toc: true
 ---
 
@@ -43,6 +45,7 @@ A service, also known as micro-service, is a part of an application that is inde
 
 ## To add a repository:
 1. In the **Repositories** page, click **Add Repository**.
+{:toc}
 
 [block:image]
 {

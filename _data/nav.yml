@@ -3,6 +3,32 @@
     - title: Create a Codefresh Account
     - title: Create a Basic Pipeline
 
+- title: Codefresh Plugins
+  pages:
+    - title: Plugins
+    - title: Contribute Codefresh Plugin
+
+- title: Whats new?
+  url: "/whats-new"
+  pages:
+    - title: Whats New In Codefresh?
+      url: "/whats-new"
+
+- title: Configure a CI/CD pipeline
+  url: "/configure-ci-cd-pipeline"
+  pages:
+    - title: "Introduction to Codefresh pipelines"
+      url: "/introduction-to-codefresh-pipelines"
+    - title: Unit Tests
+      url: "/unit-tests"
+      pages:
+        - title: "Unit Tests with Composition"
+          url: "/unit-test-with-composition
+
+- title: -------------------
+  pages:
+    - title: "qwe"
+
 - title: Layout
   pages:
     - title: Overview

@@ -104,7 +104,7 @@
     // Search
     if (window.docsearch) {
       window.docsearch({
-        apiKey: '48cb48b22351bc71ea5f12f4d1ede198',
+        apiKey: '48cb48b22351bc71ea5f12f4d1ede198-----',
         indexName: 'bootstrap-v4',
         inputSelector: '#search-input',
         handleSelected: function (input, event, suggestion) {

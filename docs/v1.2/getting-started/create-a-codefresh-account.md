@@ -2,7 +2,6 @@
 layout: docs
 title: "Create a Codefresh Account"
 description: "Welcome to Codefresh! To get started, create a Codefresh account."
-excerpt: ""
 group: getting-started
 redirect_from:
   - /docs/
