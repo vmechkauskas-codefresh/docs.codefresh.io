@@ -28,6 +28,32 @@
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
   }
+  &.bulb-above-left {
+    &::before {
+      left: 0;
+    }
+    &::after {
+      left: 6px;
+    }
+  }
+  &.bulb-above-right {
+    &::before {
+      right: 0;
+      left: auto;
+    }
+    &::after {
+      right: 6px;
+      left: auto;
+    }
+  }
+  &.bulb-pos-after {
+    &::before {
+      top: -15px;
+    }
+    &::after {
+      top: 0;
+    }
+  }
   &.bulb-red {
     &::before {
       color: $bd-white;

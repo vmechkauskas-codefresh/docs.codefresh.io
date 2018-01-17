@@ -35,6 +35,7 @@
   - title: Examples
     url: https://docs.codefresh.io/docs/examples-v01
   - title: "*NEW* Custom YAML steps"
+    new: true
     url: https://docs.codefresh.io/docs/ready-to-use-yaml-steps
 - title: Deployment
   icon: https://codefresh.io/wp-content/uploads/2017/11/deployment.png
@@ -91,6 +92,7 @@
   - title: Share environment with your team
     url: https://docs.codefresh.io/docs/share-environment-with-your-test
 - title: "*NEW* HELM"
+  new: true
   icon: https://codefresh.io/wp-content/uploads/2017/12/Helm.png
   url: ''
   links:
@@ -111,6 +113,7 @@
   - title: Contribute Codefresh Plugin
     url: https://docs.codefresh.io/docs/contribute-codefresh-plugin
 - title: "*NEW* Codefresh CLI"
+  new: true
   icon: https://codefresh.io/wp-content/uploads/2018/01/cli.png
   url: ''
   links:

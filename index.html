@@ -54,12 +54,19 @@ layout: home
         <img src="{{ homeContent.icon }}" />
       </div>
       <div class="p-2 align-self-center">
-        <h4>{{ homeContent.title }}</h4>
+        <h4 {% unless homeContent.new == nil %} class="bulb bulb-red bulb-above-right bulb-pos-after" data-bulb-text="NEW"{% endunless %}>{{ homeContent.title }}</h4>
       </div>
     </div>
     <ul>
       {% for homeContentLink in homeContent.links %}
-      <li><a href="{{ homeContentLink.url }}" title="{{ homeContentLink.title }}">{{ homeContentLink.title }}</a></li>
+      <li>
+        <a href="{{ homeContentLink.url }}"
+           title="{{ homeContentLink.title }}"
+           {% unless homeContentLink.new == nil %} class="bulb bulb-red bulb-above-right bulb-pos-after" data-bulb-text="NEW"{% endunless %}
+        >
+          {{ homeContentLink.title }}
+        </a>
+      </li>
       {% endfor %}
     </ul>
   </div>
