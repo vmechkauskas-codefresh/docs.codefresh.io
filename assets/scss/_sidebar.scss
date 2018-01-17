@@ -96,8 +96,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, .05);
 
   .form-control:focus {
-    border-color: $bd-purple-bright;
-    box-shadow: 0 0 0 3px rgba($bd-purple-bright, .25);
+    border-color: $bd-topaz-bright;
+    box-shadow: 0 0 0 3px rgba($bd-topaz-bright, .25);
   }
 }
 
@@ -114,10 +114,10 @@
   display: block;
   padding: .25rem 1.5rem;
   font-weight: 500;
-  color: rgba(0, 0, 0, .65);
+  color: rgba($bd-doc-sidebar-link, .65);
 
   &:hover {
-    color: rgba(0, 0, 0, .85);
+    color: rgba($bd-doc-sidebar-link, .85);
     text-decoration: none;
   }
 }
@@ -131,7 +131,7 @@
     }
 
     > .bd-toc-link {
-      color: rgba(0, 0, 0, .85);
+      color: rgba($bd-doc-sidebar-link-active, .85);
 
       &:hover {
         background-color: transparent;
@@ -149,11 +149,11 @@
   display: block;
   padding: .25rem 1.5rem;
   font-size: 90%;
-  color: rgba(0, 0, 0, .65);
+  color: rgba($bd-doc-sidebar-link, .65);
 }
 
 .bd-sidebar .nav > li > a:hover {
-  color: rgba(0, 0, 0, .85);
+  color: rgba($bd-doc-sidebar-link, .85);
   text-decoration: none;
   background-color: transparent;
 }
@@ -161,6 +161,6 @@
 .bd-sidebar .nav > .active > a,
 .bd-sidebar .nav > .active:hover > a {
   font-weight: 500;
-  color: rgba(0, 0, 0, .85);
+  color: rgba($bd-doc-sidebar-link-active, .85);
   background-color: transparent;
 }
