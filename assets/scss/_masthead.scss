@@ -3,7 +3,8 @@
 .bd-masthead {
   position: relative;
   padding: 1rem ($grid-gutter-width / 2);
-  background: #52c0a5 linear-gradient(180deg, #5abfb4, #4ebbd3) repeat-x;
+  background: $bd-topaz-navbar-g1; /* Old browsers */
+  background: linear-gradient(to bottom, $bd-topaz-navbar-g1 0%, $bd-topaz-navbar-g2 20%, $bd-topaz-navbar-g3 100%);
 
   h1 {
     line-height: 1;
@@ -22,8 +23,8 @@
   }
 
   @include media-breakpoint-up(sm) {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 
     .carbonad {
       margin-bottom: 0 !important;
@@ -85,7 +86,7 @@
     .img-bd-masthead-cf-computer {
       position: absolute;
       right: 15rem;
-      bottom: -89px;
+      bottom: -77px;
       left: auto;
       z-index: 100;
       display: block;

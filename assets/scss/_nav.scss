@@ -42,12 +42,12 @@
       padding-right: .5rem;
       padding-left: .5rem;
       color: $bd-topaz-extra-light;
-      transition: color .1s linear;
+      background-color: transparent;
+      transition: background-color .1s linear, color .1s linear;
 
       &.active,
       &:hover {
         color: #fff;
-        //background-color: transparent;
         background-color: rgba($bd-dark, .03);
         box-shadow: 0 1px 0 rgba($bd-white, .15);
       }
