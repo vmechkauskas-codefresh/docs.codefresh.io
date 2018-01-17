@@ -2,7 +2,8 @@
 layout: home
 ---
 
-<main class="bd-masthead" id="content" role="main">
+<main class="bd-masthead bd-masthead-home" id="content" role="main">
+  <div class="banner-home-inner">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-6 mx-auto col-md-6 order-md-2">
@@ -10,76 +11,140 @@ layout: home
         <img class="img-fluid mb-3 mb-md-0" src="{{ site.baseurl }}/assets/img/favicons/android-chrome-512x512.png" alt="" width="288" height="288" />
       </div>
       <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
-        <h2 class="mb-3 bd-text-topaz-main text-uppercase">Codefresh.io Documentation</h2>
-        <p class="lead mb-4">
+        <h2 class="mb-3 bd-text-white text-uppercase">Codefresh.io Documentation</h2>
+        <p class="lead bd-text-white mb-4">
           Codefresh is a Docker-native CI/CD platform. <br>
-          Instantly build , test and deploy Docker images.
+          Instantly build, test and deploy Docker images.
         </p>
-        <!--
         <div class="d-flex flex-column flex-md-row lead mb-3">
-          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/" class="btn btn-lg btn-bd-primary mb-3 mb-md-0 mr-md-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">Get started</a>
-          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/" class="btn btn-lg btn-outline-secondary" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">Download</a>
+          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/"
+             class="btn btn-lg btn-get-started mb-3 mb-md-0 mr-md-3"
+             onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">
+            Get started
+          </a>
+          <a href="{{ site.signup }}" class="btn btn-lg btn-get-started mb-3 mb-md-0 mr-md-3"
+             onclick="ga('send', 'event', 'Main page actions', 'SignUp', 'SignUp');">
+            Sign Up
+          </a>
+          <a href="{{ site.schedule_demo }}"
+             class="btn btn-lg btn-get-beta mb-3 mb-md-0 mr-md-3"
+             onclick="ga('send', 'event', 'Main page actions', 'Schedule demo', 'Schedule demo');">
+            Schedule demo
+          </a>
+          <!--
+          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/"
+             class="btn btn-lg btn-outline-secondary"
+             onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">
+            Download
+          </a>
+          -->
         </div>
-        -->
-        <!--
-        <p class="text-muted mb-0">
-          Currently v{{ site.current_version }}
-        </p>
-        -->
       </div>
+      <img src="{{ site.baseurl }}/assets/img/masthead/computer.png" class="img img-bd-masthead-cf-computer img-responsive visible-lg">
     </div>
+  </div>
   </div>
 </main>
 
 <div class="masthead-followup row m-0 border border-white">
-  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
-    {% include icons/import.svg width="32" height="32" class="text-primary mb-2" %}
-    <h3>Installation</h3>
-    <p>Include Bootstrap's source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.</p>
-
-{% highlight sh %}
-npm install bootstrap@{{ site.current_version }}
-{% endhighlight %}
-
-{% highlight sh %}
-gem install bootstrap -v {{ site.current_ruby_version }}
-{% endhighlight %}
-
-    <hr class="half-rule">
-    <a class="btn btn-outline-primary" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download">Read installation docs</a>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/11/started.png" />
+    <h4>Getting Started</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/create-an-account">Setup Codefresh Account</a></li>
+      <li><a href="{{ site.baseurl }}/docs/getting-started-create-a-basic-pipeline">Step by step turtorial</a></li>
+      <li><a href="{{ site.baseurl }}/docs/invite-your-team-member">Invite Collaborators</a></li>
+    </ul>
   </div>
-
-  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
-    {% include icons/download.svg width="32" height="32" class="text-primary mb-2" %}
-    <h3>BootstrapCDN</h3>
-    <p>When you only need to include Bootstrap's compiled CSS or JS, you can use <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>.</p>
-
-<h5>CSS only</h5>
-{% highlight html %}
-<link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
-{% endhighlight %}
-
-<h5>JS, Popper.js, and jQuery</h5>
-{% highlight html %}
-<script src="{{ site.cdn.jquery }}" integrity="{{ site.cdn.jquery_hash }}" crossorigin="anonymous"></script>
-<script src="{{ site.cdn.popper }}" integrity="{{ site.cdn.popper_hash }}" crossorigin="anonymous"></script>
-<script src="{{ site.cdn.js }}" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
-{% endhighlight %}
-    <hr class="half-rule">
-    <a class="btn btn-outline-primary" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/layout/overview/">Explore the docs</a>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/11/pipelines.png" />
+    <h4>Pipelines</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/introduction-to-codefresh-pipelines">Introduction to Pipeline</a></li>
+      <li><a href="{{ site.baseurl }}/docs/introduction-to-codefresh-pipelines#section-pipeline-configuration">Pipeline configuration using the UI</a></li>
+      <li><a href="{{ site.baseurl }}/docs/introduction-to-codefresh-pipelines#section-pipeline-triggers-and-webhook">Yaml Pipeline configuration</a></li>
+      <li><a href="{{ site.baseurl }}/docs/build-status">Webhooks , Badges and General settings</a></li>
+    </ul>
   </div>
-
-  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
-    {% include icons/lightning.svg width="32" height="32" class="text-primary mb-2" %}
-    <h3>Official Themes</h3>
-    <p>
-      Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.
-    </p>
-    <img class="img-fluid mt-3 mx-auto" src="{{ site.baseurl }}/assets/img/bootstrap-themes.png" alt="Bootstrap Themes" width="1024" height="388">
-    <hr class="half-rule">
-    <a href="{{ site.themes }}" class="btn btn-outline-primary">Browse themes</a>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/11/yaml.png" />
+    <h4>Yaml file</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/what-is-the-codefresh-yaml">Introduction to Codefresh Yaml</a></li>
+      <li><a href="{{ site.baseurl }}/docs/steps">Yaml steps</a></li>
+      <li><a href="{{ site.baseurl }}/docs/variables">Variables</a></li>
+      <li><a href="{{ site.baseurl }}/docs/working-directories">Working Directories</a></li>
+      <li><a href="{{ site.baseurl }}/docs/examples-v01">Examples</a></li>
+      <li><a href="{{ site.baseurl }}/docs/ready-to-use-yaml-steps">*NEW* Custom YAML steps</a></li>
+    </ul>
+  </div>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/11/deployment.png" />
+    <h4>Deployment</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/get-ready-to-deploy">Deploy to GKE</a></li>
+      <li><a href="{{ site.baseurl }}/docs/codefresh-kubernetes-integration-beta">Deploy to Kubernetes</a></li>
+      <li><a href="{{ site.baseurl }}/docs/amazon-ecs">Deploy to ECS</a></li>
+      <li><a href="{{ site.baseurl }}/docs/docker-swarm">Deploy to Swarm</a></li>
+      <li><a href="{{ site.baseurl }}/docs/elastic-beanstalk">Elastic Beanstock</a></li>
+      <li><a href="{{ site.baseurl }}/docs/microsoft-azure">Deploy to Azure</a></li>
+    </ul>
+  </div>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/11/image.png" />
+    <h4>Testing & Image Certification</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/setup-unit-tests">Add Unit Test to pipeline</a></li>
+      <li><a href="{{ site.baseurl }}/docs/unit-test-with-database">Unit Test with DB</a></li>
+      <li><a href="{{ site.baseurl }}/docs/integration-tests">Integration Tests</a></li>
+      <li><a href="{{ site.baseurl }}/docs/metadata-annotations">Annotate Image with tests</a></li>
+      <li><a href="#">Pull & Push images to Codefresh’s Registry</a></li>
+    </ul>
+  </div>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/11/integrations.png" />
+    <h4>Integrations</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/docker-registry">Docker registry integration</a></li>
+      <li><a href="{{ site.baseurl }}/docs/git-provider">On Premise Git integration</a></li>
+      <li><a href="{{ site.baseurl }}/docs/jenkins-integration">Jenkins integration</a></li>
+      <li><a href="{{ site.baseurl }}/docs/slack-integration">Slack integration</a></li>
+      <li><a href="{{ site.baseurl }}/docs/jira-integration-1">Jira integration</a></li>
+    </ul>
+  </div>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/11/demand.png" />
+    <h4>On-Demand Dev / Staging Env</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/composition-dialog">Create composition</a></li>
+      <li><a href="{{ site.baseurl }}/docs/test-your-feature">Run environment on any branch</a></li>
+      <li><a href="{{ site.baseurl }}/docs/share-environment-with-your-test">Share environment with your team</a></li>
+    </ul>
+  </div>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/12/Helm.png"/>
+    <h4>*NEW* HELM</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/instal-helm-chart-using-codefresh-pipeline">Install chart using Codefresh pipeline</a></li>
+      <li><a href="{{ site.baseurl }}/docs/add-helm-repository">Work with HELM Repositores</a></li>
+      <li><a href="{{ site.baseurl }}/docs/integration-tests-with-helm">Integration tests with HELM</a></li>
+      <li><a href="{{ site.baseurl }}/docs/best-practices">Best Practices</a></li>
+    </ul>
+  </div>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2017/11/started.png" />
+    <h4>Codefresh plugins</h4>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/plugins">Plugins</a></li>
+      <li><a href="{{ site.baseurl }}/docs/contribute-codefresh-plugin">Contribute Codefresh Plugin</a></li>
+    </ul>
+  </div>
+  <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+    <img src="https://codefresh.io/wp-content/uploads/2018/01/cli.png" />
+    <h4>*NEW* Codefresh CLI</h4>
+    <ul>
+      <li><a href="http://cli.codefresh.io/installation/">Installation</a></li>
+      <li><a href="http://cli.codefresh.io">Documentation</a></li>
+    </ul>
   </div>
 </div>

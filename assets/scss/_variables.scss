@@ -10,14 +10,19 @@ $bd-danger:        #d9534f !default;
 
 $bd-white:         #fff !default;
 
+$bd-get-started:   #235f5d;
+
 $bd-topaz-extra-light:    #e4f3f1 !default;
 
 $bd-topaz-main:    #11b5a4 !default;
-$bd-topaz-main:    rgb(11, 111, 99) !default;
+$bd-topaz-maina:    rgb(11, 111, 99) !default;
 
+// Navbar colors
 $bd-topaz-navbar-g1: #5cc0af;
 $bd-topaz-navbar-g2: #5abfb4;
 $bd-topaz-navbar-g3: #4fbbce;
+
+$cf-navbar-link-color: $bd-white;
 
 $bd-bulb-white:      $bd-white;
 $bd-bulb-red:        #ca2133;
