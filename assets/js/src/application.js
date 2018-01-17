@@ -22,6 +22,11 @@
       container: 'body'
     })
 
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault()
+      $(this).ekkoLightbox()
+    })
+
     $('[data-toggle="popover"]').popover()
 
     // Demos within modals
@@ -130,5 +135,6 @@
       font: 'Helvetica',
       fontweight: 'normal'
     })
+
   })
 }(jQuery))

@@ -1,0 +1,23 @@
+<figure>
+  <p>
+  {% if {{include.url}} %}
+  <a class="no_icon"
+     href="{{include.url}}"
+     {% if {{include.lightbox}} %}
+     data-toggle="lightbox" data-type="image"
+     {% endif %}
+  >
+  {% endif %}
+  <img class="img-thumbnail mx-auto d-block"
+       src="{{include.file}}"
+       alt="{{include.alt}}"
+       {% if {{include.max-width}}%}style="max-width: {{include.max-width}}" {% endif %}
+  />
+       {% if {{include.url}} %}
+  </a>
+  {% endif %}
+  </p>
+  {% if {{include.caption}} %}
+  <figcaption class="text-center">{{include.caption}}</figcaption>
+  {% endif %}
+</figure>
