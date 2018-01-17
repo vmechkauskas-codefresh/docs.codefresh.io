@@ -135,6 +135,5 @@
       font: 'Helvetica',
       fontweight: 'normal'
     })
-
   })
 }(jQuery))
