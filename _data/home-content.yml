@@ -3,9 +3,9 @@
   url: ''
   links:
   - title: Setup Codefresh Account
-    url: docs.codefresh.io/docs/create-an-account
+    url: /docs/create-an-account
   - title: Step by step turtorial
-    url: docs.codefresh.io/docs/getting-started-create-a-basic-pipeline
+    url: /docs/getting-started-create-a-basic-pipeline
   - title: Invite Collaborators
     url: https://docs.codefresh.io/docs/invite-your-team-member
 - title: Pipelines
