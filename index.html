@@ -68,7 +68,7 @@ layout: home
            href="{{ homeContentLink.url }}"
            {% endif %}
            title="{{ homeContentLink.title }}"
-           {% unless homeContentLink.new == nil %} class="bulb bulb-red bulb-above-right bulb-pos-after" data-bulb-text="NEW"{% endunless %}
+           {% unless homeContentLink.new == nil %} class="bulb bulb-red bulb-left" data-bulb-text="NEW"{% endunless %}
         >
           {{ homeContentLink.title }}
         </a>
