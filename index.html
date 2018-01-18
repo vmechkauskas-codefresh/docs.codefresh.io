@@ -22,7 +22,7 @@ layout: home
              onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">
             Get started
           </a>
-          <a href="{{ site.signup }}" 
+          <a href="{{ site.signup }}"
 		     class="btn btn-get-started mb-3 mb-md-0 mr-md-3"
              onclick="ga('send', 'event', 'Main page actions', 'SignUp', 'SignUp');">
             Sign Up
@@ -55,13 +55,18 @@ layout: home
         <img src="{{ homeContent.icon }}" />
       </div>
       <div class="p-2 align-self-center">
-        <h4 {% unless homeContent.new == nil %} class="bulb bulb-red bulb-above-right bulb-pos-after" data-bulb-text="NEW"{% endunless %}>{{ homeContent.title }}</h4>
+        <h4 {% unless homeContent.new == nil %} class="bulb bulb-red bulb-above-left bulb-pos-after" data-bulb-text="NEW"{% endunless %}>{{ homeContent.title }}</h4>
       </div>
     </div>
     <ul>
       {% for homeContentLink in homeContent.links %}
       <li>
-        <a href="{{ homeContentLink.url }}"
+        <a
+           {% if homeContentLink.localurl %}
+           href="{{site.baseurl}}{{ homeContentLink.localurl }}"
+           {% elsif homeContentLink.url %}
+           href="{{ homeContentLink.url }}"
+           {% endif %}
            title="{{ homeContentLink.title }}"
            {% unless homeContentLink.new == nil %} class="bulb bulb-red bulb-above-right bulb-pos-after" data-bulb-text="NEW"{% endunless %}
         >
