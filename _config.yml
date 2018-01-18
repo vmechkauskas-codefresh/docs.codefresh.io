@@ -13,9 +13,9 @@ source:         "."
 destination:    ./_gh_pages
 host:           127.0.0.1
 port:           19001
-baseurl:        ""
+baseurl:        "/docs.codefresh.io"
 # Sitemap
-url:            "https://vmechkauskas-codefresh.github.io/docs.codefresh.io"
+url:            "https://vmechkauskas-codefresh.github.io"
 encoding:       UTF-8
 exclude:
   - .git/
@@ -44,7 +44,7 @@ plugins:
   - jekyll-toc
   - jekyll-github-metadata
 
-repository: vmechkauskas-codefresh/docs.codefresh.io
+#repository: vmechkauskas-codefresh/docs.codefresh.io
 
 # Social
 title:              Codefresh | Docs
