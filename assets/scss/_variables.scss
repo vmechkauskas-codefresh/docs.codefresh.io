@@ -33,3 +33,10 @@ $btn-get-started:   #235f5d;
 // Doc Sidebar colors
 $bd-doc-sidebar-link: $bd-black;
 $bd-doc-sidebar-link-active: $bd-topaz-dark;
+
+// Links
+//
+// Style anchor elements.
+
+$bd-link-color:                $bd-topaz-main !default;
+$bd-link-hover-color:          darken($bd-link-color, 15%) !default;

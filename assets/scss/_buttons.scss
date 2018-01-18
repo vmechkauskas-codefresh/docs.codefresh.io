@@ -2,6 +2,15 @@
 //
 // Custom buttons for the docs.
 
+.btn-link {
+  color: $bd-link-color;
+
+  @include hover {
+    color: $bd-link-color;
+    border-color: transparent;
+  }
+}
+
 .btn-bd-primary {
   font-weight: 500;
   color: $bd-purple-bright;

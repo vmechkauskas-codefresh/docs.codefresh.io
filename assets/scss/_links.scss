@@ -1,0 +1,6 @@
+a {
+  color: rgba($bd-link-color, .99);
+  @include hover {
+    color: $bd-link-hover-color;
+  }
+}

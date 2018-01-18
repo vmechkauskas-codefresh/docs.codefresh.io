@@ -39,7 +39,7 @@
     color: #99979c;
 
     &:hover {
-      color: $blue;
+      color: $bd-link-color;
       text-decoration: none;
     }
   }
@@ -104,6 +104,9 @@
 .bd-search-docs-toggle {
   line-height: 1;
   color: $gray-900;
+  @include hover {
+    color: $bd-link-hover-color;
+  }
 }
 
 .bd-sidenav {
