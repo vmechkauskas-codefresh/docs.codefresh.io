@@ -1,6 +1,6 @@
 /*!
-  * Bootstrap v4.0.0-beta.3 (https://getbootstrap.com)
-  * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Bootstrap v0.0.1 (https://github.com/vmechkauskas-codefresh/docs.codefresh.io)
+  * Copyright 2011-2018 Codefresh
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
