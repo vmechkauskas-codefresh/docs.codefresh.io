@@ -15,12 +15,15 @@
 
     .navbar-nav-scroll {
       max-width: 100%;
-      height: 2.5rem;
-      margin-top: .25rem;
+      //height: 2.5rem;
+      height: 3.5rem;
+      //margin-top: .25rem;
+      margin-top: 0;
       overflow: hidden;
       font-size: .875rem;
 
       .navbar-nav {
+        padding-top: .6rem;
         padding-bottom: 2rem;
         overflow-x: auto;
         white-space: nowrap;
