@@ -43,6 +43,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-toc
 
+github:
+  source:
+    branch: foo
+
 # Social
 title:              Codefresh | Docs
 description:        "Codefresh is a Docker-native CI/CD platform. Instantly build , test and deploy Docker images."
