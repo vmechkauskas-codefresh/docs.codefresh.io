@@ -44,9 +44,7 @@ plugins:
   - jekyll-toc
   - jekyll-github-metadata
 
-github:
-  source:
-    branch: foo
+repository: vmechkauskas-codefresh/docs.codefresh.io
 
 # Social
 title:              Codefresh | Docs
