@@ -18,6 +18,7 @@ baseurl:        "/docs.codefresh.io"
 url:            "https://vmechkauskas-codefresh.github.io"
 encoding:       UTF-8
 exclude:
+  - .idea/
   - .git/
   - .github/
   - assets/scss/

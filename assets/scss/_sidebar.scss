@@ -143,6 +143,16 @@
 
     > .bd-sidenav {
       display: block;
+      > .active {
+        &.bd-sidenav-active {
+          > .bd-sidenav {
+            display: block;
+            > li {
+              padding: 0 1.5rem;
+            }
+          }
+        }
+      }
     }
   }
 }

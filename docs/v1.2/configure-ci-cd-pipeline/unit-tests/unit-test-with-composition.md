@@ -2,7 +2,8 @@
 layout: docs
 title: "Unit Tests with Composition"
 description: ""
-group: configure-ci-cd-pipeline/unit-tests
+group: configure-ci-cd-pipeline
+sub_group: unit-tests
 redirect_from:
   - /docs/setup-unit-tests
 toc: true

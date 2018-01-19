@@ -6,36 +6,55 @@
 </form>
 
 <nav class="collapse bd-links" id="bd-docs-nav">
-  {%- assign page_slug = page.url | split: '/' | last -%}
-  {%- for group in site.data.nav -%}
+  {%- assign page_url = page.url | split: '/' -%}
 
-  {% if group.url %}
-    {%- assign group_slug = group.url | slugify -%}
+  {% if page_url.size == 6 %}
+    {%- assign page_slug_index = page_url.size | minus: 2 -%}
+    {%- assign page_slug = page_url[page_slug_index] -%}
+    {%- assign sub_page_slug = page_url | last -%}
   {% else %}
-    {%- assign group_slug = group.title | slugify -%}
+    {%- assign page_slug = page_url | last -%}
   {% endif %}
 
-  {%- assign link = group.pages | first -%}
+  <!--
+  page_slug_index: {{ page_slug_index }}
+  page_slug: {{ page_slug }}
+  sub_page_slug: {{ sub_page_slug }}
+  -->
 
-  {% if link.url %}
-    {%- assign link_slug = link.url | slugify -%}
-  {% else %}
-    {%- assign link_slug = link.title | slugify -%}
-  {% endif %}
+  {%- for navItem in site.data.nav -%}
 
-  {%- assign active = nil -%}
+    {% if navItem.url %}
+      {%- assign group_slug = navItem.url | slugify -%}
+    {% else %}
+      {%- assign group_slug = navItem.title | slugify -%}
+    {% endif %}
 
-  {%- if page.group == group_slug -%}
-    {%- assign active = 'active' -%}
-  {%- endif -%}
+    {%- assign link = navItem.pages | first -%}
 
-  <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+    {% if link.url %}
+      {%- assign link_slug = link.url | slugify -%}
+    {% else %}
+      {%- assign link_slug = link.title | slugify -%}
+    {% endif %}
+
+    {%- assign active = nil -%}
+    <!--
+      page.group: {{ page.group }}
+      group_slug: {{ group_slug }}
+    -->
+    {%- if page.group == group_slug -%}
+      {%- assign active = 'active' -%}
+    {%- endif -%}
+
+    <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+      <!-- first lvl - group -->
       <a class="bd-toc-link" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
-        {{ group.title }}
+        {{ navItem.title }}
       </a>
-
+      <!-- 2nd lvl menu -->
       <ul class="nav bd-sidenav">
-        {%- for doc in group.pages -%}
+        {%- for doc in navItem.pages -%}
 
           {% if doc.url %}
             {%- assign doc_slug = doc.url | slugify -%}
@@ -48,14 +67,51 @@
           {%- if page.group == group_slug and page_slug == doc_slug -%}
             {%- assign active = 'active bd-sidenav-active' -%}
           {%- endif -%}
-
+          <!-- 2nd lvl menu item -->
           <li{% unless active == nil %} class="{{ active }}"{% endunless %}>
-            <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/">
+            <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/" data-doc-slug="{{ doc_slug }}">
               {{ doc.title }}
             </a>
 
+            <!--3rd lvl menu -->
+            {% unless doc.sub-pages == nil %}
+              <ul class="nav bd-sidenav">
+                {%- for subdoc in doc.sub-pages -%}
+
+                  {% if subdoc.url %}
+                    {%- assign sub_doc_slug = subdoc.url | slugify -%}
+                  {% else %}
+                    {%- assign sub_doc_slug = subdoc.title | slugify -%}
+                  {% endif %}
+
+                  {%- assign sub_active = nil -%}
+
+                  <!--
+                    page.sub_group: {{ page.sub_group }}
+                    group_slug: {{ group_slug }}
+                    doc_slug: {{ doc_slug }}
+                    sub_page_slug: {{ sub_page_slug }}
+                    sub_doc_slug: {{ sub_doc_slug }}
+                  -->
+
+                  {%- if page.sub_group == doc_slug and sub_page_slug == sub_doc_slug -%}
+                    {%- assign sub_active = 'active bd-sidenav-active' -%}
+                  {%- endif -%}
+
+                  <li{% unless sub_active == nil %} class="{{ sub_active }}"{% endunless %}>
+                    <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/{{ sub_doc_slug }}/">
+                      {{ subdoc.title }}
+                    </a>
+                  </li>
+
+                {%- endfor -%}
+              </ul>
+            {% endunless %}
+            <!--/-->
+
             {%- comment -%}
-            {% unless doc.sections == nil %}
+
+            {% unless doc.sub-pages == nil %}
               <ul class="nav">
                 {% for section in doc.sections %}
                   <li>
@@ -66,7 +122,9 @@
                 {% endfor %}
               </ul>
             {% endunless %}
+
             {%- endcomment -%}
+
           </li>
         {%- endfor -%}
       </ul>
