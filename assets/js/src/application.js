@@ -100,6 +100,24 @@
         .tooltip('_fixTitle')
     })
 
+    $('#toc').toc({
+      minimumHeaders: 0,
+      listType: 'ul',
+      showSpeed: 0,
+      headers: 'h2,h3,h4'
+    })
+    /* this offset helps account for the space taken up by the floating toolbar. */
+    $('#toc')
+      .on('click', 'a', function () {
+        var target = $(this.getAttribute('href'))
+        var scrollTarget = target.offset().top
+        $(window)
+          .animate({
+            scrollTop: scrollTarget - 10
+          }, 500)
+        return false
+      })
+
     anchors.options = {
       icon: '#'
     }

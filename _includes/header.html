@@ -14,7 +14,7 @@
 
 <!-- Bootstrap core CSS -->
 {% if site.github %}
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+<link href="{{ site.cdn.css }}" rel="stylesheet" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
 {% else %}
 <link href="{{ site.baseurl }}/dist/css/bootstrap.css" rel="stylesheet">
 {% endif %}
