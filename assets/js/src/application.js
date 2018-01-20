@@ -1,7 +1,3 @@
-// NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
-// IT'S ALL JUST JUNK FOR OUR DOCS!
-// ++++++++++++++++++++++++++++++++++++++++++
-
 /*!
  * JavaScript for Bootstrap's docs (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -111,10 +107,11 @@
       .on('click', 'a', function () {
         var target = $(this.getAttribute('href'))
         var scrollTarget = target.offset().top
-        $(window)
-          .animate({
-            scrollTop: scrollTarget - 10
-          }, 500)
+        // $('body')
+        //   .animate({
+        //     scrollTop: scrollTarget - 10
+        //   }, 500)
+        $(window).scrollTop(scrollTarget - 10)
         return false
       })
 

@@ -1,5 +1,8 @@
 /* eslint-disable func-style,block-scoped-var */
-// https://github.com/ghiculescu/jekyll-table-of-contents
+/*!
+ * TOC
+ * https://github.com/ghiculescu/jekyll-table-of-contents
+ */
 (function ($) {
   'use strict'
 
