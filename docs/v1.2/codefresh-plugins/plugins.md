@@ -13,7 +13,7 @@ Below you can find a list of plugins currently publicly available, we are workin
 
 If you have a specific ask for a plug-in please email us at plugin-request@codefresh.io
 
-## Stable
+### Stable
 
 {: .table .table-bordered .table-hover .table-striped}
 |-------------------------------------------------------------------------------------------+---------------------------------------------------------------------|
@@ -29,7 +29,7 @@ If you have a specific ask for a plug-in please email us at plugin-request@codef
 | [Codefresh CLI](https://github.com/codefresh-io/plugins/tree/master/stable/codefresh-cli) | Operate on Codefresh resources                                      |
 |-------------------------------------------------------------------------------------------+---------------------------------------------------------------------|
 
-## Incubator
+### Incubator
 
 {: .table .table-bordered .table-hover .table-striped}
 |-------------------------------------------------------------------------------------------+---------------------------------------------------------------------|

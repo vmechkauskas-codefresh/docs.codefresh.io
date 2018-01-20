@@ -49,7 +49,7 @@
 
     <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
       <!-- first lvl - group -->
-      <a class="bd-toc-link" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
+      <a class="bd-toc-link text-uppercase" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
         {{ navItem.title }}
       </a>
       <!-- 2nd lvl menu -->
