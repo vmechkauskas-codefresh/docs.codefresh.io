@@ -18,7 +18,7 @@ To run Unit Tests with a DB or other services, you can create a composition and 
 ##### Example repository
 
 Fork this [__repository__](https://github.com/codefreshdemo/cf-example-unit-tests-with-composition){:target="_blank"} in Github to continue
-</div>]
+</div>
 
 ## How to do it using option \"Attach to Composition\"
 
