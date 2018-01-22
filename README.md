@@ -1,5 +1,8 @@
-# docs.local.codefresh.io
-Docs example
+# docs.codefresh.io
+This site is build with Jekyll. Documentation content is written in Markdown format laocated in './docs'
+
+## Deploying
+The site is automatically deployed when commits land in `master`, hosted by GitHub pages
 
 ### Running documentation locally
 
