@@ -96,7 +96,7 @@ services:
 6. __Save__ and __Build__ this pipeline.
 
 ### See examples of unit tests with databases
-- [Unit Tests with Redis](doc:python-redis) 
-- [Unit Tests with Postgres](doc:unit-tests-with-postgres) 
-- [Unit Tests with MySQL](doc:nodejsmysql) 
-- [Unit Tests with Mongo](doc:nodejsmongo)
+- [Unit Tests with Redis]({{ site.baseurl }}/docs/{{ site.docs_version }}/configure-ci-cd-pipeline/unit-tests/unit-tests-with-redis/) 
+- [Unit Tests with Postgres]({{ site.baseurl }}/docs/{{ site.docs_version }}/configure-ci-cd-pipeline/unit-tests/unit-tests-with-postgres/)
+- [Unit Tests with MySQL]({{ site.baseurl }}/docs/{{ site.docs_version }}/configure-ci-cd-pipeline/unit-tests/unit-tests-with-mysql/)
+- [Unit Tests with Mongo]({{ site.baseurl }}/docs/{{ site.docs_version }}/configure-ci-cd-pipeline/unit-tests/unit-tests-with-mongo/)
