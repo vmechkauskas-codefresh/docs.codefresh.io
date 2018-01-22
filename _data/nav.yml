@@ -26,6 +26,14 @@
           url: "/unit-test-with-composition"
         - title: "Unit Tests with Database"
           url: "/unit-test-with-database"
+    - title: "Push an image to a Docker registry"
+      url: "/push-image-to-a-docker-registry"
+
+- title: "Docker Registries"
+  url: "/docker-registries"
+  pages:
+    - title: "Codefresh Docker Registry"
+      url: "/codefresh-registry"
 
 - title: -------------------
   pages:
