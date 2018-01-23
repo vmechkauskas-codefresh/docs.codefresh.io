@@ -14,10 +14,10 @@ Codefresh pipelines are container native and can be configured to automate a seq
 ### Key Benefits
 - Every step in the pipeline is running inside a container. 
 - Steps in the pipeline share the same volume, hence later steps can use artifacts from previous steps.
-- Steps can export [environment variables](doc:variables) that can be used in later steps in the pipeline.
+- Steps can export [environment variables]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/variables/) that can be used in later steps in the pipeline.
 - Steps can be set to run on certain conditions (branch, value of environment variable etc..)
 - Steps can annotate the built Docker image with any attribute (test status, link to detailed test report etc...
-- There are out of the box steps to spin up a composition (multiple services at once), then run UI / Integration / Performance text, then shut down the composition. Learn more about [Codefresh pipeline's steps](doc:steps) 
+- There are out of the box steps to spin up a composition (multiple services at once), then run UI / Integration / Performance text, then shut down the composition. Learn more about [Codefresh pipeline's steps]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/) 
 
 ### Pipeline configuration
 To configure existing pipeline or add new pipeline, click on the cogwheel icon on the relevant repository.
@@ -28,7 +28,7 @@ You can have one or more pipeline for the same repository. click on the '+' to a
 ### Editing pipeline steps and flow
 There are two modes to define the pipeline workflow/steps. 
 - Using the built-in pre-defined steps in the UI
-- Using [Codefresh's Yaml format](doc:what-is-the-codefresh-yaml)
+- Using [Codefresh's Yaml format]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/what-is-the-codefresh-yaml/)
 
 You can switch between Yaml and the Built-in steps using the toggle in the pipeline's configuration view.
 {% include image.html lightbox="true" file="https://files.readme.io/2d0c3d5-toggle.png" url="https://files.readme.io/2d0c3d5-toggle.png" alt="Add repository" max-width="40%" %}

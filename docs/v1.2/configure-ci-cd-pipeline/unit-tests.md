@@ -36,7 +36,6 @@ For more information about the ```codefresh.yml``` file, click [here](https://do
 {:start="1"}
 1. Add a unit-test step to your ```codefresh.yml``` file.
 
-
   Example: `codefresh.yml`
 {% highlight yaml %}
 version: '1.0'
