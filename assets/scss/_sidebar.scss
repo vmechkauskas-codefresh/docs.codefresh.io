@@ -126,32 +126,30 @@
 }
 
 .bd-toc-item {
-  &.active {
+  &.opened {
     margin-bottom: 1rem;
-
     &:not(:first-child) {
       margin-top: 1rem;
     }
+    > .bd-sidenav {
+      display: block;
+      .opened {
+        .bd-sidenav {
+          display: block;
+          > li {
+            padding: 0 1.5rem;
+          }
+        }
+      }
+    }
+  }
+  &.active {
 
     > .bd-toc-link {
       color: rgba($bd-doc-sidebar-link-active, .85);
 
       &:hover {
         background-color: transparent;
-      }
-    }
-
-    > .bd-sidenav {
-      display: block;
-      > .active {
-        &.bd-sidenav-active {
-          > .bd-sidenav {
-            display: block;
-            > li {
-              padding: 0 1.5rem;
-            }
-          }
-        }
       }
     }
   }

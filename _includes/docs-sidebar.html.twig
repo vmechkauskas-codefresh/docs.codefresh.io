@@ -47,7 +47,7 @@
       {%- assign active = 'active' -%}
     {%- endif -%}
 
-    <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+    <div class="bd-toc-item opened{% unless active == nil %} {{ active }}{% endunless %}">
       <!-- first lvl - group -->
       <a class="bd-toc-link text-uppercase" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
         {{ navItem.title }}
@@ -68,7 +68,7 @@
             {%- assign active = 'active bd-sidenav-active' -%}
           {%- endif -%}
           <!-- 2nd lvl menu item -->
-          <li{% unless active == nil %} class="{{ active }}"{% endunless %}>
+          <li class="opened{% unless active == nil %} {{ active }}{% endunless %}">
             <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/" data-doc-slug="{{ doc_slug }}">
               {{ doc.title }}
             </a>

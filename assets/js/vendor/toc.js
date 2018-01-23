@@ -43,23 +43,30 @@
     }
 
     var render = {
-      show: function () {
+      show: function (callback) {
         output.hide()
           .html(html)
-          .show(settings.showSpeed)
+          .show(settings.showSpeed, function () {
+            callback()
+          })
       },
-      slideDown: function () {
+      slideDown: function (callback) {
         output.hide()
           .html(html)
-          .slideDown(settings.showSpeed)
+          .slideDown(settings.showSpeed, function () {
+            callback()
+          })
       },
-      fadeIn: function () {
+      fadeIn: function (callback) {
         output.hide()
           .html(html)
-          .fadeIn(settings.showSpeed)
+          .fadeIn(settings.showSpeed, function () {
+            callback()
+          })
       },
-      none: function () {
+      none: function (callback) {
         output.html(html)
+        callback()
       }
     }
 
@@ -116,6 +123,9 @@
         })
     }
 
-    render[settings.showEffect]()
+    render[settings.showEffect](function () {
+      /*
+      */
+    })
   }
 }(jQuery))

@@ -96,6 +96,20 @@
         .tooltip('_fixTitle')
     })
 
+    // scrollTop: $('#bd-docs-nav .active').position().top - 87
+    // $('#bd-docs-nav li.active')[$('#bd-docs-nav li.active').length - 1].scrollIntoView()
+    if ($('#bd-docs-nav li.active').length > 0) {
+      $('#bd-docs-nav').animate({
+        scrollTop: $('#bd-docs-nav').scrollTop() + $('#bd-docs-nav li.active').last().position().top - 72
+      }, 500)
+    }
+
+    anchors.options = {
+      icon: '#'
+    }
+    anchors.add('.bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5')
+    $('.bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5').wrapInner('<div></div>')
+
     $('#toc').toc({
       minimumHeaders: 0,
       listType: 'ul',
@@ -111,15 +125,10 @@
         //   .animate({
         //     scrollTop: scrollTarget - 10
         //   }, 500)
+        window.location.hash = $(this).attr('href')
         $(window).scrollTop(scrollTarget - 10)
         return false
       })
-
-    anchors.options = {
-      icon: '#'
-    }
-    anchors.add('.bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5')
-    $('.bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5').wrapInner('<div></div>')
 
     // Search
     if (window.docsearch) {
