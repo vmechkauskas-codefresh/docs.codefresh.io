@@ -9,14 +9,14 @@ toc: true
 ---
 Codefresh enables you to integrate with several Docker container registries, including:
 
-  * [Docker Hub]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/dockerhub)
-  * [Google Container Registry]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/google-cloud-registry)
-  * [Amazon EC2 Container Registry]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/aws)
-  * [Bintray.io]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/bitrayio)
-  * [Quay.io]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/quayio)
-  * [Other Registries]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/other-registries)
+  * [Docker Hub]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/docker-hub/)
+  * [Google Container Registry]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/google-container-registry/)
+  * [Amazon EC2 Container Registry]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/amazon-ec2-container-registry/)
+  * [Bintray.io]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/bintray-io/)
+  * [Quay.io]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/quay-io/)
+  * [Other Registries]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/other-registries/)
 
-For a different registry choose to configure using the [Other](https://docs.codefresh.io/docs/other-registries) option.
+For a different registry choose to configure using the [Other]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/external-docker-registries/other-registries/) option.
 
 The registries can either be public or private.
 
