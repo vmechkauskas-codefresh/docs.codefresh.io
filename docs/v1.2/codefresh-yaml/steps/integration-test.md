@@ -45,7 +45,7 @@ The integration test step can help you run an integration using popular services
     "7-0": "```when```",
     "7-1": "Define a set of conditions which need to be satisfied in order to execute this step.\n\nYou can find more information in the [Conditional Execution of Steps](doc:conditional-execution-of-steps) article.",
     "7-2": "Optional",
-    "8-1": "Define operations to perform upon step completion using a set of predefined [Post-Step Operations](doc:post-step-operations).",
+    "8-1": "Define operations to perform upon step completion using a set of predefined [Post-Step Operations]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/post-step-operations/).",
     "8-0": "`on_success`, `on_fail` and `on_finish`",
     "8-2": "Optional",
     "0-0": "```title```",

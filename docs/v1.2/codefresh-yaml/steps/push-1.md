@@ -52,7 +52,7 @@ step_name:
 | `registry`                                 | The registry logical name of one of the inserted registries from the integration view. <br>The default value will be your default registry.                                     | Default                   |
 | `fail_fast`                                | If a step fails, and the process is halted. The default value is `true`.                                                                                                        | Default                   |
 | `when`                                     | Define a set of conditions which need to be satisfied in order to execute this step.<br>You can find more information in the [Conditional Execution of Steps](doc:conditional-execution-of-steps) article.          | Optional                  |
-| `on_success`, `on_fail` and `on_finish`    | Define operations to perform upon step completion using a set of predefined [Post-Step Operations](doc:post-step-operations).                                                                               | Optional                  |
+| `on_success`, `on_fail` and `on_finish`    | Define operations to perform upon step completion using a set of predefined [Post-Step Operations]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/post-step-operations/).                                                                               | Optional                  |
 
 ## Using passed credentials without pre-saving them
 This option enables you to push your images without pre-saving the credentials in Codefresh's registry integration view.

@@ -84,7 +84,7 @@ You can annotate an image as part of its build process by declaring the metadata
 }
 [/block]
 ## Adding annotations to Built images on post-build steps
-Any step in the YAML workflow can annotate built images by using [Post-Step Operations](doc:post-step-operations).
+Any step in the YAML workflow can annotate built images by using [Post-Step Operations]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/post-step-operations/).
 To annotate a built image, configure any step with:
 1. The post-step operation
 2. The `metadata` attribute

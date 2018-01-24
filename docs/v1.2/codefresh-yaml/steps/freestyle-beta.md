@@ -53,7 +53,7 @@ __**Fields:**__
     "5-2": "Optional",
     "9-0": "`on_success`, `on_fail` and `on_finish`",
     "9-2": "Optional",
-    "9-1": "Define operations to perform upon step completion using a set of predefined [Post-Step Operations](doc:post-step-operations).",
+    "9-1": "Define operations to perform upon step completion using a set of predefined [Post-Step Operations]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/post-step-operations/).",
     "1-0": "```description```",
     "1-1": "A basic, free-text description of the step.",
     "1-2": "Optional",
