@@ -46,7 +46,7 @@ __**Fields:**__
     "7-0": "```fail_fast```",
     "7-1": "If a step fails, and the process is halted. The default value is ```true```.",
     "8-0": "```when```",
-    "8-1": "Define a set of conditions that need to be satisfied in order to execute this step.\n\nYou can find more information in the [Conditional Execution of Steps](doc:conditional-execution-of-steps) article.",
+    "8-1": "Define a set of conditions that need to be satisfied in order to execute this step.\n\nYou can find more information in the [Conditional Execution of Steps]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/conditional-execution-of-steps/) article.",
     "8-2": "Optional",
     "5-0": "```entry_point```",
     "5-1": "An alternative [Docker Container Entrypoint](https://docs.docker.com/engine/reference/builder/#/entrypoint).\nCan be a string or an array of strings.",

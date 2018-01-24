@@ -58,14 +58,14 @@ Steps chaining and referencing is possible due to implementation of variables in
 </div>
 
 {: .table .table-bordered .table-hover}
-| Step Type                                   | Description                                    |
-| ------------------------------------------- | ---------------------------------------------- |
-| [Build](build-1)                            | Builds a Docker image.                         |
-| [Push](push-1)                              | Pushes a Docker image to a Docker registry.    |
-| [Git Clone](git-clone)                      | That step not required and added automatically |
-| [Composition](composition-1)                | Start a finite Docker Composition.             |
-| [Launch Composition](launch-composition-2)  | Start a long term Docker composition           |
-| [Freestyle](freestyle)                      | Execute one or more shell commands.            |
+| Step Type                                                                                                         | Description                                    |
+| ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [Build]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/build-1/)                            | Builds a Docker image.                         |
+| [Push]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/push-1/)                              | Pushes a Docker image to a Docker registry.    |
+| [Git Clone]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/git-clone/)                      | That step not required and added automatically |
+| [Composition]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/composition-1/)                | Start a finite Docker Composition.             |
+| [Launch Composition]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/launch-composition-2/)  | Start a long term Docker composition           |
+| [Freestyle]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/freestyle/)                      | Execute one or more shell commands.            |
 
 To build your pipeline using a ```codefresh.yml``` file, in the General Settings section, toggle the ```Use YML build``` option to the **ON** position.
 
