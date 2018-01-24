@@ -72,7 +72,7 @@
     - title: "Image Metadata Annotations"
       url: "/metadata-annotations"
     - title: "Codefresh inline YAML"
-      url: "/inline-yaml-editing"
+      url: "/codefresh-inline-yaml"
 
 - title: "Docker Registries"
   url: "/docker-registries"
