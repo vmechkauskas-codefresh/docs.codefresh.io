@@ -31,6 +31,7 @@ You can also use [Expression evaluations]({{ site.baseurl }}/docs/{{ site.docs_v
 ## Annotate your images using codefresh YAML
 You can annotate an image as part of it's builds process and also on post build steps.
 
+{:.text-secondary}
 ### Build step Image Metadata Annotation
 You can annotate an image as part of its build process by declaring the metadata value on the [Build step]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/build-1/):
 1. The `metadata` attribute
@@ -51,6 +52,7 @@ build_step:
           evaluate: "{% raw %}'${{CF_BRANCH}}{% endraw %}' == 'main'"
 {% endhighlight %}
 
+{:.text-secondary}
 ### Adding annotations to Built images on post-build steps
 Any step in the YAML workflow can annotate built images by using [Post-Step Operations]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/post-step-operations/).
 To annotate a built image, configure any step with:
