@@ -24,11 +24,11 @@ steps:
     type: build
     image_name: codefreshio/example-nodejs-postgress
     dockerfile: Dockerfile
-    tag: ${{CF_BRANCH}}
+    tag: {% raw %}${{CF_BRANCH}}{% endraw %}
 
   unit_test:
     type: composition
-    working_directory: ${{main_clone}}
+    working_directory: {% raw %}${{main_clone}}{% endraw %}
     composition:
       version: '2'
       services:
@@ -40,7 +40,7 @@ steps:
             - POSTGRES_DB=$POSTGRES_DB
     composition_candidates:
       test:
-        image: ${{build_step}}
+        image: {% raw %}${{build_step}}{% endraw %}
         links:
           - postgres
         command: bash -c '/usr/src/app/test-script.sh'

@@ -84,7 +84,7 @@ steps:
   freestyle-step-2:
     description: Freestyle step..
     title: Free styling 2
-    image: ${{VAR1}}
+    image: {% raw %}${{VAR1}}{% endraw %}
     commands:
       - echo $VAR2
       - curl http://$EXISTING_VAR/index.php
@@ -93,7 +93,7 @@ steps:
 ## Custom Variables Options b: Manually appending to the file
 Appending variables manually can be useful in more complicated scenarios.
 
-The variables file will be exposed inside the freestyle container in the following path: **`${{CF_VOLUME_PATH}}/env_vars_to_export`** 
+The variables file will be exposed inside the freestyle container in the following path: **`{% raw %}${{CF_VOLUME_PATH}}{% endraw %}/env_vars_to_export`** 
 
 You can use this technique to even inject a file with multiple variables.
 
@@ -106,12 +106,12 @@ steps:
     title: Free styling
     image: alpine:latest
     commands:
-      - echo VAR1=192.168.0.1 >> ${{CF_VOLUME_PATH}}/env_vars_to_export
+      - echo VAR1=192.168.0.1 >> {% raw %}${{CF_VOLUME_PATH}}{% endraw %}/env_vars_to_export
           
   freestyle-step-2:
     description: Freestyle step..
     title: Free styling 2
-    image: ${{hey}}
+    image: {% raw %}${{hey}}{% endraw %}
     commands:
       - curl http://$VAR1/index.php
 {% endhighlight %}

@@ -5,6 +5,7 @@ description: ""
 group: docker-registries
 redirect_from:
   - /docs/codefresh-registry
+  - /docs/codefresh-registry/
   - /docs/v1.2/docker-registries/codefresh-registry
 toc: true
 ---

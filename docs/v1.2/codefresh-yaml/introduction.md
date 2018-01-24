@@ -18,11 +18,11 @@ steps:
     type: build
     description: Building the image...
     image-name: myuser/myservice
-    tag: develop # ${{CF_BRANCH}}
+    tag: develop # {% raw %}${{CF_BRANCH}}{% endraw %}
 
   perform_tests:
     image: node:5
-    working_directory: ${{main_clone}}
+    working_directory: {% raw %}${{main_clone}}{% endraw %}
     description: Performing unit tests...
     commands:
       - npm install gulp -g 

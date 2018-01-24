@@ -25,11 +25,11 @@ steps:
     type: build
     image_name: codefreshio/example_nodejs_mongo
     dockerfile: Dockerfile
-    tag: ${{CF_BRANCH}}
+    tag: {% raw %}${{CF_BRANCH}}{% endraw %}
 
   unit_test:
     type: composition
-    working_directory: ${{build_step}}
+    working_directory: {% raw %}${{build_step}}{% endraw %}
     composition:
       version: '2'
       services:
@@ -37,7 +37,7 @@ steps:
           image: mongo
     composition_candidates:
       test:
-        image: ${{build_step}}
+        image: {% raw %}${{build_step}}{% endraw %}
         links:
           - mongo
         command: bash -c "/src/test-script.sh"

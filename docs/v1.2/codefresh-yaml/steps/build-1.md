@@ -16,7 +16,7 @@ step_name:
   type: build
   title: Step Title
   description: Free text description
-  working_directory: ${{clone_step_name}}
+  working_directory: {% raw %}${{clone_step_name}}{% endraw %}
   dockerfile: path/to/Dockerfile
   image_name: owner/new-image-name
   tag: develop
@@ -29,7 +29,7 @@ step_name:
   when:
     condition:
       all:
-        noDetectedSkipCI: "includes('${{CF_COMMIT_MESSAGE}}', '[skip ci]') == false"
+        noDetectedSkipCI: "includes('{% raw %}${{CF_COMMIT_MESSAGE}}{% endraw %}', '[skip ci]') == false"
   on_success:
     ...
   on_fail:

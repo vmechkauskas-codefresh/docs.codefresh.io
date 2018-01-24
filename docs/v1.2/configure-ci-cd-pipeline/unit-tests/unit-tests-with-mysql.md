@@ -24,15 +24,15 @@ steps:
     type: build
     image_name: codefreshio/example-nodejs-mysql
     dockerfile: Dockerfile
-    tag: ${{CF_BRANCH}}
+    tag: {% raw %}${{CF_BRANCH}}{% endraw %}
 
   unit_test:
     type: composition
-    working_directory: ${{main_clone}}
+    working_directory: {% raw %}${{main_clone}}{% endraw %}
     composition: ./docker-compose.yml
     composition_candidates:
       test:
-        image: ${{build_step}}
+        image: {% raw %}${{build_step}}{% endraw %}
         links:
           - db
         command: bash -c '/usr/src/app/test-script.sh'

@@ -56,13 +56,13 @@ and then you can reference those variables in your file like so
 push_to_aws_ecr:
   type: push
   description: Free text description
-  candidate: ${{build_step}}
-  tag: ${{CF_BRANCH}}
+  candidate: {% raw %}${{build_step}}{% endraw %}
+  tag: {% raw %}${{CF_BRANCH}}{% endraw %}
   provider: 'ecr'
-  registry: ${{AWS_REGISTRY}}
-  accessKeyId: ${{AWS_ACCESS_KEY}}
-  secretAccessKey: ${{AWS_SECRET_KEY}}
-  region: ${{AWS_REGION}}
+  registry: {% raw %}${{AWS_REGISTRY}}{% endraw %}
+  accessKeyId: {% raw %}${{AWS_ACCESS_KEY}}{% endraw %}
+  secretAccessKey: {% raw %}${{AWS_SECRET_KEY}}{% endraw %}
+  region: {% raw %}${{AWS_REGION}}{% endraw %}
 {% endhighlight %}
 
 <div class="bd-callout bd-callout-warning" markdown="1">

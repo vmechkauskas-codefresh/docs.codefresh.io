@@ -57,7 +57,7 @@ In a push step you can place your registry configuration name in the `registry` 
 push_step:
   type: push
   description: Free text description
-  candidate: ${{build_step}}
-  tag: ${{CF_BRANCH}}
+  candidate: {% raw %}${{build_step}}{% endraw %}
+  tag: {% raw %}${{CF_BRANCH}}{% endraw %}
   registry: <your-registry-configuration-name>
 {% endhighlight %}

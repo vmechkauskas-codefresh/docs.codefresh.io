@@ -21,7 +21,7 @@ step_name:
   title: Step Title
   description: Step description
   image: image/id
-  working_directory: ${{step_id}}
+  working_directory: {% raw %}${{step_id}}{% endraw %}
   commands: 
     - bash-command1
     - bash-command2

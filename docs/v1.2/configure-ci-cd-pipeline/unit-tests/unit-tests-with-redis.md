@@ -24,13 +24,13 @@ steps:
     type: build
     dockerfile: Dockerfile
     image_name: web
-    tag: ${{CF_BRANCH}}
+    tag: {% raw %}${{CF_BRANCH}}{% endraw %}
 
   build_test:
     type: build
     dockerfile: Dockerfile.test
     image_name: test
-    tag: ${{CF_BRANCH}}
+    tag: {% raw %}${{CF_BRANCH}}{% endraw %}
 
   unit_test:
     type: composition
@@ -38,7 +38,7 @@ steps:
       version: '2'
       services:
         web:
-          image: ${{build_prj}}
+          image: {% raw %}${{build_prj}}{% endraw %}
           links:
             - redis
           ports:
@@ -47,7 +47,7 @@ steps:
           image: redis
     composition_candidates:
       test:
-        image: ${{build_test}}
+        image: {% raw %}${{build_test}}{% endraw %}
 {% endhighlight %} 
   
 <div class="bd-callout bd-callout-info" markdown="1">
