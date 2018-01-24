@@ -10,7 +10,6 @@ toc: true
 ---
 
 {{site.data.callout.callout_info}}
-##### Some title
 If you use the [Codefresh Docker Registry]({{ site.baseurl }}/docs/{{ site.docs_version }}/docker-registries/codefresh-registry/) this step is not relevant. 
 {{site.data.callout.end}}
 
