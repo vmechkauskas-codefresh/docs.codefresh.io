@@ -5,7 +5,7 @@ description: ""
 group: codefresh-yaml
 sub_group: steps
 redirect_from:
-  - /docs/freestyle
+  - /docs/git-clone
 toc: true
 ---
 Clones a Git repository to the filesystem.

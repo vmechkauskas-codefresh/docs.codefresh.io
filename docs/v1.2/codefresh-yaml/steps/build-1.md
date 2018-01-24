@@ -5,7 +5,7 @@ description: ""
 group: codefresh-yaml
 sub_group: steps
 redirect_from:
-  - /docs/freestyle
+  - /docs/build-1
 toc: true
 ---
 Use Docker to build an image and store it in Codefresh.

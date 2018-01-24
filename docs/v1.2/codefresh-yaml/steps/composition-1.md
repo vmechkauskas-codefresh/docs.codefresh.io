@@ -5,7 +5,7 @@ description: ""
 group: codefresh-yaml
 sub_group: steps
 redirect_from:
-  - /docs/steps
+  - /docs/composition-1
 toc: true
 ---
 The composition step runs a Docker Composition as a means to execute finite commands in a more complex interaction of services.

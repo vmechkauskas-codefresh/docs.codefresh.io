@@ -5,7 +5,7 @@ description: ""
 group: codefresh-yaml
 sub_group: steps
 redirect_from:
-  - /docs/steps
+  - /docs/push-1
 toc: true
 ---
 

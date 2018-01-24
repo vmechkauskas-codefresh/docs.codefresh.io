@@ -1,6 +1,12 @@
 ---
+layout: docs
 title: "Deploy"
-excerpt: ""
+description: ""
+group: codefresh-yaml
+sub_group: steps
+redirect_from:
+  - /docs/deploy
+toc: true
 ---
 Deploy step can be used as a step to deploy build image to user's cluster
 
@@ -48,7 +54,7 @@ steps:
     # Canidate is optional, if not spesified will redeploy the same image that spesified in the deployment file
     # When candidate exist it should have both: image and registry
     candidate:
-    	# The image that will replace the original deployment image 
+      # The image that will replace the original deployment image 
       # The image that been build using Build step
       image: {% raw %}${{build_step}}{% endraw %}
       # The registry that the user's Kubernetes cluster can pull the image from
