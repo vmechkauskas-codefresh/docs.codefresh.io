@@ -10,24 +10,23 @@ toc: true
 Each step in `codefresh.yml` file can contain expression conditions that must be satisfied for the step to execute. 
 
 This is a small example of where an expression condition can be used:
-[block:code]
-{
-  "codes": [
-    {
-      "code": "step-name:\n  description: Step description\n  image: image/id\n  commands: \n    - bash-command1\n    - bash-command2\n  when:\n    condition:\n      all:\n        executeForMasterBranch: \"'${{CF_BRANCH}}' == 'master'\"\n",
-      "language": "yaml"
-    }
-  ]
-}
-[/block]
+  `YAML`
+{% highlight yaml %}
+step-name:
+  description: Step description
+  image: image/id
+  commands: 
+    - bash-command1
+    - bash-command2
+  when:
+    condition:
+      all:
+        executeForMasterBranch: "{% raw %}'${{CF_BRANCH}}{% endraw %}' == 'master'"
+{% endhighlight %}
+
 A expression condition is a basic expression that is evaluated to true/false (to decide whether to execute or not to execute), and can have the following syntax:
 
-[block:api-header]
-{
-  "type": "basic",
-  "title": "Types"
-}
-[/block]
+### Types
 
 [block:parameters]
 {
@@ -53,22 +52,14 @@ A expression condition is a basic expression that is evaluated to true/false (to
 }
 [/block]
 
-[block:api-header]
-{
-  "type": "basic",
-  "title": "Variables"
-}
-[/block]
-  * You can use the User Provided variables as explained in the [Variables](https://docs.codefresh.io/docs/variables) article.
+### Variables
+  * You can use the User Provided variables as explained in the [Variables]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/variables/) article.
   * Each step creates a variable based on the name of the variable. A standard variable that always exists is *main_clone*. You can then use the members of each variable.  
   * To access variables that have a non-standard (i.e. only alphanumeric and _ characters) names, use the Variable() function.
-[block:api-header]
-{
-  "type": "basic",
-  "title": "Members"
-}
-[/block]
+
+### Members
 Variables that are created by steps can have members. The members depend on the variable type.
+
 [block:parameters]
 {
   "data": {
@@ -91,13 +82,10 @@ Variables that are created by steps can have members. The members depend on the 
   "rows": 6
 }
 [/block]
+
   * To access members that have a non-standard (i.e., only alphanumeric and _ characters) names, use the Member() function. 
-[block:api-header]
-{
-  "type": "basic",
-  "title": "Unary Operators"
-}
-[/block]
+
+### Unary Operators
 
 [block:parameters]
 {
@@ -114,12 +102,7 @@ Variables that are created by steps can have members. The members depend on the 
 }
 [/block]
 
-[block:api-header]
-{
-  "type": "basic",
-  "title": "Binary Operators"
-}
-[/block]
+### Binary Operators
 
 [block:parameters]
 {
@@ -146,12 +129,7 @@ Variables that are created by steps can have members. The members depend on the 
 }
 [/block]
 
-[block:api-header]
-{
-  "type": "basic",
-  "title": "Comparisons"
-}
-[/block]
+### Comparisons
 
 [block:parameters]
 {
@@ -176,12 +154,7 @@ Variables that are created by steps can have members. The members depend on the 
 }
 [/block]
 
-[block:api-header]
-{
-  "type": "basic",
-  "title": "Functions"
-}
-[/block]
+### Functions
 
 [block:parameters]
 {
