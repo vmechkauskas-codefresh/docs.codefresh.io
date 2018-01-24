@@ -91,4 +91,4 @@ docker pull r.cfcr.io/<ACCOUNT>/<IMAGE>:<TAG>
 
 
 ### See also
-[Kubernetes: Pull an Image from a Private Registry](https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/)
+[Kubernetes: Pull an Image from a Private Registry](https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/){:target="_blank"}
