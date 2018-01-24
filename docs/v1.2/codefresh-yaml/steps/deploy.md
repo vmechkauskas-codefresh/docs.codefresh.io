@@ -68,6 +68,6 @@ steps:
 {% endhighlight %}
 
 ## Related topics
-[Use kubectl as part of Freestyle step](doc:use-kubectl-as-part-of-freestyle-step) 
-[Deploy to Kubernetes](doc:codefresh-kubernetes-integration-beta) 
-[Install HELM chart using Codefresh pipeline](doc:instal-helm-chart-using-codefresh-pipeline)
+- [Use kubectl as part of Freestyle step](doc:use-kubectl-as-part-of-freestyle-step) 
+- [Deploy to Kubernetes](doc:codefresh-kubernetes-integration-beta) 
+- [Install HELM chart using Codefresh pipeline](doc:instal-helm-chart-using-codefresh-pipeline)
