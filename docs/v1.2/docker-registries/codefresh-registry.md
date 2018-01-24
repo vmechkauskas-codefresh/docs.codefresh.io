@@ -89,6 +89,5 @@ Use this Docker pull command to download the image[](ni)
 docker pull r.cfcr.io/<ACCOUNT>/<IMAGE>:<TAG>
 {% endhighlight %}
 
-
 ### See also
 [Kubernetes: Pull an Image from a Private Registry](https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/){:target="_blank"}

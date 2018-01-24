@@ -10,7 +10,6 @@ toc: true
 ### What are Codefresh pipelines?
 Codefresh pipelines are container native and can be configured to automate a sequence of steps that can ends in a deployment to production, push of an image to a Docker registry and more.
 
-
 ### Key Benefits
 - Every step in the pipeline is running inside a container. 
 - Steps in the pipeline share the same volume, hence later steps can use artifacts from previous steps.
