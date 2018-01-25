@@ -14,7 +14,7 @@ We created a growing collection of ready to use, out of the box YAML steps. whic
 
 ## Codefresh customYAML steps catalogue
 Visit our public repo and stay updated with the newest steps added by our team and users.
- **[Click here](https://github.com/codefresh-io/plugins/blob/master/CATALOG.md)** to access and contribute to our catalog.
+ [**Click here**](https://github.com/codefresh-io/plugins/blob/master/CATALOG.md){:target="_blank"} to access and contribute to our catalog.
 
 ## Custom Steps which were added recently
 * **Deploy helm chart** - deploy a Helm chart into specified (by context) Kubernetes cluster

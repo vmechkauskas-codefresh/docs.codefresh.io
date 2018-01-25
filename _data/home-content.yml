@@ -25,18 +25,18 @@
   url: ''
   links:
   - title: Introduction to Codefresh Yaml
-    url: https://docs.codefresh.io/docs/what-is-the-codefresh-yaml
+    localurl: /docs/what-is-the-codefresh-yaml
   - title: Yaml steps
-    url: https://docs.codefresh.io/docs/steps
+    localurl: /docs/steps
   - title: Variables
-    url: https://docs.codefresh.io/docs/variables
+    localurl: /docs/variables
   - title: Working Directories
-    url: https://docs.codefresh.io/docs/working-directories
+    localurl: /docs/working-directories
   - title: Examples
     url: https://docs.codefresh.io/docs/examples-v01
   - title: "*NEW* Custom YAML steps"
     new: true
-    url: https://docs.codefresh.io/docs/ready-to-use-yaml-steps
+    localurl: /docs/ready-to-use-yaml-steps
 - title: Deployment
   icon: https://codefresh.io/wp-content/uploads/2017/11/deployment.png
   url: ''
