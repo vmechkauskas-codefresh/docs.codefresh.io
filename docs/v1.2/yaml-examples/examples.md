@@ -3,7 +3,7 @@ layout: docs
 title: "Examples"
 description: ""
 group: yaml-examples
-permalink: /:path/examples/
+#permalink: /:path/examples/
 redirect_from:
   - /docs/examples-v01
 toc: true
