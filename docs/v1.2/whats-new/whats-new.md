@@ -5,7 +5,7 @@ description: ""
 group: whats-new
 redirect_from:
   - /docs/whats-new
-  - /docs/v1.2/whats-new
+  - /docs/v1.2/whats-new/
 toc: true
 ---
 ### Helm Improvements (January 2018)
