@@ -60,10 +60,16 @@ layout: home
     </div>
     <ul>
       {% for homeContentLink in homeContent.links %}
+        {% if homeContentLink.localurl %}
+          {% assign localurl = homeContentLink.localurl | replace: "{{ site.docs_version }}", site.docs_version %}
+        {% else %}
+          {% assign localurl = nil %}
+        {% endif %}
+      <!-- {{ localurl }} -->
       <li>
         <a
-           {% if homeContentLink.localurl %}
-           href="{{site.baseurl}}{{ homeContentLink.localurl }}"
+           {% if localurl %}
+           href="{{site.baseurl}}{{ localurl }}"
            {% elsif homeContentLink.url %}
            href="{{ homeContentLink.url }}"
            {% endif %}

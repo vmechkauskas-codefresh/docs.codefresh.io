@@ -7,19 +7,19 @@
   - title: Step by step turtorial
     localurl: /docs/getting-started-create-a-basic-pipeline
   - title: Invite Collaborators
-    url: https://docs.codefresh.io/docs/invite-your-team-member
+    localurl: /docs/invite-your-team-member
 - title: Pipelines
   icon: https://codefresh.io/wp-content/uploads/2017/11/pipelines.png
   url: ''
   links:
   - title: Introduction to Pipeline
-    url: https://docs.codefresh.io/docs/introduction-to-codefresh-pipelines
+    localurl: /docs/introduction-to-codefresh-pipelines
   - title: Pipeline configuration using the UI
-    url: https://docs.codefresh.io/docs/introduction-to-codefresh-pipelines#section-pipeline-configuration
+    localurl: /docs/{{ site.docs_version }}/configure-ci-cd-pipeline/introduction-to-codefresh-pipelines/#pipeline-configuration
   - title: Yaml Pipeline configuration
-    url: https://docs.codefresh.io/docs/introduction-to-codefresh-pipelines#section-pipeline-triggers-and-webhook
+    localurl: /docs/{{ site.docs_version }}/configure-ci-cd-pipeline/introduction-to-codefresh-pipelines/#pipeline-triggers-and-webhook
   - title: Webhooks, Badges and General settings
-    url: https://docs.codefresh.io/docs/build-status
+    localurl: /docs/{{ site.docs_version }}/configure-ci-cd-pipeline/build-status/
 - title: Yaml file
   icon: https://codefresh.io/wp-content/uploads/2017/11/yaml.png
   url: ''
