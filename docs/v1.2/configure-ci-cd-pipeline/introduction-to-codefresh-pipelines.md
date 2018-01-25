@@ -5,6 +5,7 @@ description: ""
 group: configure-ci-cd-pipeline
 redirect_from:
   - /docs/introduction-to-codefresh-pipelines
+  - /docs/v1.2/configure-ci-cd-pipeline
 toc: true
 ---
 ### What are Codefresh pipelines?

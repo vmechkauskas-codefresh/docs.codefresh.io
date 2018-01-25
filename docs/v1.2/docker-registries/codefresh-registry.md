@@ -6,7 +6,7 @@ group: docker-registries
 redirect_from:
   - /docs/codefresh-registry
   - /docs/codefresh-registry/
-  - /docs/v1.2/docker-registries/codefresh-registry
+  - /docs/v1.2/docker-registries
 toc: true
 ---
 When creating Codefresh account you will automatically get access to your Codefresh Registry which stores and lets you distribute docker images.

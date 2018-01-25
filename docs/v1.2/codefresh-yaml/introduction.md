@@ -6,6 +6,7 @@ group: codefresh-yaml
 permalink: /:path/what-is-the-codefresh-yaml/
 redirect_from:
   - /docs/what-is-the-codefresh-yaml
+  - /docs/v1.2/codefresh-yaml/
 toc: true
 ---
 Quick example:
