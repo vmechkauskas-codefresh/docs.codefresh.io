@@ -5,10 +5,12 @@ description: "Welcome to Codefresh! To get started, create a Codefresh account."
 group: getting-started
 redirect_from:
   - /docs/
+  - /docs/create-an-account
+  - /docs/getting-started/
+  - /docs/getting-started//introduction/
   - /docs/v1.2/
   - /docs/v1.2/getting-started/
-  - /docs/getting-started/
-  - /docs/create-an-account
+  - /docs/v1.2/getting-started/introduction/
 toc: true
 ---
 Welcome to Codefresh! 
