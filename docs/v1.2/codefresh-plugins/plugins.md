@@ -5,6 +5,7 @@ description: ""
 group: codefresh-plugins
 redirect_from:
   - /docs/plugins
+  - /docs/v1.2/codefresh-plugins/
 toc: true
 ---
 Codefresh plug-ins are steps that can be added to the pipelines yamls and can help in easily crafting pipelines that execute common tasks like testing, security scanning, updating jira tickets etc.. 
