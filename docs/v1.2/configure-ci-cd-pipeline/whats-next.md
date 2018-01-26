@@ -10,8 +10,8 @@ toc: true
 Congratulations! You've complete the Codefresh basics.
 
 So, what's next?
-- [Define your build flow using the Codefresh YAML](doc:what-is-the-codefresh-yaml) 
-- [Invite your team members](doc:invite-your-team-member) 
+- [Define your build flow using the Codefresh YAML]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/what-is-the-codefresh-yaml/)
+- [Invite your team members]({{ site.baseurl }}/docs/{{ site.docs_version }}/accounts/invite-your-team-member/) 
 - [Learn by example using NodeJS](doc:nodejs) 
 - [Learn by example using Python](doc:python)
 - [Learn by example using Java](doc:java) 

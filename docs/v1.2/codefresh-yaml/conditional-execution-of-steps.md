@@ -7,7 +7,7 @@ redirect_from:
   - /docs/conditional-execution-of-steps
 toc: true
 ---
-For each step in a ```codefresh.yml``` file, you can define a set of conditions which need to be satisfied in order to execute the step. (An introduction to the ```codefresh.yml``` file can be found [here](doc:what-is-the-codefresh-yaml).)
+For each step in a ```codefresh.yml``` file, you can define a set of conditions which need to be satisfied in order to execute the step. (An introduction to the ```codefresh.yml``` file can be found [here]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/what-is-the-codefresh-yaml/).)
 
 There are currently two main methods to define conditions: branch conditions and expression conditions.
  

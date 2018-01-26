@@ -53,6 +53,6 @@ step_name:
 **Exported resources:**
 -  Working Directory
 
-<div class="bd-callout bd-callout-info" markdown="1">
-If you want to extend the git-clone step you can use the freestyle step. Example how to do it you can find [here](doc:git-clone-private-repository-using-freestyle-step)
-</div>
+{{site.data.callout.callout_info}}
+If you want to extend the git-clone step you can use the freestyle step. Example how to do it you can find [here]({{ site.baseurl }}/docs/{{ site.docs_version }}/yaml-examples/examples/git-clone-private-repository-using-freestyle-step/) 
+{{site.data.callout.end}}
