@@ -13,7 +13,7 @@ Follow these steps to add collaborators to your account.
 1. Click the arrow next to your avatar.
 
 {:start="2"}
-2. Click **Account Management** -> **Collaborators** tab.
+2. Click **`Account Management`** `->` **`Collaborators`** tab.
 
 {:start="3"}
 3. In the **Username** text box, type the Codefresh user name or email address of the user you want to add.

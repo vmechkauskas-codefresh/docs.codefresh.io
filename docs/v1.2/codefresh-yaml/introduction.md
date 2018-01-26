@@ -48,9 +48,9 @@ steps:
     [step-contents]
 {% endhighlight %}
  
-You must define a step type for each step. Each step uses Docker images and containers as facilitators for execution. For example, the [**Freestyle**](doc:steps#section-freestyle) step spins up a container and executes the specified shell commands from the YAML file. 
+You must define a step type for each step. Each step uses Docker images and containers as facilitators for execution. For example, the [**Freestyle**]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/freestyle/) step spins up a container and executes the specified shell commands from the YAML file. 
 
-Each step produces a resource, which you can reference in other steps, and are executed in real-time. For example, a [**Freestyle**](doc:steps#section-freestyle) step can reference an image that was produced by a [**Build**](doc:steps#section-build) step. This allows you to chain steps together, and create highly-customized builds.
+Each step produces a resource, which you can reference in other steps, and are executed in real-time. For example, a [**Freestyle**]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/freestyle/) step can reference an image that was produced by a [**Build**]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/steps/build-1/) step. This allows you to chain steps together, and create highly-customized builds.
 
 <div class="bd-callout bd-callout-info" markdown="1">
 ##### Variables

@@ -23,9 +23,9 @@ Navigate to the [Sign Up page](https://g.codefresh.io).
 Sign up with Codefresh by linking your account to your Git provider.  
 We currently support Github and Bitbucket.
 
-<div class="bd-callout bd-callout-info" markdown="1">
-Codefresh also supports Stash. Check out our [documentation](doc:stash) for more information.
-</div>
+{{site.data.callout.callout_info}}
+Codefresh also supports Stash. Check out our [documentation](({{ site.baseurl }}/docs/{{ site.docs_version }}/integrations/stash/) for more information. 
+{{site.data.callout.end}}
 
 {% include 
 image.html 
@@ -35,23 +35,18 @@ url="https://files.readme.io/6a22e1e-screenshot-g.codefresh.io-2017-11-21-14-57-
 alt="Github authorization page (click image to enlarge)" 
 max-width="30%" 
 %}
-{::comment}
-<figure markdown="1">
-[![Codefresh.io SignIn]({{ "https://files.readme.io/6a22e1e-screenshot-g.codefresh.io-2017-11-21-14-57-20.png"}}){:.img-thumbnail .mx-auto .d-block }](https://files.readme.io/6a22e1e-screenshot-g.codefresh.io-2017-11-21-14-57-20.png){:data-toggle="lightbox" data-type="image"}
-</figure>
-{:/comment}
+
+{{site.data.callout.callout_info}}
+##### Accounts behind a firewall
+
+If you have a private account for your source control management (SCM) that lies behind a firewall, or simply has no access to the internet, we can help you. We can establish a VPN / tunnel to your network, or discuss options of an on-premises Codefresh deployment. Please contact us to get started. [https://codefresh.io/contact-us/](https://codefresh.io/contact-us/){:target="_blank"} 
+{{site.data.callout.end}}
 
 ### 2. Accept the Permissions Request
 After you select which Git provider to link to, Codefresh requests permission to access your Git provider account.
 
 #### **Github**{:.text-secondary}
 {::comment}
-<figure markdown="1">
-[![Codefresh.io SignIn with Github]( https://files.readme.io/782b804-Screen_Shot_2016-09-28_at_4.36.01_PM.png "Github authorization page (click image to enlarge)"){:.img-thumbnail .mx-auto .d-block style="max-width: 50%"}](https://files.readme.io/782b804-Screen_Shot_2016-09-28_at_4.36.01_PM.png){:data-toggle="lightbox" data-type="image"}
-<figcaption class="text-center">
-Github authorization page (click image to enlarge)
-</figcaption>
-</figure>
 {:/comment}
 {% include 
 image.html 
@@ -75,7 +70,7 @@ max-width="40%"
 %}
 
 ### 3. Verify Your Account Details
-After you grant permission to access your Git provider account, you will be redirected to the Codefresh platform to verify your account details. Review your account details, make the relevant changes, and click ** SIGN UP**. 
+After you grant permission to access your Git provider account, you will be redirected to the Codefresh platform to verify your account details. Review your account details, make the relevant changes, and click **SIGN UP**. 
 
 {% include 
 image.html 
