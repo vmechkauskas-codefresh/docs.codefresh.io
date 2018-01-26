@@ -339,12 +339,12 @@
       url: "/docs/codefresh-api"
 
 - title: Terms and Privacy Policy
-  url: "/terms-and privacy policy"
+  url: "/terms-and-privacy-policy"
   pages:
     - title: Terms of Service
-      url: "/docs/terms-of-service"
+      url: "/terms-of-service"
     - title: Privacy Policy
-      url: "/docs/privacy-policy"
+      url: "/privacy-policy"
 
 - title: Enterprise
   url: "/enterprise"
