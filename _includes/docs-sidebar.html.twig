@@ -49,12 +49,18 @@
 
     <div class="bd-toc-item opened{% unless active == nil %} {{ active }}{% endunless %}">
       <!-- first lvl - group -->
-      <a class="bd-toc-link text-uppercase" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
+      <span class="bd-toc-link text-uppercase" data-href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
         {{ navItem.title }}
-      </a>
+      </span>
       <!-- 2nd lvl menu -->
       <ul class="nav bd-sidenav">
         {%- for doc in navItem.pages -%}
+
+          {% if doc.url contains '/docs/'%}
+            {% assign doc_disabled = true %}
+          {% else %}
+            {% assign doc_disabled = false %}
+          {% endif %}
 
           {% if doc.url %}
             {%- assign doc_slug = doc.url | slugify -%}
@@ -68,8 +74,10 @@
             {%- assign active = 'active bd-sidenav-active' -%}
           {%- endif -%}
           <!-- 2nd lvl menu item -->
-          <li class="opened{% unless active == nil %} {{ active }}{% endunless %}">
-            <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/" data-doc-slug="{{ doc_slug }}">
+          <li class="opened{% unless active == nil %} {{ active }}{% endunless %} {% if doc_disabled == true %}disabled{% endif %}">
+            <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/" data-doc-slug="{{ doc_slug }}"
+              {% if doc_disabled == true %} class="disabled"{% endif %}
+            >
               {{ doc.title }}
             </a>
 
@@ -77,6 +85,12 @@
             {% unless doc.sub-pages == nil %}
               <ul class="nav bd-sidenav">
                 {%- for subdoc in doc.sub-pages -%}
+
+                  {% if subdoc.url contains '/docs/'%}
+                    {% assign subdoc_disabled = true %}
+                  {% else %}
+                    {% assign subdoc_disabled = false %}
+                  {% endif %}
 
                   {% if subdoc.url %}
                     {%- assign sub_doc_slug = subdoc.url | slugify -%}
@@ -98,8 +112,10 @@
                     {%- assign sub_active = 'active bd-sidenav-active' -%}
                   {%- endif -%}
 
-                  <li{% unless sub_active == nil %} class="{{ sub_active }}"{% endunless %}>
-                    <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/{{ sub_doc_slug }}/">
+                  <li class="{% unless sub_active == nil %}{{ sub_active }}{% endunless %} {% if subdoc_disabled == true %}disabled{% endif %} ">
+                    <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/{{ sub_doc_slug }}/"
+                      {% if subdoc_disabled == true %} class="disabled"{% endif %}
+                    >
                       {{ subdoc.title }}
                     </a>
                   </li>

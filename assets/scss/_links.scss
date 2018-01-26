@@ -3,4 +3,19 @@ a {
   @include hover {
     color: $bd-link-hover-color;
   }
+  &.disabled,
+  &[disabled],
+  &[disabled="disabled"] {
+    pointer-events: none;
+    cursor: not-allowed !important;
+    opacity: .55;
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+ul > li {
+  &.disabled {
+    cursor: not-allowed !important;
+  }
 }
