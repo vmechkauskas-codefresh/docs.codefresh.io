@@ -136,17 +136,17 @@
   url: "/new-helm"
   pages:
     - title: Helm Charts and repositories
-      url: "/docs/add-helm-repository"
+      url: "/add-helm-repository"
     - title: Helm Releases management
-      url: "/docs/helm-releases-management"
+      url: "/helm-releases-management"
     - title: Install HELM chart using Codefresh pipeline
-      url: "/docs/instal-helm-chart-using-codefresh-pipeline"
+      url: "/install-helm-chart-using-codefresh-pipeline"
     - title: Create Helm artifacts using Codefresh pipeline
-      url: "/docs/create-helm-artifacts-using-codefresh-pipeline"
+      url: "/create-helm-artifacts-using-codefresh-pipeline"
     - title: Integration tests with HELM
-      url: "/docs/integration-tests-with-helm"
+      url: "/integration-tests-with-helm"
     - title: HELM Best practices
-      url: "/docs/best-practices"
+      url: "/best-practices"
 
 - title: Deploy your containers
   url: "/deploy-your containers"
