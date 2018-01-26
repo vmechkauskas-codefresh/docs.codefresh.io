@@ -1,7 +1,7 @@
 - title: Getting started
   pages:
-    - title: Create a Codefresh Account
-    - title: Create a Basic Pipeline
+  - title: Create a Codefresh Account
+  - title: Create a Basic Pipeline
 
 - title: Codefresh Plugins
   pages:
@@ -82,37 +82,55 @@
     - title: Examples
       url: "/examples"
       sub-pages:
-      - title: Build an Image with the Dockerfile in Root Directory
-        url: "/build-an-image-dockerfile-in-root-directory"
-      - title: Build an Image - Specify Dockerfile Location
-        url: "/build-an-image-specify-dockerfile-location"
-      - title: Build an Image from a Different Git Repository
-        url: "/build-an-image-from-a-different-git-repository"
-      - title: Build and Push an Image
-        url: "/build-and-push-an-image"
-      - title: Build an Image with Build Arguments
-        url: "/build-an-image-with-build-arguments"
-      - title: Run Unit Tests
-        url: "/run-unit-tests"
-      - title: Run Unit Tests with composition
-        url: "/run-unit-tests-with-composition"
-      - title: Run Integration Tests
-        url: "/run-integration-tests"
-      - title: Shared volumes of service from composition step for other yml steps
-        url: "/shared-volumes-of-service-from-composition-step-for-other-yml-steps"
-      - title: Shared volumes between builds
-        url: "/shared-volumes-between-builds"
-      - title: Launch Composition
-        url: "/launch-composition"
-      - title: Clone private repository using freestyle step
-        url: "/git-clone-private-repository-using-freestyle-step"
-      - title: Sending the notification to Slack
-        url: "/sending-the-notification-to-slack"
-      - title: Populate a database with existing data
-        url: "/populate-a-database-with-existing-data"
-      - title: Use kubectl as part of Freestyle step
-        url: "/use-kubectl-as-part-of-freestyle-step"
+        - title: Build an Image with the Dockerfile in Root Directory
+          url: "/build-an-image-dockerfile-in-root-directory"
+        - title: Build an Image - Specify Dockerfile Location
+          url: "/build-an-image-specify-dockerfile-location"
+        - title: Build an Image from a Different Git Repository
+          url: "/build-an-image-from-a-different-git-repository"
+        - title: Build and Push an Image
+          url: "/build-and-push-an-image"
+        - title: Build an Image with Build Arguments
+          url: "/build-an-image-with-build-arguments"
+        - title: Run Unit Tests
+          url: "/run-unit-tests"
+        - title: Run Unit Tests with composition
+          url: "/run-unit-tests-with-composition"
+        - title: Run Integration Tests
+          url: "/run-integration-tests"
+        - title: Shared volumes of service from composition step for other yml steps
+          url: "/shared-volumes-of-service-from-composition-step-for-other-yml-steps"
+        - title: Shared volumes between builds
+          url: "/shared-volumes-between-builds"
+        - title: Launch Composition
+          url: "/launch-composition"
+        - title: Clone private repository using freestyle step
+          url: "/git-clone-private-repository-using-freestyle-step"
+        - title: Sending the notification to Slack
+          url: "/sending-the-notification-to-slack"
+        - title: Populate a database with existing data
+          url: "/populate-a-database-with-existing-data"
+        - title: Use kubectl as part of Freestyle step
+          url: "/use-kubectl-as-part-of-freestyle-step"
 
+- title: Deploy to Kubernetes
+  url: "/deploy-to-kubernetes"
+  pages:
+    - title: Getting started with GKE
+      url: "/get-ready-to-deploy"
+      sub-pages:
+      - title: Create GKE Cluster
+        url: "/create-cluster"
+      - title: Build an image
+        url: "/build-an-image"
+    - title: Deploy to Kubernetes
+      url: "/codefresh-kubernetes-integration-beta"
+    - title: Add Kubernetes cluster
+      url: "/adding-non-gke-kubernetes-cluster"
+    - title: Example - Deploy demochat to Kubernetes cluster
+      url: "/codefresh-kubernetes-integration-demochat-example"
+    - title: Add config maps to your namespaces
+      url: "/add-config-maps-to-your-namespaces"
 
 - title: "Docker Registries"
   url: "/docker-registries"
