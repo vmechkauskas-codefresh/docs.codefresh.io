@@ -181,18 +181,18 @@
     - title: Create composition
       url: "/composition-dialog"
     - title: Test Your Feature
-      url: "/docs/test-your-feature"
+      url: "/test-your-feature"
     - title: Share Your Environment with Your Team
-      url: "/docs/share-environment-with-your-test"
+      url: "/share-environment-with-your-test"
     - title: Composition Service Discovery (Experimental)
-      url: "/docs/composition-service-discovery"
+      url: "/composition-service-discovery"
     - title: Useful compositions
-      url: "/docs/examples-compositions"
+      url: "/examples-compositions"
       sub-pages:
         - title: Web terminal
-          url: "/docs/web-terminal"
+          url: "/web-terminal"
         - title: Import data to MongoDB
-          url: "/docs/import-data-to-mongodb-in-composition"
+          url: "/import-data-to-mongodb-in-composition"
         - title: NodeJS + Angular2 + MongoDB
           url: "/docs/nodejs-angular2-mongodb"
         - title: Secure a Docker Container Using HTTP Basic Auth
