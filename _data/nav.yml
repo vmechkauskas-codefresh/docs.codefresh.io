@@ -176,10 +176,10 @@
           url: "/build-and-deploy-to-kubernetes"
 
 - title: On Demand Test Environment
-  url: "/on-demand test environment"
+  url: "/on-demand-test-environment"
   pages:
     - title: Create composition
-      url: "/docs/composition-dialog"
+      url: "/composition-dialog"
     - title: Test Your Feature
       url: "/docs/test-your-feature"
     - title: Share Your Environment with Your Team
