@@ -132,9 +132,9 @@
 
     // Search
     if (window.docsearch) {
-      window.docsearch({
-        apiKey: '48cb48b22351bc71ea5f12f4d1ede198-----',
-        indexName: 'bootstrap-v4',
+      var docSearch = window.docsearch({
+        apiKey: '3d145052b8422fa173d681e9a761f81e',
+        indexName: 'codefresh',
         inputSelector: '#search-input',
         handleSelected: function (input, event, suggestion) {
           var url = suggestion.url
@@ -142,13 +142,22 @@
           // If it's a title we remove the anchor so it does not jump.
           window.location.href = url
         },
+        algoliaOptions: {
+          hitsPerPage: 10
+        },
         transformData: function (hits) {
           return hits.map(function (hit) {
-            hit.url = hit.url.replace('https://v4-alpha.getbootstrap.com', '/docs/4.0')
+            if (location.href.match(/(192.168|127.0.|localhost).*:19001/)) {
+              hit.url = hit.url.replace('https://docs.codefresh.io/docs/', '/docs.codefresh.io/docs/v1.2/')
+            }
             return hit
           })
         },
         debug: false // Set debug to true if you want to inspect the dropdown
+      })
+      docSearch.autocomplete.on('autocomplete:opened', function (event) {
+        // console.log(event)
+        // Do something when the dropdown menu is opened
       })
     }
 

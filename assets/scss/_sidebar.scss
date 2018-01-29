@@ -96,8 +96,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, .05);
 
   .form-control:focus {
-    border-color: $bd-topaz-bright;
-    box-shadow: 0 0 0 3px rgba($bd-topaz-bright, .25);
+    border-color: rgba($bd-topaz-main, .40);
+    box-shadow: 0 0 0 3px rgba($bd-topaz-main, .22);
   }
 }
 

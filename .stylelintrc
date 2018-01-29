@@ -18,7 +18,7 @@
     "declaration-block-semicolon-newline-before": "never-multi-line",
     "declaration-block-semicolon-space-after": "always-single-line",
     "declaration-empty-line-before": null,
-    "declaration-no-important": false,
+    "declaration-no-important": null,
     "font-family-name-quotes": "always-where-recommended",
     "font-weight-notation": "numeric",
     "function-url-no-scheme-relative": true,
@@ -236,7 +236,7 @@
     "selector-max-type": 2,
     "selector-max-universal": 1,
     "selector-no-qualifying-type": [ true, {
-      "ignore": [ "attribute", "class", "id", "disabled" ]
+      "ignore": [ "attribute", "class", "id" ]
     }],
     "selector-no-vendor-prefix": true,
     "string-quotes": "double",
