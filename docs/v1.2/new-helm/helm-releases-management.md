@@ -4,8 +4,8 @@ title: "Helm Releases management"
 description: ""
 group: new-helm
 redirect_from:
-  - /docs/elm-releases-management
-  - /docs/v1.2/elm-releases-management/
+  - /docs/helm-releases-management
+  - /docs/v1.2/helm-releases-management/
 toc: true
 ---
 Codefresh has build in Helm integration that provides a unique view into your production Kubernetes cluster. In the "Helm Releases" page, you can see the current status of your cluster, including the currently deployed releases, their previous revisions including change tracking, and even roll back to a previous release.

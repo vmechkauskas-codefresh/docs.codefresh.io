@@ -31,7 +31,7 @@ Expand the **Running Unit Tests** section to view the actions taken during the t
 
 {:.text-secondary}
 ### What is a YAML file?
-For more information about the ```codefresh.yml``` file, click [here](https://docs.codefresh.io/v1.0/docs/what-is-the-codefresh-yaml).
+For more information about the ```codefresh.yml``` file, click [here]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/what-is-the-codefresh-yaml/).
 
 {:start="1"}
 1. Add a unit-test step to your ```codefresh.yml``` file.
