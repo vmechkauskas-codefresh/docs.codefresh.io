@@ -58,21 +58,21 @@
   url: ''
   links:
   - title: Add Unit Test to pipeline
-    url: https://docs.codefresh.io/docs/setup-unit-tests
+    localurl: /docs/{{ site.docs_version }}/configure-ci-cd-pipeline/unit-tests/
   - title: Unit Test with DB
-    url: https://docs.codefresh.io/docs/unit-test-with-database
+    localurl: /docs/{{ site.docs_version }}/configure-ci-cd-pipeline/unit-tests/unit-tests-with-database/
   - title: Integration Tests
-    url: https://docs.codefresh.io/docs/integration-tests
+    localurl: /docs/{{ site.docs_version }}/configure-ci-cd-pipeline/integration-tests/
   - title: Annotate Image with tests
-    url: https://docs.codefresh.io/docs/metadata-annotations
+    localurl: /docs/{{ site.docs_version }}/codefresh-yaml/metadata-annotations  /
   - title: Pull & Push images to Codefresh’s Registry
-    url: "#"
+    localurl: /docs/{{ site.docs_version }}/docker-registries/codefresh-registry/
 - title: Integrations
   icon: https://codefresh.io/wp-content/uploads/2017/11/integrations.png
   url: ''
   links:
   - title: Docker registry integration
-    url: https://docs.codefresh.io/docs/docker-registry
+    localurl: /docs/{{ site.docs_version }}/docker-registries/external-docker-registries/
   - title: On Premise Git integration
     url: https://docs.codefresh.io/docs/git-provider
   - title: Jenkins integration
