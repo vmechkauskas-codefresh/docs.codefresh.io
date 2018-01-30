@@ -5,6 +5,8 @@ description: ""
 group: accounts
 redirect_from:
   - /docs/invite-your-team-member
+  - /docs/v1.2/invite-your-team-member
+  - /docs/v1.2/accounts
 toc: true
 ---
 Follow these steps to add collaborators to your account.
