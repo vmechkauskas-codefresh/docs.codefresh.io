@@ -77,7 +77,7 @@ echo $(kubectl get secret -o go-template='{{index .data "token" }}' $(kubectl ge
 ## Adding the Custom Provider in Codefresh
 
 {:start="1"}
-1. Go to the `Account Settings -> Integration`
+1. Go to the `Account Settings` &#8594; `Integration`
 
 {% include image.html 
 lightbox="true" 

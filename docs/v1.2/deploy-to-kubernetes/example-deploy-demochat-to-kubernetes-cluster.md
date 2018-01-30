@@ -43,7 +43,7 @@ More info about how to add, build and push docker image you can find in the read
 ### **Deploy the Demochat service to K8 cluster**
 
 {:start="1"}
-1. Go to the `Account Settings->Integration->Enable Kubernetes`
+1. Go to the `Account Settings` &#8594; `Integration` &#8594; `Enable Kubernetes`
 
 {:start="2"}
 2. And then add the cluster
