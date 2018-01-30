@@ -221,25 +221,25 @@
         - title: "Other Registries"
           url: "/other-registries"
 
-#- title: Integrations
-#  url: "/integrations"
-#  pages:
-#    - title: Git providers
-#      url: "/docs/git-provider"
-#      sub-pages:
-#        - title: Activate integration with your self hosted Git server
-#          url: "/docs/activate-integration-with-your-self-hosted-git-server"
-#        - title: Configure a Bitbucket Server Webhook
-#          url: "/docs/configure-a-bitbucket-server-webhook"
-#    - title: Notifications
-#      url: "/docs/notifications"
-#      sub-pages:
-#        - title: Slack
-#          url: "/docs/slack-integration"
-#    - title: Jira Integration
-#      url: "/docs/jira-integration-1"
-#    - title: Jenkins Integration
-#      url: "/docs/jenkins-integration"
+- title: Integrations
+  url: "/integrations"
+  pages:
+    - title: Git providers
+      url: "/git-providers"
+      sub-pages:
+        - title: Activate integration with your self hosted Git server
+          url: "/activate-integration-with-your-self-hosted-git-server"
+        - title: Configure a Bitbucket Server Webhook
+          url: "/configure-a-bitbucket-server-webhook"
+    - title: Notifications
+      url: "/notifications"
+      sub-pages:
+        - title: Slack
+          url: "/slack-integration"
+    - title: Jira Integration
+      url: "/jira-integration"
+    - title: Jenkins Integration
+      url: "/jenkins-integration"
 
 - title: Accounts
   url: "/accounts"
