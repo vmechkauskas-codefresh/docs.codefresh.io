@@ -23,7 +23,7 @@ layout: home
             Get started
           </a>
           <a href="{{ site.codefresh_signup }}"
-		     class="btn btn-get-started mb-3 mb-md-0 mr-md-3"
+             class="btn btn-get-started mb-3 mb-md-0 mr-md-3"
              onclick="ga('send', 'event', 'Main page actions', 'SignUp', 'SignUp');">
             Sign Up
           </a>
@@ -55,7 +55,7 @@ layout: home
         <img src="{{ homeContent.icon }}" />
       </div>
       <div class="p-2 align-self-center">
-        <h4 {% unless homeContent.new == nil %} class="bulb bulb-red bulb-above-left bulb-pos-after" data-bulb-text="NEW"{% endunless %}>{{ homeContent.title }}</h4>
+        <h4 {% unless homeContent.new == nil or homeContent.new == false %} class="bulb bulb-red bulb-above-left bulb-pos-after" data-bulb-text="NEW"{% endunless %}>{{ homeContent.title }}</h4>
       </div>
     </div>
     <ul>
@@ -76,7 +76,7 @@ layout: home
            title="{{ homeContentLink.title }}"
         >
           {{ homeContentLink.title }}
-          {% unless homeContentLink.new == nil %}
+          {% unless homeContentLink.new == nil or homeContentLink.new == false %}
           <span class="badge cf-badge cf-badge-new align-top text-uppercase">New</span>
           {% endunless %}
         </a>
