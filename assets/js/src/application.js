@@ -132,6 +132,8 @@
 
     // Search
     if (window.docsearch) {
+      // Please read info about docsearch
+      // https://github.com/algolia/docsearch-configs/blob/master/configs/codefresh.json
       var docSearch = window.docsearch({
         apiKey: '3d145052b8422fa173d681e9a761f81e',
         indexName: 'codefresh',
