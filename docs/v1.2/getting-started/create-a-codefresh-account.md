@@ -24,7 +24,7 @@ Sign up with Codefresh by linking your account to your Git provider.
 We currently support Github and Bitbucket.
 
 {{site.data.callout.callout_info}}
-Codefresh also supports Stash. Check out our [documentation](({{ site.baseurl }}/docs/{{ site.docs_version }}/integrations/stash/) for more information. 
+Codefresh also supports Stash. Check out our [documentation]({{ site.baseurl }}/docs/{{ site.docs_version }}/integrations/stash/) for more information. 
 {{site.data.callout.end}}
 
 {% include 

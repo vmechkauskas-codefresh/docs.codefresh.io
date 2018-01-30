@@ -109,9 +109,9 @@
   url: ''
   links:
   - title: Plugins
-    url: https://docs.codefresh.io/docs/plugins
+    localurl: /docs/{{ site.docs_version }}/codefresh-plugins/plugins/
   - title: Contribute Codefresh Plugin
-    url: https://docs.codefresh.io/docs/contribute-codefresh-plugin
+    localurl: /docs/{{ site.docs_version }}/codefresh-plugins/contribute-codefresh-plugin/
 - title: "Codefresh CLI"
   new: true
   icon: https://codefresh.io/wp-content/uploads/2018/01/cli.png
