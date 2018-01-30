@@ -148,7 +148,7 @@
         transformData: function (hits) {
           return hits.map(function (hit) {
             if (location.href.match(/(192.168|127.0.|localhost).*:19001/)) {
-              hit.url = hit.url.replace('https://docs.codefresh.io/docs/', '/docs.codefresh.io/docs/v1.2/')
+              hit.url = hit.url.replace('https://vmechkauskas-codefresh.github.io/', '/')
             }
             return hit
           })
