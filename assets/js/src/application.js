@@ -101,7 +101,7 @@
     if ($('#bd-docs-nav li.active').length > 0) {
       $('#bd-docs-nav').animate({
         scrollTop: $('#bd-docs-nav').scrollTop() + $('#bd-docs-nav li.active').last().position().top - 72
-      }, 500)
+      }, 2000)
     }
 
     anchors.options = {
