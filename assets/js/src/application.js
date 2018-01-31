@@ -98,6 +98,7 @@
 
     // scrollTop: $('#bd-docs-nav .active').position().top - 87
     // $('#bd-docs-nav li.active')[$('#bd-docs-nav li.active').length - 1].scrollIntoView()
+    /*
     if ($('#bd-docs-nav li.active').length > 0) {
       $('#bd-docs-nav').animate({
         scrollTop: $('#bd-docs-nav').scrollTop() + $('#bd-docs-nav li.active').last().position().top - 72
@@ -106,6 +107,7 @@
         easing: 'linear'
       })
     }
+    */
 
     anchors.options = {
       icon: '#'
