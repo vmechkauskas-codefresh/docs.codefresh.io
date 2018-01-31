@@ -101,7 +101,10 @@
     if ($('#bd-docs-nav li.active').length > 0) {
       $('#bd-docs-nav').animate({
         scrollTop: $('#bd-docs-nav').scrollTop() + $('#bd-docs-nav li.active').last().position().top - 72
-      }, 2000)
+      }, {
+        duration: 2000,
+        easing: 'linear'
+      })
     }
 
     anchors.options = {
