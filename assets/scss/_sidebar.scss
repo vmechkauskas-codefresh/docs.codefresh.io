@@ -96,7 +96,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, .05);
 
   .form-control:focus {
-    border-color: rgba($bd-topaz-main, .40);
+    border-color: rgba($bd-topaz-main, .4);
     box-shadow: 0 0 0 3px rgba($bd-topaz-main, .22);
   }
 }
@@ -146,7 +146,7 @@
   &.active {
 
     > .bd-toc-link {
-      color: rgba($bd-doc-sidebar-link-active, .85);
+      color: rgba($bd-doc-sidebar-link-active, 1);
 
       &:hover {
         background-color: transparent;
@@ -172,6 +172,6 @@
 .bd-sidebar .nav > .active > a,
 .bd-sidebar .nav > .active:hover > a {
   font-weight: 500;
-  color: rgba($bd-doc-sidebar-link-active, .85);
+  color: rgba($bd-doc-sidebar-link-active, 1);
   background-color: transparent;
 }
