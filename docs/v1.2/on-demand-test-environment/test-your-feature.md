@@ -15,8 +15,8 @@ toc: true
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/abb2549-compose-general-view.png" 
-url="https://files.readme.io/abb2549-compose-general-view.png"
+file="/uploads/images/docs/abb2549-compose-general-view.png" 
+url="/uploads/images/docs/abb2549-compose-general-view.png"
 alt="compose-general-view.png" 
 max-width="40%"
 %}
@@ -27,8 +27,8 @@ max-width="40%"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/e620ba6-compose-launch-button.png" 
-url="https://files.readme.io/e620ba6-compose-launch-button.png"
+file="/uploads/images/docs/e620ba6-compose-launch-button.png" 
+url="/uploads/images/docs/e620ba6-compose-launch-button.png"
 alt="compose-launch-button.png" 
 max-width="40%"
 caption="click on image to enlarge"
@@ -40,8 +40,8 @@ caption="click on image to enlarge"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/b84878c-composition-launch-log.png" 
-url="https://files.readme.io/b84878c-composition-launch-log.png"
+file="/uploads/images/docs/b84878c-composition-launch-log.png" 
+url="/uploads/images/docs/b84878c-composition-launch-log.png"
 alt="composition-launch-log.png" 
 max-width="40%"
 %}

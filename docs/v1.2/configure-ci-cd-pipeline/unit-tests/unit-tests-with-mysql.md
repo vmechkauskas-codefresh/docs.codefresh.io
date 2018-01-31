@@ -79,4 +79,4 @@ Just head over to the example [__repository__](https://github.com/codefreshdemo/
 
 ## Expected result
 
-{% include image.html lightbox="true" file="https://files.readme.io/7afb3f6-codefresh_example_mysql.png" url="https://files.readme.io/7afb3f6-codefresh_example_mysql.png" alt="Codefresh unit test MySQL" max-width="65%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/7afb3f6-codefresh_example_mysql.png" url="/uploads/images/docs/7afb3f6-codefresh_example_mysql.png" alt="Codefresh unit test MySQL" max-width="65%" %}

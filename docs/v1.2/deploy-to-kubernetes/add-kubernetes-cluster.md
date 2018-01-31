@@ -81,8 +81,8 @@ echo $(kubectl get secret -o go-template='{{index .data "token" }}' $(kubectl ge
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/95162bf-codefresh_account_settings.png" 
-url="https://files.readme.io/95162bf-codefresh_account_settings.png" 
+file="/uploads/images/docs/95162bf-codefresh_account_settings.png" 
+url="/uploads/images/docs/95162bf-codefresh_account_settings.png" 
 alt="codefresh_account_settings.png" 
 max-width="40%" 
 %}
@@ -93,8 +93,8 @@ You will be redirected to google and will be asked to enter your Google account 
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/3481f0f-codefresh_k8_configure.png" 
-url="https://files.readme.io/3481f0f-codefresh_k8_configure.png" 
+file="/uploads/images/docs/3481f0f-codefresh_k8_configure.png" 
+url="/uploads/images/docs/3481f0f-codefresh_k8_configure.png" 
 alt="codefresh_k8_configure.png" 
 max-width="40%" 
 %}
@@ -104,8 +104,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/11b5d72-codefresh_add_provider.png" 
-url="https://files.readme.io/11b5d72-codefresh_add_provider.png" 
+file="/uploads/images/docs/11b5d72-codefresh_add_provider.png" 
+url="/uploads/images/docs/11b5d72-codefresh_add_provider.png" 
 alt="codefresh_add_provider.png" 
 max-width="40%" 
 %}
@@ -115,8 +115,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/eb1795e-codefresh_add_custom_cluster.png" 
-url="https://files.readme.io/eb1795e-codefresh_add_custom_cluster.png" 
+file="/uploads/images/docs/eb1795e-codefresh_add_custom_cluster.png" 
+url="/uploads/images/docs/eb1795e-codefresh_add_custom_cluster.png" 
 alt="codefresh_add_custom_cluster.png" 
 max-width="40%" 
 %}
@@ -126,8 +126,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/6e92733-Screen_Shot_2017-10-16_at_9.40.32_PM.png" 
-url="https://files.readme.io/6e92733-Screen_Shot_2017-10-16_at_9.40.32_PM.png" 
+file="/uploads/images/docs/6e92733-Screen_Shot_2017-10-16_at_9.40.32_PM.png" 
+url="/uploads/images/docs/6e92733-Screen_Shot_2017-10-16_at_9.40.32_PM.png" 
 alt="Screen Shot 2017-10-16 at 9.40.32 PM.png" 
 max-width="40%" 
 %}
@@ -137,8 +137,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/eb2e31b-codefresh_kubernetes_tab.png" 
-url="https://files.readme.io/eb2e31b-codefresh_kubernetes_tab.png" 
+file="/uploads/images/docs/eb2e31b-codefresh_kubernetes_tab.png" 
+url="/uploads/images/docs/eb2e31b-codefresh_kubernetes_tab.png" 
 alt="codefresh_kubernetes_tab.png" 
 max-width="40%" 
 %}
@@ -159,8 +159,8 @@ Visit [Codefresh API page](https://g.codefresh.io/api/) to get your API token.
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/2827b13-Screen_Shot_2017-09-24_at_14.05.04.png" 
-url="https://files.readme.io/2827b13-Screen_Shot_2017-09-24_at_14.05.04.png" 
+file="/uploads/images/docs/2827b13-Screen_Shot_2017-09-24_at_14.05.04.png" 
+url="/uploads/images/docs/2827b13-Screen_Shot_2017-09-24_at_14.05.04.png" 
 alt="Screen Shot 2017-09-24 at 14.05.04.png" 
 max-width="40%" 
 %}

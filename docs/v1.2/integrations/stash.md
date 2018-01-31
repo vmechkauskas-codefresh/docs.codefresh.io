@@ -13,8 +13,8 @@ Then to manage your integration settings, navigate to the INTEGRATIONS tab under
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/ad2bbd1-codefresh_stash_internal_new2.png" 
-url="https://files.readme.io/ad2bbd1-codefresh_stash_internal_new2.png" 
+file="/uploads/images/docs/ad2bbd1-codefresh_stash_internal_new2.png" 
+url="/uploads/images/docs/ad2bbd1-codefresh_stash_internal_new2.png" 
 alt="codefresh_stash_internal_new2.png" 
 max-width="40%" 
 %}

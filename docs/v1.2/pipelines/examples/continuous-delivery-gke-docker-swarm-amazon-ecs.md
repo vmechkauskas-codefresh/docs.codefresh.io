@@ -39,8 +39,8 @@ Use command below to deploy compose application to kubernetes. Make sure you cha
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/2c403af-codefresh_deploy_to_k8.png" 
-url="https://files.readme.io/2c403af-codefresh_deploy_to_k8.png"
+file="/uploads/images/docs/2c403af-codefresh_deploy_to_k8.png" 
+url="/uploads/images/docs/2c403af-codefresh_deploy_to_k8.png"
 alt="codefresh_deploy_to_k8.png" 
 max-width="40%"
 caption="Deploy to K8"
@@ -55,8 +55,8 @@ caption="Deploy to K8"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/12a7122-codefresh_env_vars.png" 
-url="https://files.readme.io/12a7122-codefresh_env_vars.png"
+file="/uploads/images/docs/12a7122-codefresh_env_vars.png" 
+url="/uploads/images/docs/12a7122-codefresh_env_vars.png"
 alt="codefresh_env_vars.png" 
 max-width="40%"
 caption="Environment Variables"

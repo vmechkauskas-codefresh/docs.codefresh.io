@@ -15,8 +15,8 @@ To navigate to the service's pipeline configuration page, click the **Pipeline**
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/70646dc-codefresh_demochat_repo.png" 
-url="https://files.readme.io/70646dc-codefresh_demochat_repo.png"
+file="/uploads/images/docs/70646dc-codefresh_demochat_repo.png" 
+url="/uploads/images/docs/70646dc-codefresh_demochat_repo.png"
 alt="codefresh_demochat_repo.png" 
 max-width="40%"
 %}
@@ -33,8 +33,8 @@ A service might have multiple pipelines. Each pipeline must have a unique name.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/29c73f5-codefresh_general_settings.png" 
-url="https://files.readme.io/29c73f5-codefresh_general_settings.png"
+file="/uploads/images/docs/29c73f5-codefresh_general_settings.png" 
+url="/uploads/images/docs/29c73f5-codefresh_general_settings.png"
 alt="codefresh_general_settings.png" 
 max-width="40%"
 caption="Name of your pipeline"
@@ -46,8 +46,8 @@ You can configure your pipeline to run according to the steps defined in a [code
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/ac848ed-codefresh_yaml_option.png" 
-url="https://files.readme.io/ac848ed-codefresh_yaml_option.png"
+file="/uploads/images/docs/ac848ed-codefresh_yaml_option.png" 
+url="/uploads/images/docs/ac848ed-codefresh_yaml_option.png"
 alt="codefresh_yaml_option.png" 
 max-width="40%"
 %}
@@ -69,8 +69,8 @@ Only repository owners can set webhooks.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/2dcf5a8-codefresh_automated_build.png" 
-url="https://files.readme.io/2dcf5a8-codefresh_automated_build.png"
+file="/uploads/images/docs/2dcf5a8-codefresh_automated_build.png" 
+url="/uploads/images/docs/2dcf5a8-codefresh_automated_build.png"
 alt="codefresh_automated_build.png" 
 max-width="40%"
 caption="Enabling Auto Build / Webhook Settings"
@@ -92,8 +92,8 @@ The image name must be in the format of ```REPO-OWNER/REPO-NAME```.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/80d3927-codefresh_dockerimage_name.png" 
-url="https://files.readme.io/80d3927-codefresh_dockerimage_name.png"
+file="/uploads/images/docs/80d3927-codefresh_dockerimage_name.png" 
+url="/uploads/images/docs/80d3927-codefresh_dockerimage_name.png"
 alt="codefresh_dockerimage_name.png" 
 max-width="40%"
 %}
@@ -111,8 +111,8 @@ If you **don't a Dockerfile or a Codefresh YAML** then you can create one using 
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/d37452d-codefresh_dockerfile_path.png" 
-url="https://files.readme.io/d37452d-codefresh_dockerfile_path.png"
+file="/uploads/images/docs/d37452d-codefresh_dockerfile_path.png" 
+url="/uploads/images/docs/d37452d-codefresh_dockerfile_path.png"
 alt="codefresh_dockerfile_path.png" 
 max-width="40%"
 %}
@@ -133,8 +133,8 @@ Go to [Unit Tests]({{ site.baseurl }}/docs/{{ site.docs_version }}/configure-ci-
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/3eb8b90-codefresh_unit_test_script.png" 
-url="https://files.readme.io/3eb8b90-codefresh_unit_test_script.png"
+file="/uploads/images/docs/3eb8b90-codefresh_unit_test_script.png" 
+url="/uploads/images/docs/3eb8b90-codefresh_unit_test_script.png"
 alt="codefresh_unit_test_script.png" 
 max-width="40%"
 %}
@@ -145,8 +145,8 @@ Codefresh enables you to integrate with several Docker container registries. You
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/9d1fbac-codefresh_push_docker_registry.png" 
-url="https://files.readme.io/9d1fbac-codefresh_push_docker_registry.png"
+file="/uploads/images/docs/9d1fbac-codefresh_push_docker_registry.png" 
+url="/uploads/images/docs/9d1fbac-codefresh_push_docker_registry.png"
 alt="codefresh_push_docker_registry.png" 
 max-width="40%"
 %}
@@ -165,8 +165,8 @@ Go to [Integration Tests]({{ site.baseurl }}/docs/{{ site.docs_version }}/config
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/1f97bd1-codefresh_integration_tests.png" 
-url="https://files.readme.io/1f97bd1-codefresh_integration_tests.png"
+file="/uploads/images/docs/1f97bd1-codefresh_integration_tests.png" 
+url="/uploads/images/docs/1f97bd1-codefresh_integration_tests.png"
 alt="codefresh_integration_tests.png" 
 max-width="40%"
 %}
@@ -180,8 +180,8 @@ In the deploy section of the pipeline configuration page, you can set an automat
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/3d74965-codefresh_deploy_script.png" 
-url="https://files.readme.io/3d74965-codefresh_deploy_script.png"
+file="/uploads/images/docs/3d74965-codefresh_deploy_script.png" 
+url="/uploads/images/docs/3d74965-codefresh_deploy_script.png"
 alt="codefresh_deploy_script.png" 
 max-width="40%"
 %}
@@ -193,8 +193,8 @@ To define the environment variables, navigate to the environment variables secti
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/bf9ecbb-codefresh_environment_variables.png" 
-url="https://files.readme.io/bf9ecbb-codefresh_environment_variables.png"
+file="/uploads/images/docs/bf9ecbb-codefresh_environment_variables.png" 
+url="/uploads/images/docs/bf9ecbb-codefresh_environment_variables.png"
 alt="codefresh_environment_variables.png" 
 max-width="40%"
 %}

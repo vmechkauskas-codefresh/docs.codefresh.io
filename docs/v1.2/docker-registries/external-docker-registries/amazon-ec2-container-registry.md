@@ -16,7 +16,7 @@ and then provide the following
 * Secret Access Key - AWS accessKeyId
 * Region - AWS region
 
-{% include image.html lightbox="true" file="https://files.readme.io/6f9a8ef-add-ecr.png" url="https://files.readme.io/6f9a8ef-add-ecr.png" alt="Add Amazon EC2 Container Registry" max-width="45%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/6f9a8ef-add-ecr.png" url="/uploads/images/docs/6f9a8ef-add-ecr.png" alt="Add Amazon EC2 Container Registry" max-width="45%" %}
 
 Codefresh makes sure to automatically refresh the AWS token for you.
 

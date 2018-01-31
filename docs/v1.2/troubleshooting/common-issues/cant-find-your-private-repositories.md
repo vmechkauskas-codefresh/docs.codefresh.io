@@ -14,8 +14,8 @@ toc: true
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/63cb340-2016-09-29_11-43-43.png" 
-url="https://files.readme.io/63cb340-2016-09-29_11-43-43.png"
+file="/uploads/images/docs/63cb340-2016-09-29_11-43-43.png" 
+url="/uploads/images/docs/63cb340-2016-09-29_11-43-43.png"
 alt="2016-09-29_11-43-43.png" 
 max-width="40%"
 %}
@@ -32,8 +32,8 @@ max-width="40%"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/cb2e80a-Screen_Shot_2016-11-02_at_16.25.30.png" 
-url="https://files.readme.io/cb2e80a-Screen_Shot_2016-11-02_at_16.25.30.png"
+file="/uploads/images/docs/cb2e80a-Screen_Shot_2016-11-02_at_16.25.30.png" 
+url="/uploads/images/docs/cb2e80a-Screen_Shot_2016-11-02_at_16.25.30.png"
 alt="Screen Shot 2016-11-02 at 16.25.30.png" 
 max-width="40%"
 %}
@@ -47,8 +47,8 @@ Go to **`User Settings`** &#8594; and select the **`Allow access to private repo
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/78ccb8a-2016-09-29_12-17-04.png" 
-url="https://files.readme.io/78ccb8a-2016-09-29_12-17-04.png"
+file="/uploads/images/docs/78ccb8a-2016-09-29_12-17-04.png" 
+url="/uploads/images/docs/78ccb8a-2016-09-29_12-17-04.png"
 alt="2016-09-29_12-17-04.png" 
 max-width="40%"
 %}

@@ -77,4 +77,4 @@ Just head over to the example [__repository__](https://github.com/codefreshdemo/
 
 ## Expected result
 
-{% include image.html lightbox="true" file="https://files.readme.io/5033cde-codefresh_unit_test_mongo.png" url="https://files.readme.io/5033cde-codefresh_unit_test_mongo.png" alt="Codefresh unit test Mongo" max-width="65%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/5033cde-codefresh_unit_test_mongo.png" url="/uploads/images/docs/5033cde-codefresh_unit_test_mongo.png" alt="Codefresh unit test Mongo" max-width="65%" %}

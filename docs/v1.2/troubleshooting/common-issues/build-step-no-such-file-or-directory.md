@@ -32,8 +32,8 @@ Re-check, you use correct path to Dockerfile and Build context
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/cab7351-codefresh_no_such_file_directory.png" 
-url="https://files.readme.io/cab7351-codefresh_no_such_file_directory.png"
+file="/uploads/images/docs/cab7351-codefresh_no_such_file_directory.png" 
+url="/uploads/images/docs/cab7351-codefresh_no_such_file_directory.png"
 alt="codefresh_no_such_file_directory.png" 
 max-width="40%"
 %}

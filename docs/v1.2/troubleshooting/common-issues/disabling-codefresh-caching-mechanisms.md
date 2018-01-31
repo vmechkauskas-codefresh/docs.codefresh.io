@@ -21,8 +21,8 @@ Codefresh provides two different options to do this.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/921e51a-cache.png" 
-url="https://files.readme.io/921e51a-cache.png"
+file="/uploads/images/docs/921e51a-cache.png" 
+url="/uploads/images/docs/921e51a-cache.png"
 alt="cache.png" 
 max-width="40%"
 %}

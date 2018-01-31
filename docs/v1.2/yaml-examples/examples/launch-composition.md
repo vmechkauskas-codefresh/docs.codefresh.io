@@ -55,4 +55,4 @@ Be aware that the number of environment you can run is limited. When using the s
 Just head over to the example [**repository**](https://github.com/codefreshdemo/cf-example-launch-composition){:target="_blank"} in Github and follow the instructions there.
 {{site.data.callout.end}}
 
-{% include image.html lightbox="true" file="https://files.readme.io/5172190-codefresh_launch_composition.png" url="https://files.readme.io/5172190-codefresh_launch_composition.png" alt="codefresh_launch_composition.png" max-width="45%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/5172190-codefresh_launch_composition.png" url="/uploads/images/docs/5172190-codefresh_launch_composition.png" alt="codefresh_launch_composition.png" max-width="45%" %}

@@ -30,8 +30,8 @@ Fork this example to try it. [https://github.com/codefreshdemo/demochat](https:/
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/0d72e36-codefresh_build_test.png" 
-url="https://files.readme.io/0d72e36-codefresh_build_test.png"
+file="/uploads/images/docs/0d72e36-codefresh_build_test.png" 
+url="/uploads/images/docs/0d72e36-codefresh_build_test.png"
 alt="codefresh_build_test.png" 
 max-width="40%"
 caption="Build and Unit Test"
@@ -45,8 +45,8 @@ caption="Build and Unit Test"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/c15144c-codefresh_result_screen.png" 
-url="https://files.readme.io/c15144c-codefresh_result_screen.png"
+file="/uploads/images/docs/c15144c-codefresh_result_screen.png" 
+url="/uploads/images/docs/c15144c-codefresh_result_screen.png"
 alt="codefresh_result_screen.png" 
 max-width="40%"
 caption="Test Results"

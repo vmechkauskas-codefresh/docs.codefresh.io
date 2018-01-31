@@ -20,8 +20,8 @@ In the "Helm Charts" page, click on the "Add Repository" button on the top right
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/1b9743d-4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png" 
-url="https://files.readme.io/1b9743d-4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png"
+file="/uploads/images/docs/1b9743d-4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png" 
+url="/uploads/images/docs/1b9743d-4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png"
 alt="4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png" 
 max-width="30%"
 caption="Add Repository button" 
@@ -34,8 +34,8 @@ Finally, click on Save.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/56ca919-add-helm-repo.png" 
-url="https://files.readme.io/56ca919-add-helm-repo.png"
+file="/uploads/images/docs/56ca919-add-helm-repo.png" 
+url="/uploads/images/docs/56ca919-add-helm-repo.png"
 alt="add-helm-repo.png" 
 max-width="30%"
 caption="Add Repository button" 
@@ -50,8 +50,8 @@ In the "Helm Charts" page, locate the chart you would like to install, and click
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png" 
-url="https://files.readme.io/4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png"
+file="/uploads/images/docs/4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png" 
+url="/uploads/images/docs/4e0d943-Screen_Shot_2017-12-11_at_12.50.38_PM.png"
 alt="Screen Shot 2017-12-11 at 12.50.38 PM.png" 
 max-width="30%"
 caption="Helm charts view" 
@@ -67,8 +67,8 @@ In the dialog that opened:
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/36e5a16-Screen_Shot_2018-01-14_at_15.38.47.png" 
-url="https://files.readme.io/36e5a16-Screen_Shot_2018-01-14_at_15.38.47.png"
+file="/uploads/images/docs/36e5a16-Screen_Shot_2018-01-14_at_15.38.47.png" 
+url="/uploads/images/docs/36e5a16-Screen_Shot_2018-01-14_at_15.38.47.png"
 alt="Screen Shot 2018-01-14 at 15.38.47.png" 
 max-width="30%"
 caption="Installing a chart" 

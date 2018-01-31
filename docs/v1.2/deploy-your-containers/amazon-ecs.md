@@ -136,8 +136,8 @@ For more information on how to use the Codefresh's ECS update check the image's 
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/6ec9666-Image.png" 
-url="https://files.readme.io/6ec9666-Image.png"
+file="/uploads/images/docs/6ec9666-Image.png" 
+url="/uploads/images/docs/6ec9666-Image.png"
 alt="Image.png" 
 max-width="40%"
 caption="Set the deploy image and script"
@@ -146,8 +146,8 @@ caption="Set the deploy image and script"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/2e0e73d-image2.png" 
-url="https://files.readme.io/2e0e73d-image2.png"
+file="/uploads/images/docs/2e0e73d-image2.png" 
+url="/uploads/images/docs/2e0e73d-image2.png"
 alt="image2.png" 
 max-width="40%"
 caption="Set the environment variable"

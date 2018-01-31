@@ -28,8 +28,8 @@ Fork this example to try it.  [https://github.com/codefreshdemo/demochat](https:
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/e9db9ce-codefresh_build_push.png" 
-url="https://files.readme.io/e9db9ce-codefresh_build_push.png"
+file="/uploads/images/docs/e9db9ce-codefresh_build_push.png" 
+url="/uploads/images/docs/e9db9ce-codefresh_build_push.png"
 alt="codefresh_build_push.png" 
 max-width="40%"
 caption="Build and Push to Dockerhub"
@@ -43,8 +43,8 @@ caption="Build and Push to Dockerhub"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/0c5066b-codefresh_push_results.png" 
-url="https://files.readme.io/0c5066b-codefresh_push_results.png"
+file="/uploads/images/docs/0c5066b-codefresh_push_results.png" 
+url="/uploads/images/docs/0c5066b-codefresh_push_results.png"
 alt="codefresh_build_push.png" 
 max-width="40%"
 caption="Pushing to Docker Registry"

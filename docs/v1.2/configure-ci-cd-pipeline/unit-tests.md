@@ -12,9 +12,9 @@ You configure your unit test script inside the service's settings page or YML fi
 
 ## Run Unit Tests from the Codefresh UI
 1. Click **Pipelines** (gear icon) on your service.
-{% include image.html lightbox="true" file="https://files.readme.io/a3236fd-2016-10-14_13-28-57.png" url="https://files.readme.io/a3236fd-2016-10-14_13-28-57.png" alt="Add repository" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/a3236fd-2016-10-14_13-28-57.png" url="/uploads/images/docs/a3236fd-2016-10-14_13-28-57.png" alt="Add repository" max-width="40%" %}
 2. Define your unit test script.
-{% include image.html lightbox="true" file="https://files.readme.io/e70a039-2016-10-14_13-35-42.png" url="https://files.readme.io/e70a039-2016-10-14_13-35-42.png" alt="Add repository" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/e70a039-2016-10-14_13-35-42.png" url="/uploads/images/docs/e70a039-2016-10-14_13-35-42.png" alt="Add repository" max-width="40%" %}
 <div class="bd-callout bd-callout-warning" markdown="1">
 ##### IMPORTANT:
 
@@ -25,7 +25,7 @@ Make sure your testing frameworks are installed in your service Docker image. Fo
 
 ## **What to do next**: 
 Expand the **Running Unit Tests** section to view the actions taken during the test.
-{% include image.html lightbox="true" file="https://files.readme.io/2b48af2-2016-10-14_13-46-53.png" url="https://files.readme.io/2b48af2-2016-10-14_13-46-53.png" alt="Add repository" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/2b48af2-2016-10-14_13-46-53.png" url="/uploads/images/docs/2b48af2-2016-10-14_13-46-53.png" alt="Add repository" max-width="40%" %}
 
 ## Run unit tests using the codefresh.yml file
 
@@ -55,11 +55,11 @@ steps:
 
 {:start="2"} 
 2. In your pipeline switch to the **Use YML build**
-{% include image.html lightbox="true" file="https://files.readme.io/dd47675-codefresh_yml_build.png" url="https://files.readme.io/dd47675-codefresh_yml_build.png" alt="Codefresh YML Build" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/dd47675-codefresh_yml_build.png" url="/uploads/images/docs/dd47675-codefresh_yml_build.png" alt="Codefresh YML Build" max-width="40%" %}
 
 {:start="3"}
 3. Click **Save** and **Build**
-{% include image.html lightbox="true" file="https://files.readme.io/eca7ebb-2016-10-14_14-10-09.png" url="https://files.readme.io/eca7ebb-2016-10-14_14-10-09.png" alt="Codefresh YML Build" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/eca7ebb-2016-10-14_14-10-09.png" url="/uploads/images/docs/eca7ebb-2016-10-14_14-10-09.png" alt="Codefresh YML Build" max-width="40%" %}
 
 {:.text-secondary}
 ### **What to do next**: 
@@ -70,18 +70,18 @@ A **Composition** is a number of containers that define a micro-services based a
 
 {:start="1"}
 1. Select the `Run tests with composition` check box.
-{% include image.html lightbox="true" file="https://files.readme.io/d4b5997-6c54eef-2016-10-13_20-09-41.png" url="https://files.readme.io/d4b5997-6c54eef-2016-10-13_20-09-41.png" alt="Codefresh YML Build" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/d4b5997-6c54eef-2016-10-13_20-09-41.png" url="/uploads/images/docs/d4b5997-6c54eef-2016-10-13_20-09-41.png" alt="Codefresh YML Build" max-width="40%" %}
 
 {:start="2"}
 2. Select a composition.
-{% include image.html lightbox="true" file="https://files.readme.io/fde5fc0-acce127-2016-10-13_20-15-53.png" url="https://files.readme.io/fde5fc0-acce127-2016-10-13_20-15-53.png" alt="Codefresh YML Build" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/fde5fc0-acce127-2016-10-13_20-15-53.png" url="/uploads/images/docs/fde5fc0-acce127-2016-10-13_20-15-53.png" alt="Codefresh YML Build" max-width="40%" %}
 
 {:start="3"}
 3. There are two ways to run with composition: 
    *    **Attach to Composition** - The image will be attached to the composition as a new service named `cf_unit_test` and the script will run inside it.
    *    **Replace service** - Choose a candidate service from your composition which Codefresh will use to run your unit tests on. Notice that the image of that candidate will be replaced with the built image from the previous step and the command will be overridden by the unit test script. 
 
-{% include image.html lightbox="true" file="https://files.readme.io/5052f19-image4.png" url="https://files.readme.io/5052f19-image4.png" alt="Selecting the Replace Service option" caption="Selecting the Replace Service option" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/5052f19-image4.png" url="/uploads/images/docs/5052f19-image4.png" alt="Selecting the Replace Service option" caption="Selecting the Replace Service option" max-width="40%" %}
 
 {:start="4"}
 4. In Pipelines your service click **Save** and build your project.

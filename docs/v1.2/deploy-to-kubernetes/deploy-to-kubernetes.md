@@ -15,8 +15,8 @@ On your Account settings, go to Kubernetes Integration tab.
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/c7b958e-Screen_Shot_2017-10-23_at_7.31.49_PM.png" 
-url="https://files.readme.io/c7b958e-Screen_Shot_2017-10-23_at_7.31.49_PM.png" 
+file="/uploads/images/docs/c7b958e-Screen_Shot_2017-10-23_at_7.31.49_PM.png" 
+url="/uploads/images/docs/c7b958e-Screen_Shot_2017-10-23_at_7.31.49_PM.png" 
 alt="Screen Shot 2017-10-23 at 7.31.49 PM.png" 
 max-width="40%" 
 %}
@@ -36,8 +36,8 @@ Follow the following guide to add any kubernetes cluster - [Add Kubernetes clust
  
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/9095bec-Screen_Shot_2017-10-23_at_7.35.06_PM.png" 
-url="https://files.readme.io/9095bec-Screen_Shot_2017-10-23_at_7.35.06_PM.png" 
+file="/uploads/images/docs/9095bec-Screen_Shot_2017-10-23_at_7.35.06_PM.png" 
+url="/uploads/images/docs/9095bec-Screen_Shot_2017-10-23_at_7.35.06_PM.png" 
 alt="Screen Shot 2017-10-23 at 7.35.06 PM.png" 
 max-width="40%" 
 %}
@@ -65,8 +65,8 @@ In this view, you will be able to perform the following actions
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/1f46c20-Screen_Shot_2017-07-31_at_10.06.32_PM.png" 
-url="https://files.readme.io/1f46c20-Screen_Shot_2017-07-31_at_10.06.32_PM.png" 
+file="/uploads/images/docs/1f46c20-Screen_Shot_2017-07-31_at_10.06.32_PM.png" 
+url="/uploads/images/docs/1f46c20-Screen_Shot_2017-07-31_at_10.06.32_PM.png" 
 alt="Screen Shot 2017-07-31 at 10.06.32 PM.png" 
 max-width="40%" 
 %}
@@ -84,8 +84,8 @@ You can add images built in Codefresh which were pushed to Codefresh registry, o
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/d07104d-Screen_Shot_2017-07-23_at_6.46.17_PM.png" 
-url="https://files.readme.io/d07104d-Screen_Shot_2017-07-23_at_6.46.17_PM.png" 
+file="/uploads/images/docs/d07104d-Screen_Shot_2017-07-23_at_6.46.17_PM.png" 
+url="/uploads/images/docs/d07104d-Screen_Shot_2017-07-23_at_6.46.17_PM.png" 
 alt="Screen Shot 2017-07-23 at 6.46.17 PM.png" 
 max-width="40%" 
 %}
@@ -96,8 +96,8 @@ Use the following steps in order to add Image and pull secrets from [Codefresh R
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/11c15f3-Screen_Shot_2017-09-06_at_6.28.30_PM.png" 
-url="https://files.readme.io/11c15f3-Screen_Shot_2017-09-06_at_6.28.30_PM.png" 
+file="/uploads/images/docs/11c15f3-Screen_Shot_2017-09-06_at_6.28.30_PM.png" 
+url="/uploads/images/docs/11c15f3-Screen_Shot_2017-09-06_at_6.28.30_PM.png" 
 alt="Screen Shot 2017-09-06 at 6.28.30 PM.png" 
 max-width="40%" 
 %}
@@ -107,8 +107,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/58ac43c-Screen_Shot_2017-07-23_at_6.42.58_PM.png" 
-url="https://files.readme.io/58ac43c-Screen_Shot_2017-07-23_at_6.42.58_PM.png" 
+file="/uploads/images/docs/58ac43c-Screen_Shot_2017-07-23_at_6.42.58_PM.png" 
+url="/uploads/images/docs/58ac43c-Screen_Shot_2017-07-23_at_6.42.58_PM.png" 
 alt="Screen Shot 2017-07-23 at 6.42.58 PM.png" 
 max-width="40%" 
 %}
@@ -118,8 +118,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/d072267-Screen_Shot_2017-07-31_at_10.12.53_PM.png" 
-url="https://files.readme.io/d072267-Screen_Shot_2017-07-31_at_10.12.53_PM.png" 
+file="/uploads/images/docs/d072267-Screen_Shot_2017-07-31_at_10.12.53_PM.png" 
+url="/uploads/images/docs/d072267-Screen_Shot_2017-07-31_at_10.12.53_PM.png" 
 alt="Screen Shot 2017-07-31 at 10.12.53 PM.png" 
 max-width="40%" 
 %}
@@ -133,16 +133,16 @@ Copy and paste your existing K8 yaml files:
   
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/cc01a9f-Pasted_image_at_2017_07_23_03_17_PM.png" 
-url="https://files.readme.io/cc01a9f-Pasted_image_at_2017_07_23_03_17_PM.png" 
+file="/uploads/images/docs/cc01a9f-Pasted_image_at_2017_07_23_03_17_PM.png" 
+url="/uploads/images/docs/cc01a9f-Pasted_image_at_2017_07_23_03_17_PM.png" 
 alt="Pasted image at 2017_07_23 03_17 PM.png" 
 max-width="40%" 
 %}
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/7238315-Pasted_image_at_2017_07_23_03_18_PM.png" 
-url="https://files.readme.io/7238315-Pasted_image_at_2017_07_23_03_18_PM.png" 
+file="/uploads/images/docs/7238315-Pasted_image_at_2017_07_23_03_18_PM.png" 
+url="/uploads/images/docs/7238315-Pasted_image_at_2017_07_23_03_18_PM.png" 
 alt="Pasted image at 2017_07_23 03_18 PM.png" 
 max-width="40%" 
 %}
@@ -161,8 +161,8 @@ Just add the following to your [pipeline definition](https://dash.readme.io/proj
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/023f2ba-Screen_Shot_2017-08-01_at_12.09.31_PM.png" 
-url="https://files.readme.io/023f2ba-Screen_Shot_2017-08-01_at_12.09.31_PM.png" 
+file="/uploads/images/docs/023f2ba-Screen_Shot_2017-08-01_at_12.09.31_PM.png" 
+url="/uploads/images/docs/023f2ba-Screen_Shot_2017-08-01_at_12.09.31_PM.png" 
 alt="Screen Shot 2017-08-01 at 12.09.31 PM.png" 
 max-width="40%" 
 %}
@@ -172,16 +172,16 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/ee8330b-Screen_Shot_2017-07-31_at_10.10.46_PM.png" 
-url="https://files.readme.io/ee8330b-Screen_Shot_2017-07-31_at_10.10.46_PM.png" 
+file="/uploads/images/docs/ee8330b-Screen_Shot_2017-07-31_at_10.10.46_PM.png" 
+url="/uploads/images/docs/ee8330b-Screen_Shot_2017-07-31_at_10.10.46_PM.png" 
 alt="Screen Shot 2017-07-31 at 10.10.46 PM.png" 
 max-width="40%" 
 %}
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/3f7c1cf-Screen_Shot_2017-07-31_at_10.19.23_PM.png" 
-url="https://files.readme.io/3f7c1cf-Screen_Shot_2017-07-31_at_10.19.23_PM.png" 
+file="/uploads/images/docs/3f7c1cf-Screen_Shot_2017-07-31_at_10.19.23_PM.png" 
+url="/uploads/images/docs/3f7c1cf-Screen_Shot_2017-07-31_at_10.19.23_PM.png" 
 alt="Screen Shot 2017-07-31 at 10.19.23 PM.png" 
 max-width="40%" 
 %}

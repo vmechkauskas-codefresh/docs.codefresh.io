@@ -22,7 +22,7 @@ Follow these steps to add collaborators to your account.
 
 {:start="4"}
 4. Click the **Add** button.
-{% include image.html lightbox="true" file="https://files.readme.io/50b5ed2-codefresh_account_settings_new.png" url="https://files.readme.io/50b5ed2-codefresh_account_settings_new.png" alt="codefresh_account_settings_new.png" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/50b5ed2-codefresh_account_settings_new.png" url="/uploads/images/docs/50b5ed2-codefresh_account_settings_new.png" alt="codefresh_account_settings_new.png" max-width="40%" %}
 
 {{site.data.callout.callout_info}}
 ##### Note

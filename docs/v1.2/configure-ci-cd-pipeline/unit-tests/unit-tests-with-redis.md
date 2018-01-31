@@ -94,4 +94,4 @@ fi
   
 ## Expected result
 
-{% include image.html lightbox="true" file="https://files.readme.io/6a3d9d1-codefresh_unit_test_redis.png" url="https://files.readme.io/6a3d9d1-codefresh_unit_test_redis.png" alt="Codefresh unit test Redis" max-width="65%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/6a3d9d1-codefresh_unit_test_redis.png" url="/uploads/images/docs/6a3d9d1-codefresh_unit_test_redis.png" alt="Codefresh unit test Redis" max-width="65%" %}

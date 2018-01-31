@@ -38,11 +38,11 @@ when *param1*, *param2*, etc... are the parameters from the table below.
 
 {:start="2"}
 2. Click on the badges icon
-{% include image.html lightbox="true" file="https://files.readme.io/495e01c-codefresh_badges_1.png" url="https://files.readme.io/495e01c-codefresh_badges_1.png" alt="Codefresh badges" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/495e01c-codefresh_badges_1.png" url="/uploads/images/docs/495e01c-codefresh_badges_1.png" alt="Codefresh badges" max-width="40%" %}
 
 {:start="3"}
 3. Select the branch, choose the type
-{% include image.html lightbox="true" file="https://files.readme.io/a0c4aed-codefresh_badges_2.png" url="https://files.readme.io/a0c4aed-codefresh_badges_2.png" alt="Codefresh badges" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/a0c4aed-codefresh_badges_2.png" url="/uploads/images/docs/a0c4aed-codefresh_badges_2.png" alt="Codefresh badges" max-width="40%" %}
 
 {:start="4"}
 4. Copy badge in one of the formats

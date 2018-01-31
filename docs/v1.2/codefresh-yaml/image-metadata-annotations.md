@@ -12,7 +12,7 @@ toc: true
 Images built by Codefresh can be annotated with customized metadata.
 This article explains how to create advanced view of your images and enrich them with custom metadata which perfectly fits your flow and image management process.
 
-{% include image.html lightbox="true" file="https://files.readme.io/72f58a8-Screen_Shot_2017-10-17_at_1.55.17_PM.png" url="https://files.readme.io/72f58a8-Screen_Shot_2017-10-17_at_1.55.17_PM.png" alt="Screen Shot 2017-10-17 at 1.55.17 PM.png" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/72f58a8-Screen_Shot_2017-10-17_at_1.55.17_PM.png" url="/uploads/images/docs/72f58a8-Screen_Shot_2017-10-17_at_1.55.17_PM.png" alt="Screen Shot 2017-10-17 at 1.55.17 PM.png" max-width="40%" %}
 
 ## Metadata types
 Images built by Codefresh can be annotated with an array of key-value metadata.
@@ -97,11 +97,11 @@ You can view an image's metadata annotation by:
 2. Selecting the target image
 3. Selecting the `Annotations` tab
 
-{% include image.html lightbox="true" file="https://files.readme.io/7d4f8f7-Screen_Shot_2017-10-08_at_8.28.35_AM.png" url="https://files.readme.io/7d4f8f7-Screen_Shot_2017-10-08_at_8.28.35_AM.png" alt="Screen Shot 2017-10-08 at 8.28.35 AM.png" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/7d4f8f7-Screen_Shot_2017-10-08_at_8.28.35_AM.png" url="/uploads/images/docs/7d4f8f7-Screen_Shot_2017-10-08_at_8.28.35_AM.png" alt="Screen Shot 2017-10-08 at 8.28.35 AM.png" max-width="40%" %}
 
 In addition, you can add selected annotations to the images table on images page. To display an annotation in the image table, click on the gear icon at the top right corner of image page and then select all annotations you want to display.
 
-{% include image.html lightbox="true" file="https://files.readme.io/aec92e8-Screen_Shot_2017-10-17_at_3.01.26_PM.png" url="https://files.readme.io/aec92e8-Screen_Shot_2017-10-17_at_3.01.26_PM.png" alt="Screen Shot 2017-10-08 at 8.28.35 AM.png" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/aec92e8-Screen_Shot_2017-10-17_at_3.01.26_PM.png" url="/uploads/images/docs/aec92e8-Screen_Shot_2017-10-17_at_3.01.26_PM.png" alt="Screen Shot 2017-10-08 at 8.28.35 AM.png" max-width="40%" %}
 
 ## Example - Quality Image Metadata Annotation
 You can set a quality indicator to images to show if they passed or failed tests. An image with the boolean annotation `CF_QUALITY` set to true will have a quality indicator in the 'Images' view. 
@@ -138,4 +138,4 @@ Image quality has 3 indicators:
 * false - this image is not considered a quality image  (ex. when tests failed but the image was already built)
 * no value (nobody set the annotation) - this image has no quality indicator
 
-{% include image.html lightbox="true" file="https://files.readme.io/c39a9a2-QUALI.png" url="https://files.readme.io/c39a9a2-QUALI.png" alt="QUALI" max-width="40%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/c39a9a2-QUALI.png" url="/uploads/images/docs/c39a9a2-QUALI.png" alt="QUALI" max-width="40%" %}

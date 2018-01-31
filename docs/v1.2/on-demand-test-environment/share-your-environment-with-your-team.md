@@ -14,8 +14,8 @@ After you successfully spin up a composition, click the **Environments** view ic
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/6786b75-environment-running.png" 
-url="https://files.readme.io/6786b75-environment-running.png"
+file="/uploads/images/docs/6786b75-environment-running.png" 
+url="/uploads/images/docs/6786b75-environment-running.png"
 alt="environment-running.png" 
 max-width="50%"
 caption="to enlarge click on image"
@@ -26,8 +26,8 @@ Click the **Hashtag** icon to share your environment with your team.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/1fbb802-Screen_Shot_2017-01-31_at_2.58.58_PM.png" 
-url="https://files.readme.io/1fbb802-Screen_Shot_2017-01-31_at_2.58.58_PM.png"
+file="/uploads/images/docs/1fbb802-Screen_Shot_2017-01-31_at_2.58.58_PM.png" 
+url="/uploads/images/docs/1fbb802-Screen_Shot_2017-01-31_at_2.58.58_PM.png"
 alt="Screen Shot 2017-01-31 at 2.58.58 PM.png" 
 max-width="50%"
 %}

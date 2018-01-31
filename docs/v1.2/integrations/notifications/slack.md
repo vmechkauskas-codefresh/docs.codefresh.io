@@ -26,8 +26,8 @@ Codefresh can now post notifications to Slack, for example, notifications of suc
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/ccf5491-codefresh_slack_integration_new.png" 
-url="https://files.readme.io/ccf5491-codefresh_slack_integration_new.png" 
+file="/uploads/images/docs/ccf5491-codefresh_slack_integration_new.png" 
+url="/uploads/images/docs/ccf5491-codefresh_slack_integration_new.png" 
 alt="codefresh_slack_integration_new.png" 
 max-width="40%" 
 %}

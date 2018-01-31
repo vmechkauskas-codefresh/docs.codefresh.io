@@ -20,8 +20,8 @@ Select a namespace and hover mouse pointer on it. Click the gear button which ap
 
 {% include image.html
 lightbox="true"
-file="https://files.readme.io/65b5f4b-Screen_Shot_2017-10-08_at_9.10.09_AM.png"
-url="https://files.readme.io/65b5f4b-Screen_Shot_2017-10-08_at_9.10.09_AM.png"
+file="/uploads/images/docs/65b5f4b-Screen_Shot_2017-10-08_at_9.10.09_AM.png"
+url="/uploads/images/docs/65b5f4b-Screen_Shot_2017-10-08_at_9.10.09_AM.png"
 alt="Screen Shot 2017-10-08 at 9.10.09 AM.png"
 max-width="40%"
 %}
@@ -31,8 +31,8 @@ To add a new config map for selected namespace, open list of all config maps and
 
 {% include image.html
 lightbox="true"
-file="https://files.readme.io/e1650e2-Screen_Shot_2017-10-08_at_9.10.15_AM.png"
-url="https://files.readme.io/e1650e2-Screen_Shot_2017-10-08_at_9.10.15_AM.png"
+file="/uploads/images/docs/e1650e2-Screen_Shot_2017-10-08_at_9.10.15_AM.png"
+url="/uploads/images/docs/e1650e2-Screen_Shot_2017-10-08_at_9.10.15_AM.png"
 alt="Screen Shot 2017-10-08 at 9.10.15 AM.png"
 max-width="40%"
 %}
@@ -41,8 +41,8 @@ In config map form that will open, enter a name, add variables and click "Create
 
 {% include image.html
 lightbox="true"
-file="https://files.readme.io/108add4-Screen_Shot_2017-10-08_at_9.10.22_AM.png"
-url="https://files.readme.io/108add4-Screen_Shot_2017-10-08_at_9.10.22_AM.png"
+file="/uploads/images/docs/108add4-Screen_Shot_2017-10-08_at_9.10.22_AM.png"
+url="/uploads/images/docs/108add4-Screen_Shot_2017-10-08_at_9.10.22_AM.png"
 alt="Screen Shot 2017-10-08 at 9.10.22 AM.png"
 max-width="40%"
 %}
@@ -58,8 +58,8 @@ This is the easiest way to add variable inside config map. It's very useful when
 
 {% include image.html
 lightbox="true"
-file="https://files.readme.io/48cda66-Screen_Shot_2017-10-08_at_9.10.29_AM.png"
-url="https://files.readme.io/108add4-Screen_Shot_2017-10-08_at_9.10.22_AM.png"
+file="/uploads/images/docs/48cda66-Screen_Shot_2017-10-08_at_9.10.29_AM.png"
+url="/uploads/images/docs/108add4-Screen_Shot_2017-10-08_at_9.10.22_AM.png"
 alt="Screen Shot 2017-10-08 at 9.10.29 AM.png"
 max-width="40%"
 %}
@@ -75,8 +75,8 @@ To import from text:
 
 {% include image.html
 lightbox="true"
-file="https://files.readme.io/40b1c06-Screen_Shot_2017-10-08_at_9.10.39_AM.png"
-url="https://files.readme.io/40b1c06-Screen_Shot_2017-10-08_at_9.10.39_AM.png"
+file="/uploads/images/docs/40b1c06-Screen_Shot_2017-10-08_at_9.10.39_AM.png"
+url="/uploads/images/docs/40b1c06-Screen_Shot_2017-10-08_at_9.10.39_AM.png"
 alt="Screen Shot 2017-10-08 at 9.10.39 AM.png"
 max-width="40%"
 %}
@@ -95,8 +95,8 @@ You can easily copy previously created config map file and use it in other names
 
 {% include image.html
 lightbox="true"
-file="https://files.readme.io/181f2d4-Screen_Shot_2017-10-08_at_9.11.03_AM.png"
-url="https://files.readme.io/181f2d4-Screen_Shot_2017-10-08_at_9.11.03_AM.png"
+file="/uploads/images/docs/181f2d4-Screen_Shot_2017-10-08_at_9.11.03_AM.png"
+url="/uploads/images/docs/181f2d4-Screen_Shot_2017-10-08_at_9.11.03_AM.png"
 alt="Screen Shot 2017-10-08 at 9.11.03 AM.png"
 max-width="40%"
 %}
@@ -110,8 +110,8 @@ You can easily edit / remove variables for each you your config maps.
 
 {% include image.html
 lightbox="true"
-file="https://files.readme.io/1fb1529-Screen_Shot_2017-10-08_at_9.22.27_AM.png"
-url="https://files.readme.io/1fb1529-Screen_Shot_2017-10-08_at_9.22.27_AM.png"
+file="/uploads/images/docs/1fb1529-Screen_Shot_2017-10-08_at_9.22.27_AM.png"
+url="/uploads/images/docs/1fb1529-Screen_Shot_2017-10-08_at_9.22.27_AM.png"
 alt="Screen Shot 2017-10-08 at 9.22.27 AM.png"
 max-width="40%"
 %}

@@ -30,8 +30,8 @@ Codefresh also supports Stash. Check out our [documentation]({{ site.baseurl }}/
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/6a22e1e-screenshot-g.codefresh.io-2017-11-21-14-57-20.png" 
-url="https://files.readme.io/6a22e1e-screenshot-g.codefresh.io-2017-11-21-14-57-20.png"
+file="/uploads/images/docs/6a22e1e-screenshot-g.codefresh.io-2017-11-21-14-57-20.png" 
+url="/uploads/images/docs/6a22e1e-screenshot-g.codefresh.io-2017-11-21-14-57-20.png"
 alt="Github authorization page (click image to enlarge)" 
 max-width="30%" 
 %}
@@ -51,8 +51,8 @@ After you select which Git provider to link to, Codefresh requests permission to
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/782b804-Screen_Shot_2016-09-28_at_4.36.01_PM.png" 
-url="https://files.readme.io/782b804-Screen_Shot_2016-09-28_at_4.36.01_PM.png"
+file="/uploads/images/docs/782b804-Screen_Shot_2016-09-28_at_4.36.01_PM.png" 
+url="/uploads/images/docs/782b804-Screen_Shot_2016-09-28_at_4.36.01_PM.png"
 alt="Github authorization page (click image to enlarge)" 
 caption="Github authorization page (click image to enlarge)" 
 max-width="40%" 
@@ -62,8 +62,8 @@ max-width="40%"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/11802db-imageedit_3_2860379237.gif" 
-url="https://files.readme.io/11802db-imageedit_3_2860379237.gif"
+file="/uploads/images/docs/11802db-imageedit_3_2860379237.gif" 
+url="/uploads/images/docs/11802db-imageedit_3_2860379237.gif"
 alt="Bitbucket authorization page (click image to enlarge)" 
 caption="Bitbucket authorization page (click image to enlarge)" 
 max-width="40%" 
@@ -75,8 +75,8 @@ After you grant permission to access your Git provider account, you will be redi
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/8756a0b-Screen_Shot_2016-09-28_at_4.40.20_PM.png" 
-url="https://files.readme.io/8756a0b-Screen_Shot_2016-09-28_at_4.40.20_PM.png" 
+file="/uploads/images/docs/8756a0b-Screen_Shot_2016-09-28_at_4.40.20_PM.png" 
+url="/uploads/images/docs/8756a0b-Screen_Shot_2016-09-28_at_4.40.20_PM.png" 
 caption="Verify new account page (click image to enlarge)" 
 max-width="40%" 
 %}

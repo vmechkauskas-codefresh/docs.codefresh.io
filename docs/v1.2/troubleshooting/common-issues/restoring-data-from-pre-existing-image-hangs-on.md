@@ -16,8 +16,8 @@ In case the first step seems to hang for a significant amount of time when resto
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/365bcdb-example.png" 
-url="https://files.readme.io/365bcdb-example.png"
+file="/uploads/images/docs/365bcdb-example.png" 
+url="/uploads/images/docs/365bcdb-example.png"
 alt="example.png" 
 max-width="40%"
 %}
@@ -27,8 +27,8 @@ In order to do that, you can choose the option to reset your pipeline volume whe
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/02384f5-reset_volume.png" 
-url="https://files.readme.io/02384f5-reset_volume.png"
+file="/uploads/images/docs/02384f5-reset_volume.png" 
+url="/uploads/images/docs/02384f5-reset_volume.png"
 alt="reset volume.png" 
 max-width="40%"
 %}

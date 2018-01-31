@@ -19,8 +19,8 @@ Click the **Composition** view icon in the left pane, and click the **ADD COMPOS
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/9b3d250-codefresh_add_composition_first.png" 
-url="https://files.readme.io/9b3d250-codefresh_add_composition_first.png"
+file="/uploads/images/docs/9b3d250-codefresh_add_composition_first.png" 
+url="/uploads/images/docs/9b3d250-codefresh_add_composition_first.png"
 alt="codefresh_add_composition_first.png" 
 max-width="40%"
 %}
@@ -31,8 +31,8 @@ In the **Composition Name** text box, type a name for your composition and click
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/0c12241-codefresh_name_composition.png" 
-url="https://files.readme.io/0c12241-codefresh_name_composition.png"
+file="/uploads/images/docs/0c12241-codefresh_name_composition.png" 
+url="/uploads/images/docs/0c12241-codefresh_name_composition.png"
 alt="codefresh_name_composition.png" 
 max-width="40%"
 %}
@@ -48,8 +48,8 @@ Click **NEXT** for chosen way.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/ed196d3-codefresh_method_compose.png" 
-url="https://files.readme.io/ed196d3-codefresh_method_compose.png"
+file="/uploads/images/docs/ed196d3-codefresh_method_compose.png" 
+url="/uploads/images/docs/ed196d3-codefresh_method_compose.png"
 alt="codefresh_method_compose.png" 
 max-width="40%"
 %}
@@ -63,8 +63,8 @@ Start a new composition from a docker compose file in your repository.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/10c1ff7-codefresh_compose_add.png" 
-url="https://files.readme.io/10c1ff7-codefresh_compose_add.png"
+file="/uploads/images/docs/10c1ff7-codefresh_compose_add.png" 
+url="/uploads/images/docs/10c1ff7-codefresh_compose_add.png"
 alt="codefresh_compose_add.png" 
 max-width="40%"
 %}
@@ -85,8 +85,8 @@ Try the **ADD BY URL** option.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/972337d-codefresh_compose_by_url.png" 
-url="https://files.readme.io/972337d-codefresh_compose_by_url.png"
+file="/uploads/images/docs/972337d-codefresh_compose_by_url.png" 
+url="/uploads/images/docs/972337d-codefresh_compose_by_url.png"
 alt="codefresh_compose_by_url.png" 
 max-width="40%"
 %}
@@ -104,8 +104,8 @@ By default, Codefresh searches for your docker-compose.yml at the root level of 
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/dce8b4e-codefresh_path_docker_compose.png" 
-url="https://files.readme.io/dce8b4e-codefresh_path_docker_compose.png"
+file="/uploads/images/docs/dce8b4e-codefresh_path_docker_compose.png" 
+url="/uploads/images/docs/dce8b4e-codefresh_path_docker_compose.png"
 alt="codefresh_path_docker_compose.png" 
 max-width="40%"
 %}
@@ -121,8 +121,8 @@ Also in case if you have `build` property in your docker-compose.yml will be cre
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/503fa16-codefresh_replace_build.png" 
-url="https://files.readme.io/503fa16-codefresh_replace_build.png"
+file="/uploads/images/docs/503fa16-codefresh_replace_build.png" 
+url="/uploads/images/docs/503fa16-codefresh_replace_build.png"
 alt="codefresh_replace_build.png" 
 max-width="40%"
 %}
@@ -133,8 +133,8 @@ max-width="40%"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/aae9a21-codefresh_compose_repo_created.png" 
-url="https://files.readme.io/aae9a21-codefresh_compose_repo_created.png"
+file="/uploads/images/docs/aae9a21-codefresh_compose_repo_created.png" 
+url="/uploads/images/docs/aae9a21-codefresh_compose_repo_created.png"
 alt="codefresh_compose_repo_created.png" 
 max-width="40%"
 %}
@@ -145,8 +145,8 @@ In case if you chose **CONFIGURE COMPOSITION** you will see the following screen
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/0aa5fba-codefresh_first_composition.png" 
-url="https://files.readme.io/0aa5fba-codefresh_first_composition.png"
+file="/uploads/images/docs/0aa5fba-codefresh_first_composition.png" 
+url="/uploads/images/docs/0aa5fba-codefresh_first_composition.png"
 alt="codefresh_first_composition.png" 
 max-width="40%"
 %}
@@ -165,8 +165,8 @@ If your repository doesn't include docker-compose.yml, you can use one of our te
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/bb380f7-codefresh_template_composition.png" 
-url="https://files.readme.io/bb380f7-codefresh_template_composition.png"
+file="/uploads/images/docs/bb380f7-codefresh_template_composition.png" 
+url="/uploads/images/docs/bb380f7-codefresh_template_composition.png"
 alt="codefresh_template_composition.png" 
 max-width="40%"
 %}
@@ -176,8 +176,8 @@ You will see the editor of composition where you can change something and then l
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/d8c8e2b-codefresh_template_compose_edit.png" 
-url="https://files.readme.io/d8c8e2b-codefresh_template_compose_edit.png"
+file="/uploads/images/docs/d8c8e2b-codefresh_template_compose_edit.png" 
+url="/uploads/images/docs/d8c8e2b-codefresh_template_compose_edit.png"
 alt="codefresh_template_compose_edit.png" 
 max-width="40%"
 %}
@@ -199,8 +199,8 @@ You can add existing built services, or provide the name for Docker image that w
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/327ce99-codefresh_empty_compose.png" 
-url="https://files.readme.io/327ce99-codefresh_empty_compose.png"
+file="/uploads/images/docs/327ce99-codefresh_empty_compose.png" 
+url="/uploads/images/docs/327ce99-codefresh_empty_compose.png"
 alt="codefresh_empty_compose.png" 
 max-width="40%"
 %}

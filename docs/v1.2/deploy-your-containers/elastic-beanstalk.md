@@ -31,8 +31,8 @@ toc: true
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/bcf4a57-codefresh_eb_env_vars.png" 
-url="https://files.readme.io/bcf4a57-codefresh_eb_env_vars.png"
+file="/uploads/images/docs/bcf4a57-codefresh_eb_env_vars.png" 
+url="/uploads/images/docs/bcf4a57-codefresh_eb_env_vars.png"
 alt="codefresh_eb_env_vars.png" 
 max-width="40%"
 %}
@@ -46,8 +46,8 @@ The ``${{AWS_VERSION}}`` of application you can find in the Elastic Beanstalk se
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/c4e5ea2-codefresh_eb_version_label.png" 
-url="https://files.readme.io/c4e5ea2-codefresh_eb_version_label.png"
+file="/uploads/images/docs/c4e5ea2-codefresh_eb_version_label.png" 
+url="/uploads/images/docs/c4e5ea2-codefresh_eb_version_label.png"
 alt="codefresh_eb_version_label.png" 
 max-width="40%"
 %}
@@ -61,8 +61,8 @@ The ``${{AWS_ENV_NAME}}`` of application you can find in the Elastic Beanstalk s
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/f326437-codefresh_eb_environment.png" 
-url="https://files.readme.io/f326437-codefresh_eb_environment.png"
+file="/uploads/images/docs/f326437-codefresh_eb_environment.png" 
+url="/uploads/images/docs/f326437-codefresh_eb_environment.png"
 alt="codefresh_eb_environment.png" 
 max-width="40%"
 %}
@@ -92,8 +92,8 @@ deploy-elastic-beanstalk:
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/0cd9b90-codefresh_eb_environment.png" 
-url="https://files.readme.io/0cd9b90-codefresh_eb_environment.png"
+file="/uploads/images/docs/0cd9b90-codefresh_eb_environment.png" 
+url="/uploads/images/docs/0cd9b90-codefresh_eb_environment.png"
 alt="codefresh_eb_environment.png" 
 max-width="40%"
 %}
@@ -113,8 +113,8 @@ If you don't have awsebcli - install EB CLI [http://docs.aws.amazon.com/elasticb
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/c1335ec-codefresh_eb_health.png" 
-url="https://files.readme.io/c1335ec-codefresh_eb_health.png"
+file="/uploads/images/docs/c1335ec-codefresh_eb_health.png" 
+url="/uploads/images/docs/c1335ec-codefresh_eb_health.png"
 alt="codefresh_eb_health.png" 
 max-width="40%"
 %}
@@ -124,8 +124,8 @@ max-width="40%"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/648e324-codefresh_eb_cf_step_deploy.png" 
-url="https://files.readme.io/648e324-codefresh_eb_cf_step_deploy.png"
+file="/uploads/images/docs/648e324-codefresh_eb_cf_step_deploy.png" 
+url="/uploads/images/docs/648e324-codefresh_eb_cf_step_deploy.png"
 alt="codefresh_eb_cf_step_deploy.png" 
 max-width="40%"
 %}

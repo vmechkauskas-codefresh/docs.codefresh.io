@@ -14,8 +14,8 @@ toc: true
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/88ec329-Screen_Shot_2016-09-29_at_3.13.51_PM.png" 
-url="https://files.readme.io/88ec329-Screen_Shot_2016-09-29_at_3.13.51_PM.png"
+file="/uploads/images/docs/88ec329-Screen_Shot_2016-09-29_at_3.13.51_PM.png" 
+url="/uploads/images/docs/88ec329-Screen_Shot_2016-09-29_at_3.13.51_PM.png"
 alt="Screen Shot 2016-09-29 at 3.13.51 PM.png" 
 max-width="40%"
 caption="Pick a repository empty list(click image to enlarge)"
@@ -32,8 +32,8 @@ caption="Pick a repository empty list(click image to enlarge)"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/415b5cf-2016-09-29_1530.png" 
-url="https://files.readme.io/415b5cf-2016-09-29_1530.png"
+file="/uploads/images/docs/415b5cf-2016-09-29_1530.png" 
+url="/uploads/images/docs/415b5cf-2016-09-29_1530.png"
 alt="2016-09-29_1530.png" 
 max-width="40%"
 caption="Github user menu (click image to enlarge)"
@@ -45,8 +45,8 @@ In your **Personal settings** view, click **Authorized applications**.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/e259e11-2016-09-29_1535.png" 
-url="https://files.readme.io/e259e11-2016-09-29_1535.png"
+file="/uploads/images/docs/e259e11-2016-09-29_1535.png" 
+url="/uploads/images/docs/e259e11-2016-09-29_1535.png"
 alt="2016-09-29_1535.png" 
 max-width="40%"
 caption="Personal settings (click image to enlarge)"
@@ -58,8 +58,8 @@ Locate and click the Codefresh authorized application.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/800315e-2016-09-29_1537.png" 
-url="https://files.readme.io/800315e-2016-09-29_1537.png"
+file="/uploads/images/docs/800315e-2016-09-29_1537.png" 
+url="/uploads/images/docs/800315e-2016-09-29_1537.png"
 alt="2016-09-29_1537.png" 
 max-width="40%"
 caption="Authorized applications (click image to enlarge)"
@@ -75,8 +75,8 @@ If you do not have Admin privileges for your organization, click **Request acces
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/28c3267-2016-09-29_1539.png" 
-url="https://files.readme.io/28c3267-2016-09-29_1539.png"
+file="/uploads/images/docs/28c3267-2016-09-29_1539.png" 
+url="/uploads/images/docs/28c3267-2016-09-29_1539.png"
 alt="2016-09-29_1539.png" 
 max-width="40%"
 caption="Request access (click image to enlarge)"
@@ -85,8 +85,8 @@ caption="Request access (click image to enlarge)"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/45e8c2b-2016-09-29_1542.png" 
-url="https://files.readme.io/45e8c2b-2016-09-29_1542.png"
+file="/uploads/images/docs/45e8c2b-2016-09-29_1542.png" 
+url="/uploads/images/docs/45e8c2b-2016-09-29_1542.png"
 alt="2016-09-29_1542.png" 
 max-width="40%"
 caption="Access requested (click image to enlarge)"
@@ -100,8 +100,8 @@ You can always have the option to revoke access.
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/e5b5e2a-2016-09-29_1546.png" 
-url="https://files.readme.io/e5b5e2a-2016-09-29_1546.png"
+file="/uploads/images/docs/e5b5e2a-2016-09-29_1546.png" 
+url="/uploads/images/docs/e5b5e2a-2016-09-29_1546.png"
 alt="2016-09-29_1542.png" 
 max-width="40%"
 caption="Grant access (click image to enlarge)"
@@ -110,8 +110,8 @@ caption="Grant access (click image to enlarge)"
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/2b55c86-2016-09-29_1547.png" 
-url="https://files.readme.io/2b55c86-2016-09-29_1547.png"
+file="/uploads/images/docs/2b55c86-2016-09-29_1547.png" 
+url="/uploads/images/docs/2b55c86-2016-09-29_1547.png"
 alt="2016-09-29_1547.png" 
 max-width="40%"
 caption="Access granted (click image to enlarge)"

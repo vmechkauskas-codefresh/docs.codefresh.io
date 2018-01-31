@@ -38,8 +38,8 @@ The architecture for this step is displayed in the diagram below. In this step e
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/a65a871-codefresh_webapp_container.png" 
-url="https://files.readme.io/a65a871-codefresh_webapp_container.png"
+file="/uploads/images/docs/a65a871-codefresh_webapp_container.png" 
+url="/uploads/images/docs/a65a871-codefresh_webapp_container.png"
 alt="codefresh_webapp_container.png" 
 max-width="40%"
 %}
@@ -75,8 +75,8 @@ The architecture for the ```docker-compose.yml``` file is displayed in the diagr
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/72a8d7a-codefresh_nginx_container.png" 
-url="https://files.readme.io/72a8d7a-codefresh_nginx_container.png"
+file="/uploads/images/docs/72a8d7a-codefresh_nginx_container.png" 
+url="/uploads/images/docs/72a8d7a-codefresh_nginx_container.png"
 alt="codefresh_nginx_container.png" 
 max-width="40%"
 %}

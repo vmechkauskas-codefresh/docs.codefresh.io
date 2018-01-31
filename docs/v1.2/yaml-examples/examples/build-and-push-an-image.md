@@ -78,8 +78,8 @@ After adding this repository as new service to codefresh, go to pipelines of thi
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/dd06fa9-codefresh_push_credentials.png" 
-url="https://files.readme.io/dd06fa9-codefresh_push_credentials.png" 
+file="/uploads/images/docs/dd06fa9-codefresh_push_credentials.png" 
+url="/uploads/images/docs/dd06fa9-codefresh_push_credentials.png" 
 alt="codefresh_push_credentials.png" 
 max-width="40%" 
 %}
@@ -88,8 +88,8 @@ If your credentials are correct you can see that the created image was pushed to
 
 {% include image.html 
 lightbox="true" 
-file="https://files.readme.io/ae0409d-codefresh_push_dockerhub.png" 
-url="https://files.readme.io/ae0409d-codefresh_push_dockerhub.png" 
+file="/uploads/images/docs/ae0409d-codefresh_push_dockerhub.png" 
+url="/uploads/images/docs/ae0409d-codefresh_push_dockerhub.png" 
 alt="codefresh_push_credentials.png" 
 max-width="40%" 
 %}

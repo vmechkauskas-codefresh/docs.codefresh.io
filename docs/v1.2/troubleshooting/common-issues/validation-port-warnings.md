@@ -20,8 +20,8 @@ When you try to launch a service or composition you may see warning regarding th
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/7ce9b1b-2016-09-29_13-19-16.png" 
-url="https://files.readme.io/7ce9b1b-2016-09-29_13-19-16.png"
+file="/uploads/images/docs/7ce9b1b-2016-09-29_13-19-16.png" 
+url="/uploads/images/docs/7ce9b1b-2016-09-29_13-19-16.png"
 alt="2016-09-29_13-19-16.png" 
 max-width="40%"
 %}
@@ -41,8 +41,8 @@ When launching a pipeline, Codefresh exposes the ports specified in the reposito
 {% include 
 image.html 
 lightbox="true" 
-file="https://files.readme.io/e8a83e0-2016-09-29_13-28-13.png" 
-url="https://files.readme.io/e8a83e0-2016-09-29_13-28-13.png"
+file="/uploads/images/docs/e8a83e0-2016-09-29_13-28-13.png" 
+url="/uploads/images/docs/e8a83e0-2016-09-29_13-28-13.png"
 alt="2016-09-29_13-28-13.png" 
 max-width="40%"
 %}

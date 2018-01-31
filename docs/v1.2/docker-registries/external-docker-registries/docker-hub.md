@@ -14,7 +14,7 @@ To configure Docker Hub first select **Docker Hub** from the new registry drop d
 * Username - Docker Hub username
 * Password - Docker Hub password
 
-{% include image.html lightbox="true" file="https://files.readme.io/ff5dfa5-add-dockerhub.png" url="https://files.readme.io/ff5dfa5-add-dockerhub.png" alt="Add Docker Hub" max-width="45%" %}
+{% include image.html lightbox="true" file="/uploads/images/docs/ff5dfa5-add-dockerhub.png" url="/uploads/images/docs/ff5dfa5-add-dockerhub.png" alt="Add Docker Hub" max-width="45%" %}
 
 <div class="bd-callout bd-callout-info" markdown="1">
 ##### NOTE:
