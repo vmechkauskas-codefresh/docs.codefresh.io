@@ -2,7 +2,7 @@
   <p>
   {% if {{include.url}} %}
   <a class="no_icon mx-auto d-block text-center"
-     href="{{include.url}}"
+     href="{{ site.baseurl }}{{include.url}}"
      {% if {{include.lightbox}} %}
      data-toggle="lightbox" data-type="image"
      {% endif %}
@@ -10,7 +10,7 @@
   >
   {% endif %}
   <img class="img-thumbnail"
-       src="{{include.file}}"
+       src="{{ site.baseurl }}{{include.file}}"
        alt="{{include.alt}}"
   />
        {% if {{include.url}} %}
