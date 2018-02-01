@@ -82,4 +82,41 @@
     background-position: .4rem .6rem;
     background-size: .75rem .75rem;
   }
+
+  .form-control {
+    // Placeholder
+    &::placeholder {
+      color: rgba($bd-topaz-extra-light, .75);
+      // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
+      opacity: 1;
+    }
+    &.form-control-dark {
+      color: $bd-topaz-extra-light;
+      background-color: $bd-greenish-blue;
+      border-color: $bd-greenish-blue;
+      &:focus {
+        border-color: transparent;
+        box-shadow: 0 0 0 1px rgba($bd-topaz-extra-light, .25);
+      }
+    }
+  }
+
+  .bd-search {
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .bd-search {
+      width: 100%;
+      padding: 0 8px;
+      margin-right: -8px;
+      margin-left: -8px;
+      .form-control {
+        width: 100%;
+      }
+    }
+  }
 }
