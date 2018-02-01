@@ -153,6 +153,7 @@ So, what's next?
 {:.text-secondary}
 ### Automate adding custom Kubernetes cluster
 
+{:.text-secondary}
 #### 1. Get Codefresh API token 
 
 Visit [Codefresh API page](https://g.codefresh.io/api/) to get your API token.
@@ -165,6 +166,7 @@ alt="Screen Shot 2017-09-24 at 14.05.04.png"
 max-width="40%" 
 %}
 
+{:.text-secondary}
 #### 2. Import Kubernetes cluster
 
 Download and run a shell script to import cluster from current Kubernetes context into your Codefresh account.
@@ -173,5 +175,37 @@ Download and run a shell script to import cluster from current Kubernetes contex
 {% raw %}
 API_TOKEN="COPY Codefresh API TOKEN HERE ..."
 wget -O import.sh https://raw.githubusercontent.com/codefresh-io/import_cluster/master/import.sh && chmod +x import.sh && ./import.sh $API_TOKEN
+{% endraw %}
+{% endhighlight %}
+
+{:.text-secondary}
+### Debugging
+
+If the test fails, click "Save" to get the error message back.
+
+{% include image.html 
+lightbox="true" 
+file="/uploads/images/docs/42382c7-click-save.png" 
+url="/uploads/images/docs/42382c7-click-save.png" 
+alt="click-save.png" 
+max-width="40%" 
+%}
+ 
+{:.text-secondary}
+#### Namespaces is forbidden
+
+  `Add Cluster Error`
+{% highlight shell %}
+{% raw %}
+Failed to add cluster: namespaces is forbidden: User "system:serviceaccount:default:default" cannot list namespaces at the cluster scope
+{% endraw %}
+{% endhighlight %}
+
+The current user doesn't have enough permissions to added. To fix this add a service account with the proper permissions using the following command
+
+  `Create service account`
+{% highlight shell %}
+{% raw %}
+kubectl create clusterrolebinding default-admin --clusterrole cluster-admin --serviceaccount=default:default
 {% endraw %}
 {% endhighlight %}
