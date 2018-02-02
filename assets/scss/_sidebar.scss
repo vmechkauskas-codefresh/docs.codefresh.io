@@ -74,10 +74,9 @@
   padding-bottom: 1rem;
   margin-right: -15px;
   margin-left: -15px;
-
   @include media-breakpoint-up(md) {
     @supports (position: sticky) {
-      max-height: calc(100vh - 9rem);
+      max-height: calc(100vh - 4rem);
       overflow-y: auto;
     }
   }
@@ -85,6 +84,13 @@
   // Override collapse behaviors
   @include media-breakpoint-up(md) {
     display: block !important;
+  }
+}
+.bd-search + .bd-links {
+  @include media-breakpoint-up(md) {
+    @supports (position: sticky) {
+      max-height: calc(100vh - 8.5rem);
+    }
   }
 }
 
