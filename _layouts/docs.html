@@ -12,7 +12,7 @@
 
     {% include docs-navbar.html %}
 
-    <div class="container-fluid">
+    <div class="container-fluid docs-layout">
       <div class="row flex-xl-nowrap">
         <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
           {% include docs-sidebar.html.twig %}
@@ -28,10 +28,12 @@
           {% endif %}
         {% endif %}
 
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-          <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
-          <p class="bd-lead">{{ page.description | smartify }}</p>
-          {{ content }}
+        <main class="col-12 col-md-9 col-xl-8 py-3 pl-3 bd-content" role="main">
+          <div class="bd-content-inner py-md-3 pl-4 pr-4">
+            <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
+            <p class="bd-lead">{{ page.description | smartify }}</p>
+            {{ content }}
+          </div>
         </main>
       </div>
     </div>
