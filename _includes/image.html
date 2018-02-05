@@ -1,7 +1,21 @@
+{% assign layout_align = 'left' %}
+{% if {{include.align}} %}
+{% assign layout_align = include.align %}
+{% elsif site.layout.image_align %}
+{% assign layout_align = site.layout.image_align %}}
+{% endif %}
+
 <figure>
   <p>
+  {% if layout_align == 'center' %}
+    {% assign align_class = 'mx-auto' %}
+  {% elsif layout_align == 'left' %}
+    {% assign align_class = 'mr-auto' %}
+  {% elsif layout_align == 'right' %}
+    {% assign align_class = 'ml-auto' %}
+  {% endif %}
   {% if {{include.url}} %}
-  <a class="no_icon mx-auto d-block text-center"
+  <a class="no_icon d-block {{align_class}}"
      href="{{ site.baseurl }}{{include.url}}"
      {% if {{include.lightbox}} %}
      data-toggle="lightbox" data-type="image"
@@ -18,6 +32,6 @@
   {% endif %}
   </p>
   {% if {{include.caption}} %}
-  <figcaption class="h6 text-center font-italic">{{include.caption}}</figcaption>
+  <figcaption class="h6 font-italic text-{{layout_align}}">{{include.caption}}</figcaption>
   {% endif %}
 </figure>
