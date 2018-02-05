@@ -208,7 +208,7 @@
       url: "/golang"
       sub-pages:
         - title: 'Go: Hello World'
-          url: "/cf-example-golang-hello-world"
+          url: "/golang-hello-world"
     - title: General
       url: "/general"
       sub-pages:
