@@ -205,10 +205,10 @@
         - title: Gradle
           url: "/gradle"
     - title: Go
-      url: "/docs/golang"
+      url: "/golang"
       sub-pages:
         - title: 'Go: Hello World'
-          url: "/docs/cf-example-golang-hello-world"
+          url: "/cf-example-golang-hello-world"
     - title: General
       url: "/docs/general"
       sub-pages:
