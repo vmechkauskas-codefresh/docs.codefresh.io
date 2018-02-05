@@ -191,12 +191,12 @@
         - title: 'Scala: Hello World'
           url: "/scala-hello-world"
     - title: Python
-      url: "/docs/python"
+      url: "/python"
       sub-pages:
         - title: Djanga
-          url: "/docs/djanga"
+          url: "/djanga"
         - title: Voting app
-          url: "/docs/voting-app-1"
+          url: "/voting-app"
     - title: Java
       url: "/docs/java"
       sub-pages:
