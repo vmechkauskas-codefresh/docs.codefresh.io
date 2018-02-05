@@ -22,8 +22,17 @@ A service account is an object that created upon cluster creation, we will ask y
 By default we're asking for service account named 'default', you can provide your service account credentials, note that those credentials might have limited permissions. 
 {{site.data.callout.end}}
 
-## The easiest way
+{{site.data.callout.callout_warning}}
+##### Provide your Load Balancer with a valid certificate
 
+Provide your Load Balancer with a valid certificate
+Cluster addition will fail if your TLS/SSL configuration is not valid. See the details [here]({{ site.baseurl }}/docs/{{ site.docs_version }}/deploy-to-kubernetes/verify-cluster-tls-ssl-configuration/). 
+{{site.data.callout.end}}
+
+{% comment %}
+###### TODO: CHECK
+
+## The easiest way
 Use Codefresh tool called [Stevedore](https://github.com/codefresh-io/Stevedore){:target="_blank"}
 First, get your Codefresh token from [https://g.codefresh.io/api/](https://g.codefresh.io/api/){:target="_blank"}
 * Run `CODEFRESH_TOKEN={TOKEN}`
@@ -42,6 +51,7 @@ docker run \
 -v ~/.config/gcloud/:/.config/gcloud \
 codefresh/stevedore create --all
 {% endhighlight %}
+{% endcomment %}
 
 ## Get cluster credentials
 Copy-paste the commands into you local shell, then save the outputs and paste them into Codefresh.
@@ -49,7 +59,7 @@ Copy-paste the commands into you local shell, then save the outputs and paste th
 {{site.data.callout.callout_info}}
 ##### More than one cluster in kubeconfig?
 
-Before starting, make sure that you local context is the one you'de like to add to Codefresh.
+Before starting, make sure that you local context is the one you'de like to add to Codefresh.<br>
 Switch to the desired context before continue 
 {{site.data.callout.end}}
 
@@ -91,11 +101,22 @@ max-width="40%"
 2. Enable your integration with Google cloud.
 You will be redirected to google and will be asked to enter your Google account credentials.
 
+{% comment %}
+###### TODO: CHECK
 {% include image.html 
 lightbox="true" 
 file="/uploads/images/docs/3481f0f-codefresh_k8_configure.png" 
 url="/uploads/images/docs/3481f0f-codefresh_k8_configure.png" 
 alt="codefresh_k8_configure.png" 
+max-width="40%" 
+%}
+{% endcomment %}
+
+{% include image.html 
+lightbox="true" 
+file="/uploads/images/docs/42382c7-click-save.png" 
+url="/uploads/images/docs/42382c7-click-save.png" 
+alt="click-save.png" 
 max-width="40%" 
 %}
 
@@ -156,7 +177,7 @@ So, what's next?
 {:.text-secondary}
 #### 1. Get Codefresh API token 
 
-Visit [Codefresh API page](https://g.codefresh.io/api/) to get your API token.
+Visit [Codefresh API page](https://g.codefresh.io/api/){:target="_blank"} to get your API token.
 
 {% include image.html 
 lightbox="true" 
