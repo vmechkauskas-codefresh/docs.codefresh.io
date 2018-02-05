@@ -5,8 +5,9 @@ description: ""
 group: learn-by-example
 redirect_from:
   - /docs/general
-  - /docs/learn-by-example/general/
-  - /docs/v1.2/learn-by-example/general/
+  - /docs/learn-by-example/general
+  - /docs/v1.2/learn-by-example/
+  - /docs/v1.2/learn-by-example/general
 toc: true
 ---
 This section contains Codefresh examples based on other technologies.
