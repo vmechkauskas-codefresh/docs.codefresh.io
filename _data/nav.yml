@@ -175,6 +175,46 @@
         - title: Continuous Delivery - GKE, Docker SWARM, Amazon ECS
           url: "/build-and-deploy-to-kubernetes"
 
+- title: Learn by example
+  url: "/learn-by-example"
+  pages:
+    - title: Node.js
+      url: "/nodejs"
+      sub-pages:
+        - title: Let's Chat
+          url: "/lets-chat"
+        - title: Voting app
+          url: "/voting-app"
+    - title: Scala
+      url: "/docs/scala"
+      sub-pages:
+        - title: 'Scala: Hello World'
+          url: "/docs/scala-hello-world"
+    - title: Python
+      url: "/docs/python"
+      sub-pages:
+        - title: Djanga
+          url: "/docs/djanga"
+        - title: Voting app
+          url: "/docs/voting-app-1"
+    - title: Java
+      url: "/docs/java"
+      sub-pages:
+        - title: Spring MVC JDBC Template
+          url: "/docs/spring-mvc-jdbc-template"
+        - title: Gradle
+          url: "/docs/gradle"
+    - title: Go
+      url: "/docs/golang"
+      sub-pages:
+        - title: 'Go: Hello World'
+          url: "/docs/cf-example-golang-hello-world"
+    - title: General
+      url: "/docs/general"
+      sub-pages:
+        - title: Selenium test
+          url: "/docs/selenium-test"
+
 - title: On Demand Test Environment
   url: "/on-demand-test-environment"
   pages:
