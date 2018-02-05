@@ -46,3 +46,4 @@ twbsconfig.yml
 # Folders to ignore
 node_modules
 /dist
+/uploads/images/docs/optimized
