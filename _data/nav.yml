@@ -210,10 +210,10 @@
         - title: 'Go: Hello World'
           url: "/cf-example-golang-hello-world"
     - title: General
-      url: "/docs/general"
+      url: "/general"
       sub-pages:
         - title: Selenium test
-          url: "/docs/selenium-test"
+          url: "/selenium-test"
 
 - title: On Demand Test Environment
   url: "/on-demand-test-environment"
