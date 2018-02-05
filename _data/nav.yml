@@ -198,12 +198,12 @@
         - title: Voting app
           url: "/voting-app"
     - title: Java
-      url: "/docs/java"
+      url: "/java"
       sub-pages:
         - title: Spring MVC JDBC Template
-          url: "/docs/spring-mvc-jdbc-template"
+          url: "/spring-mvc-jdbc-template"
         - title: Gradle
-          url: "/docs/gradle"
+          url: "/gradle"
     - title: Go
       url: "/docs/golang"
       sub-pages:
