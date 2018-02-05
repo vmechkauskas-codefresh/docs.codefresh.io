@@ -7,6 +7,7 @@ group: learn-by-example
 sub_group: nodejs
 redirect_from:
   - /docs/voting-app
+  - /docs/nodejs/voting-app
   - /docs/v1.2/voting-app/
 toc: true
 ---
