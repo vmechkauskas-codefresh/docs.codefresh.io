@@ -9,6 +9,7 @@ redirect_from:
   - /docs/voting-app
   - /docs/nodejs/voting-app
   - /docs/v1.2/voting-app/
+  - /docs/v1.2/nodejs/voting-app/
 toc: true
 ---
 This voting application is a demo with which you can build an advanced composition that uses `Python, Redis, Postgres, Node.js, and .Net`. 
