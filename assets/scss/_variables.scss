@@ -10,6 +10,7 @@ $bd-download:      #ffe484 !default;
 $bd-info:          #5bc0de !default;
 $bd-warning:       #f0ad4e !default;
 $bd-danger:        #d9534f !default;
+$bd-success:       #11b5a4 !default;
 
 $bd-topaz-extra-light:    #e4f3f1 !default;
 
@@ -19,8 +20,8 @@ $bd-topaz-light:  lighten(saturate($bd-topaz-main, 5%), 45%) !default;
 $bd-topaz-dark:    rgb(11, 111, 99) !default;
 
 // Navbar colors
-$bd-topaz-navbar-g1: #319d8e;
-$bd-topaz-navbar-g2: #3ab6a5;
+$bd-topaz-navbar-g1: #0f9c8d;
+$bd-topaz-navbar-g2: #11b5a4;
 $bd-topaz-navbar-g3: #4ebbd3;
 
 $cf-navbar-link-color: $bd-white;
