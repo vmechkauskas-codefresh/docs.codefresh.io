@@ -6,6 +6,8 @@ group: deploy-your-containers
 redirect_from:
   - /docs/google-container-engine-gke-kubernetes
 toc: true
+old_url: /docs/google-container-engine-gke-kubernetes
+was_hidden: true
 ---
 Google Container Engine is a powerful cluster manager and orchestration system for running your Docker containers built on Kubernetes. Deploying to GKE will follow the standard Kubernetes steps outlined below.
  
@@ -29,80 +31,87 @@ Edit `codefresh.yml` and `deployment.yml.tmpl` files. Change `$docker-image` wit
   `codefresh.yml`
 {% highlight yaml %}
 {% raw %}
+version: '1.0'
 
-----
+steps:
+  build:
+    type: build
+    working-directory: ${{initial-clone}}
+    image-name: ncodefresh/cf-kubernetes-test
+    tag: '${{CF_REVISION}}'
+
+  push:
+    type: push
+    candidate: ${{build}}
+    tag: ${{CF_BRANCH}}
+
+  deploy-to-kubernetes-staging:
+    image: codefreshio/kubernetes-deployer:master
+    tag: latest
+    working-directory: ${{initial-clone}}
+    commands:
+      - /deploy/bin/deploy.sh ./root
+    environment:
+      - ENVIRONMENT=${{ENVIRONMENT}}
+      - KUBERNETES_USER=${{KUBERNETES_USER}}
+      - KUBERNETES_PASSWORD=${{KUBERNETES_PASSWORD}}
+      - KUBERNETES_SERVER=${{KUBERNETES_SERVER}}
+      - DOCKER_IMAGE_TAG=${{CF_REVISION}}
+{% endraw %}
+{% endhighlight %}
+
+  `deployment.yml.tmpl`
+{% highlight yaml %}
+{% raw %}
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: alpine-nginx
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: alpine-nginx
+    spec:
+      containers:
+        - name: alpine-nginx
+          image: $docker-image:$DOCKER_IMAGE_TAG
+          ports:
+            - containerPort: 80
+              name: http
+{% endraw %}
+{% endhighlight %}
+
+Set up the following environment variables to specify the Kubernetes cluster we'll use to deploy the project.
+
+{: .table .table-bordered .table-hover}
+| Variable                   | Description                                                              |
+| -------------------------- | -------------------------------------------------------------------------|
+| `KUBERNETES_USER`          | The user for the Kubernetes cluster. Mandatory.                          |
+| `KUBERNETES_PASSWORD`      | The password for the Kubernetes cluster. Mandatory.                      |
+| `KUBERNETES_SERVER`        | The server (HTTPS endpoint) of the Kubernetes cluster's API. Mandatory.  |
+| `ENVIRONMENT`              | The name of the file with environment variables. Note, this file should be located in the folder 'environments' that is located by the same path like deployment.yml.tmpl. For this example use filename 'staging'.  |
+
+{:start="1"}
+1. Run the build in Codefresh.io
+
+{:start="2"}
+2. Check that the deployment succeeded with kubectl:
+
+  `command`
+{% highlight text %}
+{% raw %}
+
+kubectl get pods -l app=alpine-nginx
 
 {% endraw %}
 {% endhighlight %}
 
-[block:code]
-{
-  "codes": [
-    {
-      "code": "version: '1.0'\n\nsteps:\n  build:\n    type: build\n    working-directory: ${{initial-clone}}\n    image-name: ncodefresh/cf-kubernetes-test\n    tag: '${{CF_REVISION}}'\n\n  push:\n    type: push\n    candidate: ${{build}}\n    tag: ${{CF_BRANCH}}\n\n  deploy-to-kubernetes-staging:\n    image: codefreshio/kubernetes-deployer:master\n    tag: latest\n    working-directory: ${{initial-clone}}\n    commands:\n      - /deploy/bin/deploy.sh ./root\n    environment:\n      - ENVIRONMENT=${{ENVIRONMENT}}\n      - KUBERNETES_USER=${{KUBERNETES_USER}}\n      - KUBERNETES_PASSWORD=${{KUBERNETES_PASSWORD}}\n      - KUBERNETES_SERVER=${{KUBERNETES_SERVER}}\n      - DOCKER_IMAGE_TAG=${{CF_REVISION}}",
-      "language": "yaml",
-      "name": "codefresh.yml"
-    }
-  ]
-}
-[/block]
-
-[block:code]
-{
-  "codes": [
-    {
-      "code": "apiVersion: extensions/v1beta1\nkind: Deployment\nmetadata:\n  name: alpine-nginx\nspec:\n  replicas: 1\n  template:\n    metadata:\n      labels:\n        app: alpine-nginx\n    spec:\n      containers:\n        - name: alpine-nginx\n          image: $docker-image:$DOCKER_IMAGE_TAG\n          ports:\n            - containerPort: 80\n              name: http",
-      "language": "yaml",
-      "name": "deployment.yml.tmpl"
-    }
-  ]
-}
-[/block]
-Set up the following environment variables to specify the Kubernetes cluster we'll use to deploy the project.
-[block:parameters]
-{
-  "data": {
-    "h-0": "Variable",
-    "h-1": "Description",
-    "0-0": "KUBERNETES_USER",
-    "1-0": "KUBERNETES_PASSWORD",
-    "2-0": "KUBERNETES_SERVER",
-    "2-1": "The server (HTTPS endpoint) of the Kubernetes cluster's API. Mandatory.",
-    "0-1": "The user for the Kubernetes cluster. Mandatory.",
-    "1-1": "The password for the Kubernetes cluster. Mandatory.",
-    "3-0": "ENVIRONMENT",
-    "3-1": "The name of the file with environment variables. Note, this file should be located in the folder 'environments' that is located by the same path like deployment.yml.tmpl. For this example use filename 'staging'"
-  },
-  "cols": 2,
-  "rows": 4
-}
-[/block]
-1. Run the build in Codefresh.io
-2. Check that the deployment succeeded with kubectl:
-[block:code]
-{
-  "codes": [
-    {
-      "code": "kubectl get pods -l app=alpine-nginx",
-      "language": "text",
-      "name": "command"
-    }
-  ]
-}
-[/block]
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/670df2f-codefresh_deploy_to_kubernetes.png",
-        "codefresh_deploy_to_kubernetes.png",
-        1724,
-        772,
-        "#2c3434"
-      ]
-    }
-  ]
-}
-[/block]
+{% include image.html 
+lightbox="true" 
+file="/uploads/images/docs/670df2f-codefresh_deploy_to_kubernetes.png" 
+url="/uploads/images/docs/670df2f-codefresh_deploy_to_kubernetes.png"
+alt="codefresh_deploy_to_kubernetes"
+max-width="40%" 
+%}

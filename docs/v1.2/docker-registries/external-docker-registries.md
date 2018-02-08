@@ -21,7 +21,7 @@ For a different registry choose to configure using the [Other]({{ site.baseurl }
 The registries can either be public or private.
 
 ## General configuration
-To configure your registries navigate to the **Docker Registry** view under `Account Management > Integrations`.
+To configure your registries navigate to the **Docker Registry** view under `Account Management` &#8594; `Integrations`.
 
 {% include image.html lightbox="true" file="/uploads/images/docs/c355ce9-integrations-page.png" url="/uploads/images/docs/c355ce9-integrations-page.png" alt="Codefresh Account Integration" max-width="45%" %}
 
