@@ -21,8 +21,8 @@ toc: true
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/cbb9395-Pasted_image_at_2016_10_06_07_39_PM.png" 
-url="/uploads/images/docs/cbb9395-Pasted_image_at_2016_10_06_07_39_PM.png" 
+file="/images/cbb9395-Pasted_image_at_2016_10_06_07_39_PM.png" 
+url="/images/cbb9395-Pasted_image_at_2016_10_06_07_39_PM.png" 
 alt="Pasted image at 2016_10_06 07_39 PM.png" 
 max-width="40%" 
 %}
@@ -35,8 +35,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/96931d1-codefresh_stash_hooks.png" 
-url="/uploads/images/docs/96931d1-codefresh_stash_hooks.png" 
+file="/images/96931d1-codefresh_stash_hooks.png" 
+url="/images/96931d1-codefresh_stash_hooks.png" 
 alt="codefresh_stash_hooks.png" 
 max-width="40%" 
 %}
@@ -46,8 +46,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/064ad69-codefresh_stash_webhook.png" 
-url="/uploads/images/docs/064ad69-codefresh_stash_webhook.png" 
+file="/images/064ad69-codefresh_stash_webhook.png" 
+url="/images/064ad69-codefresh_stash_webhook.png" 
 alt="codefresh_stash_webhook.png" 
 max-width="40%" 
 %}
@@ -57,8 +57,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/0ad6dc0-codefresh_stash_hook_test.png" 
-url="/uploads/images/docs/0ad6dc0-codefresh_stash_hook_test.png" 
+file="/images/0ad6dc0-codefresh_stash_hook_test.png" 
+url="/images/0ad6dc0-codefresh_stash_hook_test.png" 
 alt="codefresh_stash_hook_test.png" 
 max-width="40%" 
 %}
@@ -70,8 +70,8 @@ You can refine the webhook configuration to trigger only on specific branches by
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/5aaea3a-codefresh_stash_webhook-1.png" 
-url="/uploads/images/docs/5aaea3a-codefresh_stash_webhook-1.png" 
+file="/images/5aaea3a-codefresh_stash_webhook-1.png" 
+url="/images/5aaea3a-codefresh_stash_webhook-1.png" 
 alt="codefresh_stash_webhook-1.png" 
 max-width="40%" 
 %}

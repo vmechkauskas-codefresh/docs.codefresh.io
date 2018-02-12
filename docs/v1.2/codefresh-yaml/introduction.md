@@ -70,4 +70,4 @@ Steps chaining and referencing is possible due to implementation of variables in
 
 To build your pipeline using a ```codefresh.yml``` file, in the General Settings section, toggle the ```Use YML build``` option to the **ON** position.
 
-{% include image.html lightbox="true" file="/uploads/images/docs/5c37025-Screen_Shot_2017-10-16_at_9.50.48_PM.png" url="/uploads/images/docs/5c37025-Screen_Shot_2017-10-16_at_9.50.48_PM.png" alt="pipeline definition options" caption="Switching between the legacy build engine and the YAML build engine" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/5c37025-Screen_Shot_2017-10-16_at_9.50.48_PM.png" url="/images/5c37025-Screen_Shot_2017-10-16_at_9.50.48_PM.png" alt="pipeline definition options" caption="Switching between the legacy build engine and the YAML build engine" max-width="40%" %}

@@ -22,7 +22,7 @@ To configure Bintray.io first select **Other Registries** from the new registry 
 * API Key - Your Bintray.io API key
 * Domain - Your Bintray.io registry address e.g. `docker-new-repository.bintray.io`
 
-{% include image.html lightbox="true" file="/uploads/images/docs/47bfed1-add-bintray-new.png" url="/uploads/images/docs/47bfed1-add-bintray-new.png" alt="Add Bintray.io" max-width="45%" %}
+{% include image.html lightbox="true" file="/images/47bfed1-add-bintray-new.png" url="/images/47bfed1-add-bintray-new.png" alt="Add Bintray.io" max-width="45%" %}
 
 ## Finding your API key
 
@@ -31,7 +31,7 @@ To configure Bintray.io first select **Other Registries** from the new registry 
 
 {:start="2"}
 2. Select **API Key** from the side menu
-{% include image.html lightbox="true" file="/uploads/images/docs/da3579e-bintray-api-key.png" url="/uploads/images/docs/da3579e-bintray-api-key.png" alt="Bintray.io API key" max-width="45%" %}
+{% include image.html lightbox="true" file="/images/da3579e-bintray-api-key.png" url="/images/da3579e-bintray-api-key.png" alt="Bintray.io API key" max-width="45%" %}
 
 ## Finding your registry domain"
 
@@ -40,8 +40,8 @@ To configure Bintray.io first select **Other Registries** from the new registry 
 
 {:start="2"}
 2. Click the **SET ME UP!** button
-{% include image.html lightbox="true" file="/uploads/images/docs/f0dcfc3-set-me-up.png" url="/uploads/images/docs/f0dcfc3-set-me-up.png" alt="Bintray.io SET ME UP" max-width="45%" %}
+{% include image.html lightbox="true" file="/images/f0dcfc3-set-me-up.png" url="/images/f0dcfc3-set-me-up.png" alt="Bintray.io SET ME UP" max-width="45%" %}
 
 {:start="3"}
 3. Copy the registry address
-{% include image.html lightbox="true" file="/uploads/images/docs/9e068f4-bintray-domain.png" url="/uploads/images/docs/9e068f4-bintray-domain.png" alt="Bintray.io registry address" max-width="45%" %}
+{% include image.html lightbox="true" file="/images/9e068f4-bintray-domain.png" url="/images/9e068f4-bintray-domain.png" alt="Bintray.io registry address" max-width="45%" %}

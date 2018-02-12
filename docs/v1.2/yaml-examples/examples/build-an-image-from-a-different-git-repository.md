@@ -84,8 +84,8 @@ Instead of hard-coding the credentials, you can provide the environment variable
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/80140af-git-clone-pipeline.png" 
-url="/uploads/images/docs/80140af-git-clone-pipeline.png"
+file="/images/80140af-git-clone-pipeline.png" 
+url="/images/80140af-git-clone-pipeline.png"
 alt="git-clone-pipeline.png" 
 max-width="30%" 
 %}

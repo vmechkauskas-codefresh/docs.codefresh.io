@@ -15,8 +15,8 @@ toc: true
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/d72767b-codefreshlogo.png" 
-url="/uploads/images/docs/d72767b-codefreshlogo.png" 
+file="/images/d72767b-codefreshlogo.png" 
+url="/images/d72767b-codefreshlogo.png" 
 alt="Codefresh logo" 
 max-width="40%" 
 %}

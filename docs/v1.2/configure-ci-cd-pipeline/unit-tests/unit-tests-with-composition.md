@@ -90,7 +90,7 @@ services:
 
 {:start="6"}
 6. Choose the option `Replace Service` and select which service in the composition will be replaced by the image built by this pipeline.
-{% include image.html lightbox="true" file="/uploads/images/docs/2346ab1-codefresh_replace_service.png" url="/uploads/images/docs/2346ab1-codefresh_replace_service.png" alt="Codefresh replace service" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/2346ab1-codefresh_replace_service.png" url="/images/2346ab1-codefresh_replace_service.png" alt="Codefresh replace service" max-width="40%" %}
 
 {:start="7"}
 6. __Save__ and __Build__ this pipeline.

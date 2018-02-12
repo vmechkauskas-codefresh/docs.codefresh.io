@@ -12,8 +12,8 @@ toc: true
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/39a4c98-jenkins-logo.png" 
-url="/uploads/images/docs/39a4c98-jenkins-logo.png" 
+file="/images/39a4c98-jenkins-logo.png" 
+url="/images/39a4c98-jenkins-logo.png" 
 alt="jenkins-logo.png" 
 max-width="40%" 
 %}

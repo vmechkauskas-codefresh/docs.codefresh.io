@@ -117,8 +117,8 @@ SSH_KEY=$(cat ~/.ssh/my_ssh_key_file | tr '\n' ',')
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/0a66a41-image3.png" 
-url="/uploads/images/docs/0a66a41-image3.png"
+file="/images/0a66a41-image3.png" 
+url="/images/0a66a41-image3.png"
 alt="image3.png" 
 max-width="40%"
 %}
