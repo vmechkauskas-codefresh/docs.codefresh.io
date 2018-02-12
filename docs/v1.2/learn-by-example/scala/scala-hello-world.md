@@ -56,8 +56,8 @@ Just head over to the example [__repository__](https://github.com/codefreshdemo/
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/4a8bdf1-codefresh_scala_example.png" 
-url="/uploads/images/docs/4a8bdf1-codefresh_scala_example.png" 
+file="/images/4a8bdf1-codefresh_scala_example.png" 
+url="/images/4a8bdf1-codefresh_scala_example.png" 
 alt="codefresh scala example" 
 max-width="40%" 
 %}

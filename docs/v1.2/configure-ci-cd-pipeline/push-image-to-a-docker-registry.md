@@ -29,7 +29,7 @@ To learn about Docker registries please refer to the [Docker Documentation Cente
 {:start="2"}
 2. Click the **Gear** icon to navigate to the **Pipelines** view
 
-{% include image.html lightbox="true" file="/uploads/images/docs/a59e344-2016-09-29_1224.png" url="/uploads/images/docs/a59e344-2016-09-29_1224.png" alt="" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/a59e344-2016-09-29_1224.png" url="/images/a59e344-2016-09-29_1224.png" alt="" max-width="65%" %}
 
 ## 2. Name Your Image
 {:start="1"}
@@ -38,7 +38,7 @@ To learn about Docker registries please refer to the [Docker Documentation Cente
 {:start="2"}
 2. In the **Image Name** text box, type a name for your image.
 
-{% include image.html lightbox="true" file="/uploads/images/docs/9512b7a-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" url="/uploads/images/docs/9512b7a-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" alt="" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/9512b7a-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" url="/images/9512b7a-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" alt="" max-width="65%" %}
 
 <div class="bd-callout bd-callout-warning" markdown="1">
 ##### Notice
@@ -46,7 +46,7 @@ To learn about Docker registries please refer to the [Docker Documentation Cente
 The name you provide must be valid by your Docker registry.
 </div>
 
-{% include image.html lightbox="true" file="/uploads/images/docs/69e5ee8-Screen_Shot_2016-09-29_at_12.35.44_PM.png" url="/uploads/images/docs/69e5ee8-Screen_Shot_2016-09-29_at_12.35.44_PM.png" alt="" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/69e5ee8-Screen_Shot_2016-09-29_at_12.35.44_PM.png" url="/images/69e5ee8-Screen_Shot_2016-09-29_at_12.35.44_PM.png" alt="" max-width="65%" %}
 
 ## 3. Select Your Registry
 
@@ -56,7 +56,7 @@ The name you provide must be valid by your Docker registry.
 {:start="2"}
 2. Select your configured registry
 
-{% include image.html lightbox="true" file="/uploads/images/docs/9512b7a-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" url="/uploads/images/docs/9512b7a-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" alt="" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/9512b7a-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" url="/images/9512b7a-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" alt="" max-width="65%" %}
 
 <div class="bd-callout bd-callout-info" markdown="1">
 ##### Registry Configuration
@@ -68,6 +68,6 @@ Make sure you already have a configured registry. If not refer to the [Docker re
 
 To trigger a new build, click the **BUILD** button.
 
-{% include image.html lightbox="true" file="/uploads/images/docs/50ce3dc-2016-09-29_1229.png" url="/uploads/images/docs/50ce3dc-2016-09-29_1229.png" alt="Trigger new Build" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/50ce3dc-2016-09-29_1229.png" url="/images/50ce3dc-2016-09-29_1229.png" alt="Trigger new Build" max-width="65%" %}
 
 Once your image is built, it will automatically be pushed to your registry.

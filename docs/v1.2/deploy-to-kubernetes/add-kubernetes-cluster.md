@@ -91,8 +91,8 @@ echo $(kubectl get secret -o go-template='{{index .data "token" }}' $(kubectl ge
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/95162bf-codefresh_account_settings.png" 
-url="/uploads/images/docs/95162bf-codefresh_account_settings.png" 
+file="/images/95162bf-codefresh_account_settings.png" 
+url="/images/95162bf-codefresh_account_settings.png" 
 alt="codefresh_account_settings.png" 
 max-width="40%" 
 %}
@@ -105,8 +105,8 @@ You will be redirected to google and will be asked to enter your Google account 
 ###### TODO: CHECK
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/3481f0f-codefresh_k8_configure.png" 
-url="/uploads/images/docs/3481f0f-codefresh_k8_configure.png" 
+file="/images/3481f0f-codefresh_k8_configure.png" 
+url="/images/3481f0f-codefresh_k8_configure.png" 
 alt="codefresh_k8_configure.png" 
 max-width="40%" 
 %}
@@ -114,8 +114,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/42382c7-click-save.png" 
-url="/uploads/images/docs/42382c7-click-save.png" 
+file="/images/42382c7-click-save.png" 
+url="/images/42382c7-click-save.png" 
 alt="click-save.png" 
 max-width="40%" 
 %}
@@ -125,8 +125,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/11b5d72-codefresh_add_provider.png" 
-url="/uploads/images/docs/11b5d72-codefresh_add_provider.png" 
+file="/images/11b5d72-codefresh_add_provider.png" 
+url="/images/11b5d72-codefresh_add_provider.png" 
 alt="codefresh_add_provider.png" 
 max-width="40%" 
 %}
@@ -136,8 +136,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/eb1795e-codefresh_add_custom_cluster.png" 
-url="/uploads/images/docs/eb1795e-codefresh_add_custom_cluster.png" 
+file="/images/eb1795e-codefresh_add_custom_cluster.png" 
+url="/images/eb1795e-codefresh_add_custom_cluster.png" 
 alt="codefresh_add_custom_cluster.png" 
 max-width="40%" 
 %}
@@ -147,8 +147,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/6e92733-Screen_Shot_2017-10-16_at_9.40.32_PM.png" 
-url="/uploads/images/docs/6e92733-Screen_Shot_2017-10-16_at_9.40.32_PM.png" 
+file="/images/6e92733-Screen_Shot_2017-10-16_at_9.40.32_PM.png" 
+url="/images/6e92733-Screen_Shot_2017-10-16_at_9.40.32_PM.png" 
 alt="Screen Shot 2017-10-16 at 9.40.32 PM.png" 
 max-width="40%" 
 %}
@@ -158,8 +158,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/eb2e31b-codefresh_kubernetes_tab.png" 
-url="/uploads/images/docs/eb2e31b-codefresh_kubernetes_tab.png" 
+file="/images/eb2e31b-codefresh_kubernetes_tab.png" 
+url="/images/eb2e31b-codefresh_kubernetes_tab.png" 
 alt="codefresh_kubernetes_tab.png" 
 max-width="40%" 
 %}
@@ -181,8 +181,8 @@ Visit [Codefresh API page](https://g.codefresh.io/api/){:target="_blank"} to get
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/2827b13-Screen_Shot_2017-09-24_at_14.05.04.png" 
-url="/uploads/images/docs/2827b13-Screen_Shot_2017-09-24_at_14.05.04.png" 
+file="/images/2827b13-Screen_Shot_2017-09-24_at_14.05.04.png" 
+url="/images/2827b13-Screen_Shot_2017-09-24_at_14.05.04.png" 
 alt="Screen Shot 2017-09-24 at 14.05.04.png" 
 max-width="40%" 
 %}
@@ -206,8 +206,8 @@ If the test fails, click "Save" to get the error message back.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/42382c7-click-save.png" 
-url="/uploads/images/docs/42382c7-click-save.png" 
+file="/images/42382c7-click-save.png" 
+url="/images/42382c7-click-save.png" 
 alt="click-save.png" 
 max-width="40%" 
 %}

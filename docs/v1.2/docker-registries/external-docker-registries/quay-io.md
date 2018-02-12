@@ -15,4 +15,4 @@ To configure Quay.io first select **Other Registries** from the new registry dro
 * Password - Your Quay.io encrypted password
 * Domain - quay.io
 
-{% include image.html lightbox="true" file="/uploads/images/docs/ccce2eb-add-quay.png" url="/uploads/images/docs/ccce2eb-add-quay.png" alt="Add Quay.io" max-width="45%" %}
+{% include image.html lightbox="true" file="/images/ccce2eb-add-quay.png" url="/images/ccce2eb-add-quay.png" alt="Add Quay.io" max-width="45%" %}

@@ -23,15 +23,15 @@ The registries can either be public or private.
 ## General configuration
 To configure your registries navigate to the **Docker Registry** view under `Account Management > Integrations`.
 
-{% include image.html lightbox="true" file="/uploads/images/docs/c355ce9-integrations-page.png" url="/uploads/images/docs/c355ce9-integrations-page.png" alt="Codefresh Account Integration" max-width="45%" %}
+{% include image.html lightbox="true" file="/images/c355ce9-integrations-page.png" url="/images/c355ce9-integrations-page.png" alt="Codefresh Account Integration" max-width="45%" %}
 
 Add a new registry configuration from the drop down.
 
-{% include image.html lightbox="true" file="/uploads/images/docs/cf0975d-add-registry.png" url="/uploads/images/docs/cf0975d-add-registry.png" alt="Add Docker Registry" max-width="45%" %}
+{% include image.html lightbox="true" file="/images/cf0975d-add-registry.png" url="/images/cf0975d-add-registry.png" alt="Add Docker Registry" max-width="45%" %}
 
 Each configuration must be given a unique name, which you can later reference in a Codefresh.yaml file.
 
-{% include image.html lightbox="true" file="/uploads/images/docs/2924d81-registry-name.png" url="/uploads/images/docs/2924d81-registry-name.png" alt="Specify Docker Registry Name" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/2924d81-registry-name.png" url="/images/2924d81-registry-name.png" alt="Specify Docker Registry Name" max-width="65%" %}
 
 ## Pushing an image
 Once your registry configuration is all set up you can start pushing you images to it.
@@ -46,7 +46,7 @@ Codefresh provides you with two options of how to push an image to a registry.
 
 {:start="2"}
 2. Under **Build and Unit Test** select your preconfigured registry.
-{% include image.html lightbox="true" file="/uploads/images/docs/22ecd84-pipeline-registry.png" url="/uploads/images/docs/22ecd84-pipeline-registry.png" alt="Pipeline Registry" max-width="45%" %}
+{% include image.html lightbox="true" file="/images/22ecd84-pipeline-registry.png" url="/images/22ecd84-pipeline-registry.png" alt="Pipeline Registry" max-width="45%" %}
 
 {:.text-secondary}
 ### Using a Codefresh.yaml file

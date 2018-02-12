@@ -37,11 +37,11 @@ A service, also known as micro-service, is a part of an application that is inde
 
 {:start="1"}
 1. In the **Repositories** page, click **Add Repository**.
-{% include image.html lightbox="true" file="/uploads/images/docs/d7982ed-codefresh_add_repo.png" url="/uploads/images/docs/d7982ed-codefresh_add_repo.png" alt="Add repository" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/d7982ed-codefresh_add_repo.png" url="/images/d7982ed-codefresh_add_repo.png" alt="Add repository" max-width="40%" %}
   
 {:start="2"}
 2. Select the relevant repository. In this case select the **`<your-repo-name>/demochat`**
-  {% include image.html lightbox="true" file="/uploads/images/docs/94b6a4d-codefresh_demochat_select.png" url="/uploads/images/docs/94b6a4d-codefresh_demochat_select.png" alt="Select the relevant repository" max-width="40%" %}
+  {% include image.html lightbox="true" file="/images/94b6a4d-codefresh_demochat_select.png" url="/images/94b6a4d-codefresh_demochat_select.png" alt="Select the relevant repository" max-width="40%" %}
   
   You can use the search box to find the repository. If you can’t find it, turn on **Add by URL**, and type the URL of the repository.
    
@@ -51,7 +51,7 @@ A service, also known as micro-service, is a part of an application that is inde
 {:start="4"}
 4. Click **Next** 
   The Select Build Method screen appears.
-  {% include image.html lightbox="true" file="/uploads/images/docs/1a40b27-codefresh_demochat_build_method.png" url="/uploads/images/docs/1a40b27-codefresh_demochat_build_method.png" alt="Select build method" max-width="40%" %}
+  {% include image.html lightbox="true" file="/images/1a40b27-codefresh_demochat_build_method.png" url="/images/1a40b27-codefresh_demochat_build_method.png" alt="Select build method" max-width="40%" %}
 
   The following options are available:
   - **Use existing Codefresh.yml** - use this option if you have previously created a Codefresh.yml file. Codefresh YAML is used to customize your build environment (pipeline) by configuring specific build specifications that will be executed as part of the build process. This is the most flexible and customizable option as it can include very basic or intricate build specifications.
@@ -65,17 +65,17 @@ A service, also known as micro-service, is a part of an application that is inde
 
 {:start="6"} 
 6. By default, Codefresh searches for your Dockerfile at the root level of your repository, by the name Dockerfile. The demo-chat example includes a Dockerfile in the root level.
-  {% include image.html lightbox="true" file="/uploads/images/docs/d81622a-cf_demochat_dockerfile.png" url="/uploads/images/docs/d81622a-cf_demochat_dockerfile.png" alt="" max-width="40%" %}
+  {% include image.html lightbox="true" file="/images/d81622a-cf_demochat_dockerfile.png" url="/images/d81622a-cf_demochat_dockerfile.png" alt="" max-width="40%" %}
 
 {:start="7"}
 7. Click **Next**.
 
 {:start="8"}
 8. Review the Dockerfile and when you're done, click **Create**.
-{% include image.html lightbox="true" file="/uploads/images/docs/30f0a3a-cf_demochat_review.png" url="/uploads/images/docs/30f0a3a-cf_demochat_review.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/30f0a3a-cf_demochat_review.png" url="/images/30f0a3a-cf_demochat_review.png" alt="" max-width="40%" %}
 
 Congratulations, the new service is added!
-{% include image.html lightbox="true" file="/uploads/images/docs/4c1b6db-cf_demochat_done.png" url="/uploads/images/docs/4c1b6db-cf_demochat_done.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/4c1b6db-cf_demochat_done.png" url="/images/4c1b6db-cf_demochat_done.png" alt="" max-width="40%" %}
 
 
 ## Step 2. Preview your Basic Docker Build Pipeline
@@ -86,10 +86,10 @@ At this point you have configured a basic Docker build pipeline that can take co
 
 {:start="1"}
 1. On the last screen of the service configuration process, click **Build**.
-{% include image.html lightbox="true" file="/uploads/images/docs/0fa8d30-cf_demochat_done.png" url="/uploads/images/docs/0fa8d30-cf_demochat_done.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/0fa8d30-cf_demochat_done.png" url="/images/0fa8d30-cf_demochat_done.png" alt="" max-width="40%" %}
 
   The **Builds** screen of the newly created service is displayed showing the build progress.
-{% include image.html lightbox="true" file="/uploads/images/docs/31e9222-cf_demochat_build.png" url="/uploads/images/docs/31e9222-cf_demochat_build.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/31e9222-cf_demochat_build.png" url="/images/31e9222-cf_demochat_build.png" alt="" max-width="40%" %}
 
 {:start="2"}
 2. Wait until the process has successfully finished:
@@ -97,10 +97,10 @@ The new Docker image is saved in Codefresh’s  internal registry.
   
 {:start="3"}
 3. To view the image details, click **Images** and then click on the relevant image from the list.
-{% include image.html lightbox="true" file="/uploads/images/docs/5613e4c-codefresh_images_repo.png" url="/uploads/images/docs/5613e4c-codefresh_images_repo.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/5613e4c-codefresh_images_repo.png" url="/images/5613e4c-codefresh_images_repo.png" alt="" max-width="40%" %}
 
 The **Images** screen is displayed with details of the newly created image.
-{% include image.html lightbox="true" file="/uploads/images/docs/26353f1-codefresh_image_demochat.png" url="/uploads/images/docs/26353f1-codefresh_image_demochat.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/26353f1-codefresh_image_demochat.png" url="/images/26353f1-codefresh_image_demochat.png" alt="" max-width="40%" %}
 
 ## Step 3. Add a Unit Test to the Pipeline (Optional)
 You can optionally add unit test to the pipeline. The unit test is a bash-like script that will run in the root of the repository, inside the Docker container, using any testing tool that supports your framework. You can either configure your unit test script within the pipeline configuration page itself or, if you have selected to use a YAML file during the configuration of the pipeline, inside the YML script. In this example we will show how to add it within the pipeline configuration page.
@@ -113,11 +113,11 @@ You can optionally add unit test to the pipeline. The unit test is a bash-like s
 
 {:start="2"}
 2. Click the **Pipelines** icon of the “demochat” service.
-{% include image.html lightbox="true" file="/uploads/images/docs/15bf4d8-Services_screen.JPG" url="/uploads/images/docs/15bf4d8-Services_screen.JPG" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/15bf4d8-Services_screen.JPG" url="/images/15bf4d8-Services_screen.JPG" alt="" max-width="40%" %}
 
 {:start="3"} 
 3. In the **Workflow** section (at the middle of the **Pipelines** screen), in the **Unit Test Script** command line box, type `npm test`.
-{% include image.html lightbox="true" file="/uploads/images/docs/9832cfd-npmtest.JPG" url="/uploads/images/docs/9832cfd-npmtest.JPG" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/9832cfd-npmtest.JPG" url="/images/9832cfd-npmtest.JPG" alt="" max-width="40%" %}
 
 {:start="4"}
 4. At the bottom of the screen, click **Save**.
@@ -137,7 +137,7 @@ You can also trigger codefresh pipelines from command line / build script (or an
 
 {:start="2"}
 2. Click the gear icon of the “demochat” service.
-{% include image.html lightbox="true" file="/uploads/images/docs/a8e599a-Screen_Shot_2017-10-23_at_7.17.58_PM.png" url="/uploads/images/docs/a8e599a-Screen_Shot_2017-10-23_at_7.17.58_PM.png" alt="" max-width="40%" %} 
+{% include image.html lightbox="true" file="/images/a8e599a-Screen_Shot_2017-10-23_at_7.17.58_PM.png" url="/images/a8e599a-Screen_Shot_2017-10-23_at_7.17.58_PM.png" alt="" max-width="40%" %} 
 
 {:start="3"}
 3. In the **General** section, make sure the **Add webhook** toggle is at **ON** position.
@@ -150,7 +150,7 @@ You can also trigger codefresh pipelines from command line / build script (or an
 
 {:start="6"}
 6. At the bottom of the screen, click **Save** if changes were made.
-{% include image.html lightbox="true" file="/uploads/images/docs/5bb09fb-Screen_Shot_2017-10-23_at_7.13.26_PM.png" url="/uploads/images/docs/5bb09fb-Screen_Shot_2017-10-23_at_7.13.26_PM.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/5bb09fb-Screen_Shot_2017-10-23_at_7.13.26_PM.png" url="/images/5bb09fb-Screen_Shot_2017-10-23_at_7.13.26_PM.png" alt="" max-width="40%" %}
 
 {:.text-secondary}
 ### To trigger codefresh pipeline from command line/script/3rd party
@@ -165,14 +165,14 @@ We are almost there. The last step in configuring the pipeline is to configure t
 
 {:start="1"}
 1. On the top navigation bar, click on your user account icon to open the account menu and click **Account Management**.
-{% include image.html lightbox="true" file="/uploads/images/docs/341ed85-accountmanagement.PNG" url="/uploads/images/docs/341ed85-accountmanagement.PNG" alt="" max-width="40%" %}  
+{% include image.html lightbox="true" file="/images/341ed85-accountmanagement.PNG" url="/images/341ed85-accountmanagement.PNG" alt="" max-width="40%" %}  
 
 {:start="2"}
 2. Click the **Integration** tab
 
 {:start="3"}
 3. Select the **Docker Registries** section
-{% include image.html lightbox="true" file="/uploads/images/docs/38e2b04-integrations-page.png" url="/uploads/images/docs/38e2b04-integrations-page.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/38e2b04-integrations-page.png" url="/images/38e2b04-integrations-page.png" alt="" max-width="40%" %}
 
 {:start="4"}
 4. Configure your registry according to the [Docker Registry Integration Guide](https://docs.codefresh.io/v1.0/docs/docker-registry)
@@ -185,11 +185,11 @@ We are almost there. The last step in configuring the pipeline is to configure t
 
 {:start="2"}
 2. Click the **Pipelines** icon of the “demochat” service.
-{% include image.html lightbox="true" file="/uploads/images/docs/3463993-Services_screen.JPG" url="/uploads/images/docs/3463993-Services_screen.JPG" alt="" max-width="40%" %} 
+{% include image.html lightbox="true" file="/images/3463993-Services_screen.JPG" url="/images/3463993-Services_screen.JPG" alt="" max-width="40%" %} 
 
 {:start="3"}
 3. In the Workflow section under the **Push to Registry** section, select your registry configuration
-{% include image.html lightbox="true" file="/uploads/images/docs/719c804-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" url="/uploads/images/docs/719c804-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/719c804-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" url="/images/719c804-screenshot-g.codefresh.io-2017-11-21-14-59-59.png" alt="" max-width="40%" %}
 
 {:start="4"}
 4. At the bottom of the screen, click **Save**.
@@ -215,39 +215,39 @@ At this point the pipeline has been initiated and a new Docker image has been cr
 
 {:start="5"}  
 5. Click the **Edit this file** button and add a line in the code. You can use the following example (the new line is marked in red):
-{% include image.html lightbox="true" file="/uploads/images/docs/f18d734-Capture10.PNG" url="/uploads/images/docs/f18d734-Capture10.PNG" alt="" max-width="40%" %} 
+{% include image.html lightbox="true" file="/images/f18d734-Capture10.PNG" url="/images/f18d734-Capture10.PNG" alt="" max-width="40%" %} 
 
 {:start="6"}
 6. Add a description for the change and click **Commit Changes**.
-{% include image.html lightbox="true" file="/uploads/images/docs/e892f64-myfirstcommit.PNG" url="/uploads/images/docs/e892f64-myfirstcommit.PNG" alt="" max-width="40%" %} 
+{% include image.html lightbox="true" file="/images/e892f64-myfirstcommit.PNG" url="/images/e892f64-myfirstcommit.PNG" alt="" max-width="40%" %} 
 
 The new Commit invokes the Codefresh pipeline, generating a new Docker image.
-{% include image.html lightbox="true" file="/uploads/images/docs/af69126-Capture3.PNG" url="/uploads/images/docs/af69126-Capture3.PNG" alt="" max-width="40%" %} 
+{% include image.html lightbox="true" file="/images/af69126-Capture3.PNG" url="/images/af69126-Capture3.PNG" alt="" max-width="40%" %} 
 
 The process success is also indicated in Github:
-{% include image.html lightbox="true" file="/uploads/images/docs/25398b5-Capture4.PNG" url="/uploads/images/docs/25398b5-Capture4.PNG" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/25398b5-Capture4.PNG" url="/images/25398b5-Capture4.PNG" alt="" max-width="40%" %}
 
 After some iterations you are ready to submit a **Pull Request**.
 
 {:start="7"} 
 7. In Github, open a **Pull Request**, enter your request message, and click **Create pull request**.
-{% include image.html lightbox="true" file="/uploads/images/docs/45e070b-Capture6.PNG" url="/uploads/images/docs/45e070b-Capture6.PNG" alt="" max-width="40%" %} 
+{% include image.html lightbox="true" file="/images/45e070b-Capture6.PNG" url="/images/45e070b-Capture6.PNG" alt="" max-width="40%" %} 
 
 {:start="8"} 
 8. The pull request is displayed in Codefresh under the **Services > <your-repo-name> > demochat **under the **Pipelines** tab:
-{% include image.html lightbox="true" file="/uploads/images/docs/9b6f1da-Capture10.PNG" url="/uploads/images/docs/9b6f1da-Capture10.PNG" alt="" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/9b6f1da-Capture10.PNG" url="/images/9b6f1da-Capture10.PNG" alt="" max-width="40%" %}
 At this point, the Pull Request reviewers could click the **Launch** () button to preview the service/feature in a realistic web environment, however in this case, the Demochat service is part of a composition and would require defining another service (mongo DB).
 
 {:start="9"}    
 9. After additional iterations you are ready to merge the pull request. In Github, click the Merge pull request button.
-{% include image.html lightbox="true" file="/uploads/images/docs/d0eb485-Capture11.PNG" url="/uploads/images/docs/d0eb485-Capture11.PNG" alt="" max-width="40%" %} 
+{% include image.html lightbox="true" file="/images/d0eb485-Capture11.PNG" url="/images/d0eb485-Capture11.PNG" alt="" max-width="40%" %} 
 
 {:start="10"}
 10. Click **Confirm Merge**. 
   The pipeline is invoked once again and a new image, containing the merged code, is generated in Codefresh:
-  {% include image.html lightbox="true" file="/uploads/images/docs/b2ac192-Capture15.PNG" url="/uploads/images/docs/b2ac192-Capture15.PNG" alt="" max-width="40%" %}
+  {% include image.html lightbox="true" file="/images/b2ac192-Capture15.PNG" url="/images/b2ac192-Capture15.PNG" alt="" max-width="40%" %}
   In the Images screen, you can see the new image, which is labeled as Master, has passed the quality checks, and includes a new SHA:
-  {% include image.html lightbox="true" file="/uploads/images/docs/2162d7a-Capture16.PNG" url="/uploads/images/docs/2162d7a-Capture16.PNG" alt="" max-width="40%" %}
+  {% include image.html lightbox="true" file="/images/2162d7a-Capture16.PNG" url="/images/2162d7a-Capture16.PNG" alt="" max-width="40%" %}
 
 ## Congratulations!
 By completing this tutorial, you’ve learned how to create a single service pipeline, which includes the following steps:

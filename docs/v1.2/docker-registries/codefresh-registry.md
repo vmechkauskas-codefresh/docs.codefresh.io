@@ -24,7 +24,7 @@ See bellow, how to use CFCR locally to push/pull/search images.
 
 First, you will need a Codefresh API token. To get it, login into Codefresh and navigate to `User Settings`. Generate Codefresh Registry Access Token and copy this token from there.
 
-{% include image.html lightbox="true" file="/uploads/images/docs/ef442a8-Pasted_image_at_2017_07_02_10_59_AM.png" url="/uploads/images/docs/ef442a8-Pasted_image_at_2017_07_02_10_59_AM.png" alt="Codefresh Registry Access Token" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/ef442a8-Pasted_image_at_2017_07_02_10_59_AM.png" url="/images/ef442a8-Pasted_image_at_2017_07_02_10_59_AM.png" alt="Codefresh Registry Access Token" max-width="65%" %}
 
 ## Use Codefresh Registry Locally
 
@@ -59,7 +59,7 @@ To integrate with Codefresh Registry, first select **Codefresh Registry** from t
 * Username - Your username in Codefresh
 * Access token - Your generated access token
 
-{% include image.html lightbox="true" file="/uploads/images/docs/541c633-codefresh_cfcr_registry.png" url="/uploads/images/docs/541c633-codefresh_cfcr_registry.png" alt="Codefresh cfcr registry" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/541c633-codefresh_cfcr_registry.png" url="/images/541c633-codefresh_cfcr_registry.png" alt="Codefresh cfcr registry" max-width="65%" %}
 
 __Images built in Codefresh__
 
@@ -71,7 +71,7 @@ __Images built in Codefresh__
 
 In the tab  __Images__ for each image, you can find the command to pull this image from Codefresh Registry.
 
-{% include image.html lightbox="true" file="/uploads/images/docs/265ae4b-codefresh_images_pull_img.png" url="/uploads/images/docs/265ae4b-codefresh_images_pull_img.png" alt="Codefresh Pull Images" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/265ae4b-codefresh_images_pull_img.png" url="/images/265ae4b-codefresh_images_pull_img.png" alt="Codefresh Pull Images" max-width="65%" %}
 
 __Login To CFCR__
 In order to pull images from Codefresh's registry you must first login. Use this Docker command to authenticate.

@@ -17,8 +17,8 @@ When your workflow's process failed with the similar error message:
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/6bf6f0c-codefresh_image_not_found.png" 
-url="/uploads/images/docs/6bf6f0c-codefresh_image_not_found.png"
+file="/images/6bf6f0c-codefresh_image_not_found.png" 
+url="/images/6bf6f0c-codefresh_image_not_found.png"
 alt="codefresh_image_not_found.png" 
 max-width="40%"
 %}

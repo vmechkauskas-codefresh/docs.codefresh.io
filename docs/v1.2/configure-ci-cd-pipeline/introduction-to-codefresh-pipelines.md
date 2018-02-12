@@ -21,9 +21,9 @@ Codefresh pipelines are container native and can be configured to automate a seq
 
 ### Pipeline configuration
 To configure existing pipeline or add new pipeline, click on the cogwheel icon on the relevant repository.
-{% include image.html lightbox="true" file="/uploads/images/docs/2254889-pipeline.png" url="/uploads/images/docs/2254889-pipeline.png" alt="Add repository" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/2254889-pipeline.png" url="/images/2254889-pipeline.png" alt="Add repository" max-width="40%" %}
 You can have one or more pipeline for the same repository. click on the '+' to add a new pipeline
-{% include image.html lightbox="true" file="/uploads/images/docs/33f2a22-multi-pipeline.png" url="/uploads/images/docs/33f2a22-multi-pipeline.png" alt="Add repository" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/33f2a22-multi-pipeline.png" url="/images/33f2a22-multi-pipeline.png" alt="Add repository" max-width="40%" %}
 
 ### Editing pipeline steps and flow
 There are two modes to define the pipeline workflow/steps. 
@@ -31,7 +31,7 @@ There are two modes to define the pipeline workflow/steps.
 - Using [Codefresh's Yaml format]({{ site.baseurl }}/docs/{{ site.docs_version }}/codefresh-yaml/what-is-the-codefresh-yaml/)
 
 You can switch between Yaml and the Built-in steps using the toggle in the pipeline's configuration view.
-{% include image.html lightbox="true" file="/uploads/images/docs/2d0c3d5-toggle.png" url="/uploads/images/docs/2d0c3d5-toggle.png" alt="Add repository" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/2d0c3d5-toggle.png" url="/images/2d0c3d5-toggle.png" alt="Add repository" max-width="40%" %}
 
 ### Pipeline Triggers and webhook
 On the General settings of the pipeline, you can configure the trigger for the pipeline. You can at any time trigger a pipeline manually as well.
@@ -41,5 +41,5 @@ Here are the options to trigger pipeline execution
 - From any other tool or command line by copying the webhook and calling it directly.
 - Using the Jenkins plug-in to invoke it from Jenkins
 
-{% include image.html lightbox="true" file="/uploads/images/docs/8f77ae1-pipeline-trigger.png" url="/uploads/images/docs/8f77ae1-pipeline-trigger.png" alt="Add repository" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/8f77ae1-pipeline-trigger.png" url="/images/8f77ae1-pipeline-trigger.png" alt="Add repository" max-width="40%" %}
 
