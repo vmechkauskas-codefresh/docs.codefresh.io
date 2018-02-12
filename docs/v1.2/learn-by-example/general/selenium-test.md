@@ -65,8 +65,8 @@ steps:
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/d0cb57c-codefresh_selenium_env_vars.png" 
-url="/uploads/images/docs/d0cb57c-codefresh_selenium_env_vars.png" 
+file="/images/d0cb57c-codefresh_selenium_env_vars.png" 
+url="/images/d0cb57c-codefresh_selenium_env_vars.png" 
 alt="codefresh selenium env vars" 
 max-width="40%" 
 %}

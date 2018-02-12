@@ -44,8 +44,8 @@ You can also use [this tutorial](https://www.slideshare.net/JennyPassi/deploy-wi
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/b0fe782-superfresh.jpeg" 
-url="/uploads/images/docs/b0fe782-superfresh.jpeg" 
+file="/images/b0fe782-superfresh.jpeg" 
+url="/images/b0fe782-superfresh.jpeg" 
 alt="superfresh" 
 max-width="40%" 
 %}

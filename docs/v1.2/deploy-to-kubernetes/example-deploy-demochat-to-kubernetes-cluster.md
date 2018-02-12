@@ -50,8 +50,8 @@ More info about how to add, build and push docker image you can find in the read
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/0e26729-codefresh_add_cluster.png"
-url="/uploads/images/docs/0e26729-codefresh_add_cluster.png"
+file="/images/0e26729-codefresh_add_cluster.png"
+url="/images/0e26729-codefresh_add_cluster.png"
 alt="codefresh_add_cluster.png"
 max-width="40%"
 %}
@@ -64,8 +64,8 @@ max-width="40%"
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/10e6303-codefresh_mongo_service.png"
-url="/uploads/images/docs/10e6303-codefresh_mongo_service.png"
+file="/images/10e6303-codefresh_mongo_service.png"
+url="/images/10e6303-codefresh_mongo_service.png"
 alt="codefresh_mongo_service.png"
 max-width="40%"
 %}
@@ -95,8 +95,8 @@ max-width="40%"
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/29fbc78-codefresh_configure_kubernates_service.png"
-url="/uploads/images/docs/29fbc78-codefresh_configure_kubernates_service.png"
+file="/images/29fbc78-codefresh_configure_kubernates_service.png"
+url="/images/29fbc78-codefresh_configure_kubernates_service.png"
 alt="codefresh_configure_kubernates_service.png"
 max-width="40%"
 %}
@@ -108,8 +108,8 @@ On the `Kubernetes` tab you can see the `demochat` and `mongo` services.
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/2c78c74-codefresh_k8_services.png"
-url="/uploads/images/docs/2c78c74-codefresh_k8_services.png"
+file="/images/2c78c74-codefresh_k8_services.png"
+url="/images/2c78c74-codefresh_k8_services.png"
 alt="codefresh_k8_services.png"
 max-width="40%"
 %}
@@ -120,16 +120,16 @@ You can see the external endpoints of this service  in the service view and acce
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/1f7db93-codefresh_external_endpoints.png"
-url="/uploads/images/docs/1f7db93-codefresh_external_endpoints.png"
+file="/images/1f7db93-codefresh_external_endpoints.png"
+url="/images/1f7db93-codefresh_external_endpoints.png"
 alt="codefresh_external_endpoints.png"
 max-width="40%"
 %}
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/324f2ba-codefresh_demochat_endpoint.png"
-url="/uploads/images/docs/324f2ba-codefresh_demochat_endpoint.png"
+file="/images/324f2ba-codefresh_demochat_endpoint.png"
+url="/images/324f2ba-codefresh_demochat_endpoint.png"
 alt="codefresh_demochat_endpoint.png"
 max-width="40%"
 %}
@@ -141,8 +141,8 @@ To configure the __Deploy Script__ in the pipeline you just need to go to the ta
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/cc66c8f-codefresh_demochat_repo.png"
-url="/uploads/images/docs/cc66c8f-codefresh_demochat_repo.png"
+file="/images/cc66c8f-codefresh_demochat_repo.png"
+url="/images/cc66c8f-codefresh_demochat_repo.png"
 alt="codefresh_demochat_repo.png"
 max-width="40%"
 %}
@@ -152,8 +152,8 @@ This image will be used in the Deploy script.
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/10b3692-codefresh_push_step.png"
-url="/uploads/images/docs/10b3692-codefresh_push_step.png"
+file="/images/10b3692-codefresh_push_step.png"
+url="/images/10b3692-codefresh_push_step.png"
 alt="codefresh_push_step.png"
 max-width="40%"
 %}
@@ -177,8 +177,8 @@ In the next step, you need to configure the __Deploy Script__
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/9829274-codefresh_deploy_script.png"
-url="/uploads/images/docs/9829274-codefresh_deploy_script.png"
+file="/images/9829274-codefresh_deploy_script.png"
+url="/images/9829274-codefresh_deploy_script.png"
 alt="codefresh_deploy_script.png"
 max-width="40%"
 %}
@@ -187,8 +187,8 @@ __Save__ and __Build__ the pipeline.
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/22cd0c7-codefresh_deploy_script_process.png"
-url="/uploads/images/docs/22cd0c7-codefresh_deploy_script_process.png"
+file="/images/22cd0c7-codefresh_deploy_script_process.png"
+url="/images/22cd0c7-codefresh_deploy_script_process.png"
 alt="codefresh_deploy_script_process.png"
 max-width="40%"
 %}

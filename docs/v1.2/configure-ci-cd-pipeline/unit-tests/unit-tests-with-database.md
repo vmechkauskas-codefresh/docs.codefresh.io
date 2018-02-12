@@ -47,7 +47,7 @@ Fork this [__repository__](https://github.com/codefreshdemo/cf-example-unit-test
   npm test
   {% endhighlight %} 
 
-  {% include image.html lightbox="true" file="/uploads/images/docs/7605c78-codefresh_unit_test_script.png" url="/uploads/images/docs/7605c78-codefresh_unit_test_script.png" alt="Codefresh unit test script" max-width="65%" %}
+  {% include image.html lightbox="true" file="/images/7605c78-codefresh_unit_test_script.png" url="/images/7605c78-codefresh_unit_test_script.png" alt="Codefresh unit test script" max-width="65%" %}
 
 {:start="2"}
 2. Go to composition module and create a new composition just press ("+"), the wizard will propose you a few options. The most useful options is to create a new one or add `docker-compose.yml` from your repository. For this example just copy paste the following `docker-compose.yml`
@@ -75,7 +75,7 @@ services:
 
 {:start="5"}
 5. Select the `Run tests with composition` option and choose the created composition you wish to run your image in while running the Unit Tests.
-{% include image.html lightbox="true" file="/uploads/images/docs/a0dd7e8-codefresh_unit_test_dropdown-1.png" url="/uploads/images/docs/a0dd7e8-codefresh_unit_test_dropdown-1.png" alt="Codefresh unit test dropdown" max-width="40%" %}
+{% include image.html lightbox="true" file="/images/a0dd7e8-codefresh_unit_test_dropdown-1.png" url="/images/a0dd7e8-codefresh_unit_test_dropdown-1.png" alt="Codefresh unit test dropdown" max-width="40%" %}
 
 {:start="6"}
 6. __Save__ and __Build__ this pipeline

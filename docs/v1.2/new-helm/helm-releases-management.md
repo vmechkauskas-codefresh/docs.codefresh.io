@@ -16,8 +16,8 @@ You can view your installed Helm releases from the Helm Releases page (in the si
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/e4a832f-Screen_Shot_2018-01-23_at_11.30.41.png" 
-url="/uploads/images/docs/e4a832f-Screen_Shot_2018-01-23_at_11.30.41.png"
+file="/images/e4a832f-Screen_Shot_2018-01-23_at_11.30.41.png" 
+url="/images/e4a832f-Screen_Shot_2018-01-23_at_11.30.41.png"
 alt="e4a832f-Screen_Shot_2018-01-23_at_11.30.41.png" 
 max-width="30%"
 %}
@@ -27,8 +27,8 @@ Clicking on a release name will take you to the Kubernetes view, showing the sel
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/a6dbd48-Screen_Shot_2017-12-05_at_5.16.17_PM.png" 
-url="/uploads/images/docs/a6dbd48-Screen_Shot_2017-12-05_at_5.16.17_PM.png"
+file="/images/a6dbd48-Screen_Shot_2017-12-05_at_5.16.17_PM.png" 
+url="/images/a6dbd48-Screen_Shot_2017-12-05_at_5.16.17_PM.png"
 alt="a6dbd48-Screen_Shot_2017-12-05_at_5.16.17_PM.png" 
 max-width="30%"
 %}
@@ -38,8 +38,8 @@ Expand a release to show it's history.
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/3181fb5-Screen_Shot_2018-01-23_at_11.31.45.png" 
-url="/uploads/images/docs/3181fb5-Screen_Shot_2018-01-23_at_11.31.45.png"
+file="/images/3181fb5-Screen_Shot_2018-01-23_at_11.31.45.png" 
+url="/images/3181fb5-Screen_Shot_2018-01-23_at_11.31.45.png"
 alt="3181fb5-Screen_Shot_2018-01-23_at_11.31.45.png" 
 max-width="30%"
 %}
@@ -49,8 +49,8 @@ You can further expand a release revision to see exactly what files was changed 
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/94ca432-Screen_Shot_2018-01-23_at_11.32.03.png" 
-url="/uploads/images/docs/94ca432-Screen_Shot_2018-01-23_at_11.32.03.png"
+file="/images/94ca432-Screen_Shot_2018-01-23_at_11.32.03.png" 
+url="/images/94ca432-Screen_Shot_2018-01-23_at_11.32.03.png"
 alt="94ca432-Screen_Shot_2018-01-23_at_11.32.03.png" 
 max-width="30%"
 %}

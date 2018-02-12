@@ -21,8 +21,8 @@ That process can be done easily, and can help you improve your delivery and qual
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/3bb6ce5-2017-04-06_1413.png" 
-url="/uploads/images/docs/3bb6ce5-2017-04-06_1413.png" 
+file="/images/3bb6ce5-2017-04-06_1413.png" 
+url="/images/3bb6ce5-2017-04-06_1413.png" 
 alt="2017-04-06_1413" 
 max-width="40%" 
 caption="Click on requested repository"
@@ -33,8 +33,8 @@ caption="Click on requested repository"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/71995c0-2017-04-06_1417.png" 
-url="/uploads/images/docs/71995c0-2017-04-06_1417.png"
+file="/images/71995c0-2017-04-06_1417.png" 
+url="/images/71995c0-2017-04-06_1417.png"
 alt="2017-04-06_1417" 
 max-width="40%" 
 %}
@@ -44,8 +44,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/d18cb69-2017-04-06_1421.png" 
-url="/uploads/images/docs/d18cb69-2017-04-06_1421.png"
+file="/images/d18cb69-2017-04-06_1421.png" 
+url="/images/d18cb69-2017-04-06_1421.png"
 alt="2017-04-06_1421" 
 max-width="40%" 
 %}
@@ -55,8 +55,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/e142dc2-2017-04-06_1423.png" 
-url="/uploads/images/docs/e142dc2-2017-04-06_1423.png"
+file="/images/e142dc2-2017-04-06_1423.png" 
+url="/images/e142dc2-2017-04-06_1423.png"
 alt="2017-04-06_1423" 
 max-width="40%" 
 %}
@@ -66,8 +66,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/98b5b7e-2017-04-06_1425.png" 
-url="/uploads/images/docs/98b5b7e-2017-04-06_1425.png"
+file="/images/98b5b7e-2017-04-06_1425.png" 
+url="/images/98b5b7e-2017-04-06_1425.png"
 alt="2017-04-06_1425" 
 max-width="40%" 
 %}
@@ -78,8 +78,8 @@ You can choose a different pipeline than the default pipeline of the repository.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/c1d1807-2017-04-06_1426.png" 
-url="/uploads/images/docs/c1d1807-2017-04-06_1426.png"
+file="/images/c1d1807-2017-04-06_1426.png" 
+url="/images/c1d1807-2017-04-06_1426.png"
 alt="2017-04-06_1426" 
 max-width="40%" 
 %}
@@ -89,8 +89,8 @@ Notice that your image is already tagged with the SHA of the revision, so you ca
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/44c140c-2017-04-06_1441.png" 
-url="/uploads/images/docs/44c140c-2017-04-06_1441.png"
+file="/images/44c140c-2017-04-06_1441.png" 
+url="/images/44c140c-2017-04-06_1441.png"
 alt="2017-04-06_1441" 
 max-width="40%" 
 %}
@@ -100,8 +100,8 @@ Don't forget to launch your composition.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/5742607-2017-04-06_1459.png" 
-url="/uploads/images/docs/5742607-2017-04-06_1459.png"
+file="/images/5742607-2017-04-06_1459.png" 
+url="/images/5742607-2017-04-06_1459.png"
 alt="2017-04-06_1459" 
 max-width="40%" 
 %}

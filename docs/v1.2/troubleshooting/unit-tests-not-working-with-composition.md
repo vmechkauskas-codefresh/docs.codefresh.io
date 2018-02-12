@@ -16,8 +16,8 @@ was_hidden: true
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/a41664d-2016-10-14_16-12-02.png" 
-url="/uploads/images/docs/a41664d-2016-10-14_16-12-02.png"
+file="/images/a41664d-2016-10-14_16-12-02.png" 
+url="/images/a41664d-2016-10-14_16-12-02.png"
 alt="2016-10-14_16-12-02.png" 
 max-width="40%"
 caption="Test Results"

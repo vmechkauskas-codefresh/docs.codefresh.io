@@ -14,8 +14,8 @@ toc: true
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/92c8d50-2016-09-29_12-29-10.png" 
-url="/uploads/images/docs/92c8d50-2016-09-29_12-29-10.png"
+file="/images/92c8d50-2016-09-29_12-29-10.png" 
+url="/images/92c8d50-2016-09-29_12-29-10.png"
 alt="2016-09-29_12-29-10.png" 
 max-width="40%"
 caption="This error indicates that the repository doesn’t have a Dockerfile in it or the path for the Dockerfile was incorrect."
@@ -31,8 +31,8 @@ caption="This error indicates that the repository doesn’t have a Dockerfile in
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/3c8f08e-2016-09-29_12-57-55.png" 
-url="/uploads/images/docs/3c8f08e-2016-09-29_12-57-55.png"
+file="/images/3c8f08e-2016-09-29_12-57-55.png" 
+url="/images/3c8f08e-2016-09-29_12-57-55.png"
 alt="2016-09-29_12-57-55.png" 
 max-width="40%"
 %}
@@ -43,8 +43,8 @@ max-width="40%"
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/6b035ff-2016-09-29_13-03-58.png" 
-url="/uploads/images/docs/6b035ff-2016-09-29_13-03-58.png"
+file="/images/6b035ff-2016-09-29_13-03-58.png" 
+url="/images/6b035ff-2016-09-29_13-03-58.png"
 alt="2016-09-29_13-03-58.png" 
 max-width="40%"
 %}

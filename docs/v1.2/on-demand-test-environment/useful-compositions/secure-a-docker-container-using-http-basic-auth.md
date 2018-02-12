@@ -38,8 +38,8 @@ The architecture for this step is displayed in the diagram below. In this step e
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/a65a871-codefresh_webapp_container.png" 
-url="/uploads/images/docs/a65a871-codefresh_webapp_container.png"
+file="/images/a65a871-codefresh_webapp_container.png" 
+url="/images/a65a871-codefresh_webapp_container.png"
 alt="codefresh_webapp_container.png" 
 max-width="40%"
 %}
@@ -75,8 +75,8 @@ The architecture for the ```docker-compose.yml``` file is displayed in the diagr
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/72a8d7a-codefresh_nginx_container.png" 
-url="/uploads/images/docs/72a8d7a-codefresh_nginx_container.png"
+file="/images/72a8d7a-codefresh_nginx_container.png" 
+url="/images/72a8d7a-codefresh_nginx_container.png"
 alt="codefresh_nginx_container.png" 
 max-width="40%"
 %}

@@ -17,8 +17,8 @@ toc: true
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/22b4fa9-codefresh_terminating_build.png" 
-url="/uploads/images/docs/22b4fa9-codefresh_terminating_build.png"
+file="/images/22b4fa9-codefresh_terminating_build.png" 
+url="/images/22b4fa9-codefresh_terminating_build.png"
 alt="codefresh_terminating_build.png" 
 max-width="40%"
 caption="Process terminated"

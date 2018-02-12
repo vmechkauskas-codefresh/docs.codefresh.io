@@ -19,8 +19,8 @@ was_hidden: true
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/5431ec6-create-composition.png" 
-url="/uploads/images/docs/5431ec6-create-composition.png"
+file="/images/5431ec6-create-composition.png" 
+url="/images/5431ec6-create-composition.png"
 alt="create-composition.png" 
 max-width="40%"
 %}
@@ -31,8 +31,8 @@ max-width="40%"
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/100013e-compsition-add-new.png" 
-url="/uploads/images/docs/100013e-compsition-add-new.png"
+file="/images/100013e-compsition-add-new.png" 
+url="/images/100013e-compsition-add-new.png"
 alt="compsition-add-new.png" 
 max-width="40%"
 caption="click on image to enlarge"
@@ -46,8 +46,8 @@ You can add existing built services, or provide the name for Docker image that w
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/cae1d69-composition-add-service-after.png" 
-url="/uploads/images/docs/cae1d69-composition-add-service-after.png"
+file="/images/cae1d69-composition-add-service-after.png" 
+url="/images/cae1d69-composition-add-service-after.png"
 alt="composition-add-service-after.png" 
 max-width="40%"
 caption="click on image to enlarge"
@@ -58,8 +58,8 @@ caption="click on image to enlarge"
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/b9d2773-composition-edit-yaml.png" 
-url="/uploads/images/docs/b9d2773-composition-edit-yaml.png"
+file="/images/b9d2773-composition-edit-yaml.png" 
+url="/images/b9d2773-composition-edit-yaml.png"
 alt="composition-edit-yaml.png" 
 max-width="40%"
 caption="click on image to enlarge"
@@ -84,8 +84,8 @@ Please note, "build" command is not supported. Images are built as part of the s
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/9338532-compose-advance-mode.png" 
-url="/uploads/images/docs/9338532-compose-advance-mode.png"
+file="/images/9338532-compose-advance-mode.png" 
+url="/images/9338532-compose-advance-mode.png"
 alt="compose-advance-mode.png" 
 max-width="40%"
 caption="click on image to enlarge"
@@ -122,8 +122,8 @@ mongo:
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/182c468-docker-compose-advance-error.png" 
-url="/uploads/images/docs/182c468-docker-compose-advance-error.png"
+file="/images/182c468-docker-compose-advance-error.png" 
+url="/images/182c468-docker-compose-advance-error.png"
 alt="docker-compose-advance-error.png" 
 max-width="40%"
 caption="click on image to enlarge"
@@ -141,8 +141,8 @@ In this example, the error message appears because the mapping ports are enabled
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/cf81de2-compose-advanced-yaml-fixed.png" 
-url="/uploads/images/docs/cf81de2-compose-advanced-yaml-fixed.png"
+file="/images/cf81de2-compose-advanced-yaml-fixed.png" 
+url="/images/cf81de2-compose-advanced-yaml-fixed.png"
 alt="compose-advanced-yaml-fixed.png" 
 max-width="40%"
 caption="click on image to enlarge"
@@ -155,8 +155,8 @@ Click the **Launch** icon.
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/a059835-compose-launch-button.png" 
-url="/uploads/images/docs/a059835-compose-launch-button.png"
+file="/images/a059835-compose-launch-button.png" 
+url="/images/a059835-compose-launch-button.png"
 alt="compose-launch-button.png" 
 max-width="40%"
 caption="click on image to enlarge"
@@ -167,8 +167,8 @@ The progress log window displays, and when the launch is complete, a link for ru
 {% include 
 image.html 
 lightbox="true" 
-file="/uploads/images/docs/40f6b38-composition-launch-log.png" 
-url="/uploads/images/docs/40f6b38-composition-launch-log.png"
+file="/images/40f6b38-composition-launch-log.png" 
+url="/images/40f6b38-composition-launch-log.png"
 alt="composition-launch-log.png" 
 max-width="40%"
 caption="click on image to enlarge"

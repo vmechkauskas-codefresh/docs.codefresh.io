@@ -3,7 +3,14 @@ markdown:       kramdown
 highlighter:    rouge
 
 kramdown:
-  auto_ids:     true
+  auto_ids: true
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..4
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Permalinks
 permalink:      pretty
@@ -28,6 +35,7 @@ exclude:
   - nuget/
   - scss/
   - vendor/
+  - uploads/images/docs/optimized/
   - CODE_OF_CONDUCT.md
   - composer.json
   - Gemfile

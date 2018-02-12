@@ -15,8 +15,8 @@ toc: true
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/2975abe-Kubernetes_logos.png" 
-url="/uploads/images/docs/2975abe-Kubernetes_logos.png" 
+file="/images/2975abe-Kubernetes_logos.png" 
+url="/images/2975abe-Kubernetes_logos.png" 
 alt="Kubernetes logos" 
 max-width="40%" 
 %}
@@ -29,8 +29,8 @@ Sign in to [Google Cloud Console](https://console.cloud.google.com/){:target="_b
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/0a523a6-Screen_Shot_2017-08-08_at_4.30.39_PM.png" 
-url="/uploads/images/docs/0a523a6-Screen_Shot_2017-08-08_at_4.30.39_PM.png" 
+file="/images/0a523a6-Screen_Shot_2017-08-08_at_4.30.39_PM.png" 
+url="/images/0a523a6-Screen_Shot_2017-08-08_at_4.30.39_PM.png" 
 alt="Screen Shot 2017-08-08 at 4.30.39 PM.png" 
 max-width="40%" 
 %}

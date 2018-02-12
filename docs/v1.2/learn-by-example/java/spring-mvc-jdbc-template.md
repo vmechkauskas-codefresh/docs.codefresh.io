@@ -64,16 +64,16 @@ To see how it works in Codefresh - add this repository to your account specifyin
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/685c48a-codefresh_java_results.png" 
-url="/uploads/images/docs/685c48a-codefresh_java_results.png" 
+file="/images/685c48a-codefresh_java_results.png" 
+url="/images/685c48a-codefresh_java_results.png" 
 alt="codefresh java example" 
 max-width="40%" 
 %}
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/c9c1b87-codefresh_results_tomcat_app.png" 
-url="/uploads/images/docs/c9c1b87-codefresh_results_tomcat_app.png" 
+file="/images/c9c1b87-codefresh_results_tomcat_app.png" 
+url="/images/c9c1b87-codefresh_results_tomcat_app.png" 
 alt="codefresh results tomcat app" 
 max-width="40%" 
 %}

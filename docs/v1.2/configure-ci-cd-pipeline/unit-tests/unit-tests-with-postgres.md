@@ -83,4 +83,4 @@ Just head over to the example [__repository__](https://github.com/codefreshdemo/
 
 ## Expected result
 
-{% include image.html lightbox="true" file="/uploads/images/docs/84e92ab-codefresh_example_postgres.png" url="/uploads/images/docs/84e92ab-codefresh_example_postgres.png" alt="Codefresh unit test Postgres" max-width="65%" %}
+{% include image.html lightbox="true" file="/images/84e92ab-codefresh_example_postgres.png" url="/images/84e92ab-codefresh_example_postgres.png" alt="Codefresh unit test Postgres" max-width="65%" %}
