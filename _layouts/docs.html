@@ -3,7 +3,7 @@
   <head>
     {% include header.html %}
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".bd-toc" data-offset="25">
     <a id="skippy" class="sr-only sr-only-focusable" href="#content">
       <div class="container">
         <span class="skiplink-text">Skip to main content</span>
@@ -21,7 +21,7 @@
         {% if page.toc %}
         <div class="d-none d-xl-block col-xl-2 bd-toc">
           <div class="toc-inner">
-            {% include docs-toc.html.twig sanitize=true html=content h_min=2 h_max=4 class="section-nav" item_class="toc-entry" %}
+            {% include docs-toc.html.twig sanitize=true html=content h_min=2 h_max=4 class="section-nav" item_class="toc-entry nav" item_link_class="nav-link" %}
           </div>
         </div>
         {% endif %}

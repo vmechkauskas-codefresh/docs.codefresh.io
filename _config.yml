@@ -35,7 +35,6 @@ exclude:
   - nuget/
   - scss/
   - vendor/
-  - uploads/images/docs/optimized/
   - CODE_OF_CONDUCT.md
   - composer.json
   - Gemfile

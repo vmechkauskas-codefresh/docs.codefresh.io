@@ -38,7 +38,8 @@
     padding: .125rem 1.5rem;
     color: #99979c;
 
-    &:hover {
+    &:hover,
+    &.active {
       color: $bd-link-color;
       text-decoration: none;
     }

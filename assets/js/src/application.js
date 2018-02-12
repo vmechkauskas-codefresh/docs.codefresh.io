@@ -103,8 +103,14 @@
     $('.bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5').wrapInner('<div></div>')
 
     $('a').smoothScroll({
-      offset: -20
+      offset: -15
     })
+
+    $('.section-nav')
+      .on('click', 'a', function () {
+        window.location.hash = $(this).attr('href')
+        return false
+      })
 
     // Search
     if (window.docsearch) {
