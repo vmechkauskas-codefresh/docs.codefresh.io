@@ -55,6 +55,21 @@ plugins:
 
 repository: vmechkauskas-codefresh/docs.codefresh.io
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: docs
+
 # Social
 title:              Codefresh | Docs
 description:        "Codefresh is a Docker-native CI/CD platform. Instantly build , test and deploy Docker images."

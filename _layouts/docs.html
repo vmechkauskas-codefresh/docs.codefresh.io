@@ -18,8 +18,19 @@
           {% include docs-sidebar.html.twig %}
         </div>
 
+        {% if page.toc %}
+        <div class="d-none d-xl-block col-xl-2 bd-toc">
+          <div class="toc-inner">
+            {% include docs-toc.html.twig sanitize=true html=content h_min=2 h_max=4 class="section-nav" item_class="toc-entry" %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% comment %}
         {% if site.github %}
-          <div id="toc" class="d-none d-xl-block col-xl-2 bd-toc"></div>
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            <div id="toc" class="toc-inner"></div>
+          </div>
         {% else %}
           {% if page.toc %}
           <div class="d-none d-xl-block col-xl-2 bd-toc">
@@ -27,6 +38,7 @@
           </div>
           {% endif %}
         {% endif %}
+        {% endcomment %}
 
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
           <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
