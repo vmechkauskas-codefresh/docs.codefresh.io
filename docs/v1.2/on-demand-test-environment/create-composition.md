@@ -4,211 +4,173 @@ title: "Create composition"
 description: ""
 excerpt: "Composition can be launched as part of unit test step, integration test or for running an image for manual testing. Also based on your `docker-compose.yml` automatically can be created services that were described in this file.\nBelow how to create a composition."
 group: on-demand-test-environment
-permalink: /:path/composition-dialog/
 redirect_from:
-  - /docs/composition-dialog
-  - /docs/on-demand-test-environment
-  - /docs/v1.2/composition-dialog
-  - /docs/v1.2/on-demand-test-environment/
+  - /docs/create-composition
 toc: true
+old_url: /docs/create-composition
+was_hidden: true
 ---
 
-## 1. Add a composition
-Click the **Composition** view icon in the left pane, and click the **ADD COMPOSITION** button.
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/9b3d250-codefresh_add_composition_first.png" 
-url="/images/9b3d250-codefresh_add_composition_first.png"
-alt="codefresh_add_composition_first.png" 
-max-width="40%"
-%}
-
-## 2. Enter the name of composition
-In the **Composition Name** text box, type a name for your composition and click __NEXT__
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/0c12241-codefresh_name_composition.png" 
-url="/images/0c12241-codefresh_name_composition.png"
-alt="codefresh_name_composition.png" 
-max-width="40%"
-%}
-
-## 3. Select Composition Starting Point
-On this screen you can choose: __What type of composition would you like to create?__
-* [**From file in repo**](doc:composition-dialog#section-31-from-file-in-repo)
-* [**From template**](doc:composition-dialog#section-32-from-template)
-* [**Empty composition**](doc:composition-dialog#section-33-empty-composition)
-
-Click **NEXT** for chosen way.
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/ed196d3-codefresh_method_compose.png" 
-url="/images/ed196d3-codefresh_method_compose.png"
-alt="codefresh_method_compose.png" 
-max-width="40%"
-%}
-
-### 3.1 From file in repo
-Start a new composition from a docker compose file in your repository.
+## Create a composition by using the Codefresh UI
 
 {:start="1"}
-1. In the search box, type the name of the repository.
+1. Click the **Composition** view icon in the left pane, and click the **Plus** icon.
 
 {% include 
 image.html 
 lightbox="true" 
-file="/images/10c1ff7-codefresh_compose_add.png" 
-url="/images/10c1ff7-codefresh_compose_add.png"
-alt="codefresh_compose_add.png" 
-max-width="40%"
-%}
-
-{{site.data.callout.callout_info}}
-##### Don't see your private repositories?
-Try the following:
-* Started your free trial, so you can add private repositories.
-* If the free trial finished you can upgrade your account or contact us to extend the free trial.
-* [Visit our Troubleshooting Center](doc:introduction-3)
-{{site.data.callout.end}}
-
-{{site.data.callout.callout_info}}
-##### Can't find your repository?
-Try the **ADD BY URL** option.
-{{site.data.callout.end}}
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/972337d-codefresh_compose_by_url.png" 
-url="/images/972337d-codefresh_compose_by_url.png"
-alt="codefresh_compose_by_url.png" 
+file="/images/5431ec6-create-composition.png" 
+url="/images/5431ec6-create-composition.png"
+alt="create-composition.png" 
 max-width="40%"
 %}
 
 {:start="2"}
-2. From the drop-down menu, select a branch for the first build.
+2. In the **Name** text box, type a name for your composition.
+
+{% include 
+image.html 
+lightbox="true" 
+file="/images/100013e-compsition-add-new.png" 
+url="/images/100013e-compsition-add-new.png"
+alt="compsition-add-new.png" 
+max-width="40%"
+caption="click on image to enlarge"
+%}
 
 {:start="3"}
-3. Click **NEXT**.
-
-{:start="4"}
-4. Enter the path to `docker-compose.yml`
-By default, Codefresh searches for your docker-compose.yml at the root level of your repository, by the name *docker-compose.yml*. In case that your docker-compose.yml is in sub-directory, provide the path as well (*./foo/bar/docker-compose.yml*).
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/dce8b4e-codefresh_path_docker_compose.png" 
-url="/images/dce8b4e-codefresh_path_docker_compose.png"
-alt="codefresh_path_docker_compose.png" 
-max-width="40%"
-%}
-
-{:start="5"}
-5. Click **NEXT**
-
-{{site.data.callout.callout_info}}
-We don’t support `build` property of compose. We will replace it with images built by pipeline that automatically created. <br>
-Also in case if you have `build` property in your docker-compose.yml will be created a repository with pipeline for step that contains `build` property.
-{{site.data.callout.end}}
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/503fa16-codefresh_replace_build.png" 
-url="/images/503fa16-codefresh_replace_build.png"
-alt="codefresh_replace_build.png" 
-max-width="40%"
-%}
-
-{:start="6"}
-6. Click **CREATE**
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/aae9a21-codefresh_compose_repo_created.png" 
-url="/images/aae9a21-codefresh_compose_repo_created.png"
-alt="codefresh_compose_repo_created.png" 
-max-width="40%"
-%}
-
-Now you can choose what to do next: **BUILD IMAGES** or **CONFIGURE COMPOSITION**
-In case if you chose **CONFIGURE COMPOSITION** you will see the following screen where you will be able to edit your composition and then launch if all necessary images was created.
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/0aa5fba-codefresh_first_composition.png" 
-url="/images/0aa5fba-codefresh_first_composition.png"
-alt="codefresh_first_composition.png" 
-max-width="40%"
-%}
-
-In case if you chose **BUILD IMAGES** all pipelines from added repository will be triggered to create a necessary images.
-
-### 3.2 From template
-If your repository doesn't include docker-compose.yml, you can use one of our templates to see how it works!
-
-{:start="1"}
-1. Choose the template
-
-{:start="2"}
-2. Click **CREATE**
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/bb380f7-codefresh_template_composition.png" 
-url="/images/bb380f7-codefresh_template_composition.png"
-alt="codefresh_template_composition.png" 
-max-width="40%"
-%}
-
-You will see the editor of composition where you can change something and then launch this composition to see results. 
-
-{% include 
-image.html 
-lightbox="true" 
-file="/images/d8c8e2b-codefresh_template_compose_edit.png" 
-url="/images/d8c8e2b-codefresh_template_compose_edit.png"
-alt="codefresh_template_compose_edit.png" 
-max-width="40%"
-%}
-
-{{site.data.callout.callout_info}}
-Click on the rocket icon to launch this composition.
-{{site.data.callout.end}}
-
-### 3.3 Empty composition
-If you chose the **Empty composition** you want to create a composition from scratch. You will see the following screen with empty composition. 
-
-{:start="1"}
-1. To add a service, click the **Add Service** button.
+3. To add a service, click the **Add Service** button.
+ 
 You can add existing built services, or provide the name for Docker image that will be pulled from Docker registry.
 
-{:start="2"}
-2. (Optional) Click the **Edit** button to edit the content based on [Docker Compose YAML ](https://docs.docker.com/compose/compose-file/).
+{% include 
+image.html 
+lightbox="true" 
+file="/images/cae1d69-composition-add-service-after.png" 
+url="/images/cae1d69-composition-add-service-after.png"
+alt="composition-add-service-after.png" 
+max-width="40%"
+caption="click on image to enlarge"
+%}
+
+4. (Optional) Click the **Edit** button to edit the content based on [Docker Compose YAML ](https://docs.docker.com/compose/compose-file/).
 
 {% include 
 image.html 
 lightbox="true" 
-file="/images/327ce99-codefresh_empty_compose.png" 
-url="/images/327ce99-codefresh_empty_compose.png"
-alt="codefresh_empty_compose.png" 
+file="/images/b9d2773-composition-edit-yaml.png" 
+url="/images/b9d2773-composition-edit-yaml.png"
+alt="composition-edit-yaml.png" 
 max-width="40%"
+caption="click on image to enlarge"
+%}
+
+5. Click the **Save** icon on the upper right corner
+
+{{site.data.callout.callout_warning}}
+##### Build command is not supported in Compositions
+
+Please note, "build" command is not supported. Images are built as part of the services pipelines at the services module. The images can then added to the compositions with the "image" attribute. 
+{{site.data.callout.end}}
+
+## Create a composition by using a Docker Compose YAML
+
+{:start="1"}
+1. Click the **Composition** view icon in the left pane, and click the **Plus** icon.
+
+{:start="2"}
+2. Toggle the **Advance** option to the on position.
+
+{% include 
+image.html 
+lightbox="true" 
+file="/images/9338532-compose-advance-mode.png" 
+url="/images/9338532-compose-advance-mode.png"
+alt="compose-advance-mode.png" 
+max-width="40%"
+caption="click on image to enlarge"
 %}
 
 {:start="3"}
-3. Click the **Save** icon on the upper right corner
+3. Copy and paste your existing ```docker-compose.yaml``` file.
 
-{{site.data.callout.callout_info}}
-Click on the rocket icon to launch this composition.
+  `docker-compose.yaml`
+{% highlight yaml %}
+{% raw %}
+# Let's Chat: Docker Compose
+# https://docs.docker.com/compose/
+#
+# Usage: docker-compose up
+
+app:
+  image: sdelements/lets-chat:latest
+  links:
+    - mongo
+  ports:
+    - 80:8080
+    - 5222:5222
+  command: ls .
+
+
+mongo:
+  image: mongo:latest
+  ports :
+    - 27017:27017
+{% endraw %}
+{% endhighlight %}
+    
+{% include 
+image.html 
+lightbox="true" 
+file="/images/182c468-docker-compose-advance-error.png" 
+url="/images/182c468-docker-compose-advance-error.png"
+alt="docker-compose-advance-error.png" 
+max-width="40%"
+caption="click on image to enlarge"
+%}
+
+{{site.data.callout.callout_danger}}
+##### Yaml validation error
+
+In this example, the error message appears because the mapping ports are enabled only on the Pro payment plan. To fix this issue, leave the port number without mapping, in this example **27017** instead of **27017:27017** 
 {{site.data.callout.end}}
- 
+
+{:start="4"}
+4. Save the composition.
+
+{% include 
+image.html 
+lightbox="true" 
+file="/images/cf81de2-compose-advanced-yaml-fixed.png" 
+url="/images/cf81de2-compose-advanced-yaml-fixed.png"
+alt="compose-advanced-yaml-fixed.png" 
+max-width="40%"
+caption="click on image to enlarge"
+%}
+
+## Great! You created a composition, run it!
+
+Click the **Launch** icon.
+
+{% include 
+image.html 
+lightbox="true" 
+file="/images/a059835-compose-launch-button.png" 
+url="/images/a059835-compose-launch-button.png"
+alt="compose-launch-button.png" 
+max-width="40%"
+caption="click on image to enlarge"
+%}
+
+The progress log window displays, and when the launch is complete, a link for running the environment displays.
+
+{% include 
+image.html 
+lightbox="true" 
+file="/images/40f6b38-composition-launch-log.png" 
+url="/images/40f6b38-composition-launch-log.png"
+alt="composition-launch-log.png" 
+max-width="40%"
+caption="click on image to enlarge"
+%}
+

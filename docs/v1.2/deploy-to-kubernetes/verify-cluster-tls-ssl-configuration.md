@@ -8,6 +8,8 @@ redirect_from:
   - /docs/v1.2/verify-cluster-tlsssl-configuration/
   - /docs/v1.2/verify-cluster-tls-ssl-configuration/
 toc: true
+old_url: /docs/how-to-create-gke-cluster
+was_hidden: true
 ---
 
 ## Overview

@@ -13,10 +13,9 @@ patches and features.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/vmechkauskas-codefresh/docs.codefresh.io) is
-the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests)
-and [submitting pull requests](#pull-requests), but please respect the following
-restrictions:
+The [issue tracker](https://github.com/vmechkauskas-codefresh/docs.codefresh.io/issues) is
+the preferred channel for [bug reports](#bug-reports) and [submitting pull requests](#pull-requests), 
+but please respect the following restrictions:
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and
   respect the opinions of others.
@@ -29,11 +28,8 @@ restrictions:
 
 Our bug tracker utilizes several labels to help organize and identify issues. Here's what they represent and how we use them:
 
-- `bug` - Issues that are reported to us, but actually are the result of a bug. 
+- `docs bug` - Issues for improving or updating our documentation.
 - `confirmed` - Issues that have been confirmed.
-- `docs` - Issues for improving or updating our documentation.
-- `examples` - Issues involving the example templates included in our docs.
-- `help wanted` - Issues we need or would love help from the community to resolve.
 - `js` - Issues stemming from our compiled or source JavaScript files.
 - `meta` - Issues with the project itself or our GitHub repository.
 
@@ -52,10 +48,6 @@ Guidelines for bug reports:
 
 2. **Check if the issue has been fixed** &mdash; try to reproduce it using the
    latest `master` or development branch in the repository.
-
-3. **Isolate the problem** &mdash; ideally create a [reduced test
-   case](https://css-tricks.com/reduced-test-cases/) and a live example.
-   [This JS Bin](https://jsbin.com/lolome/edit?html,output) is a helpful template.
 
 
 ## Pull requests
@@ -157,11 +149,6 @@ includes code changes) and under the terms of the
 - strict mode
 - "Attractive"
 - Don't use [jQuery event alias convenience methods](https://github.com/jquery/jquery/blob/master/src/event/alias.js) (such as `$().focus()`). Instead, use [`$().trigger(eventType, ...)`](https://api.jquery.com/trigger/) or [`$().on(eventType, ...)`](https://api.jquery.com/on/), depending on whether you're firing an event or listening for an event. (For example, `$().trigger('focus')` or `$().on('focus', function (event) { /* handle focus event */ })`) We do this to be compatible with custom builds of jQuery where the event aliases module has been excluded.
-
-### Checking coding style
-
-Run `npm run test` before committing to ensure your changes follow our coding standards.
-
 
 ## License
 

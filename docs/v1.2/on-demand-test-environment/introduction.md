@@ -1,6 +1,15 @@
 ---
+layout: docs
 title: "Introduction"
+description: ""
 excerpt: ""
+group: on-demand-test-environment
+redirect_from:
+  - /docs/introduction-2
+  - /docs/v1.2/introduction-2/
+toc: true
+old_url: /docs/introduction-2
+was_hidden: true
 ---
 A **Composition**  is a group of containers that define a micro-services based application. It can include all services or sub-set of services.
 
