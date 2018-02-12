@@ -33,8 +33,8 @@ Snyk API Token (AUTH_TOKEN) you can take in your snyk account.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/1322ae3-codefresh_snyk_token-1.png" 
-url="/uploads/images/docs/1322ae3-codefresh_snyk_token-1.png"
+file="/images/1322ae3-codefresh_snyk_token-1.png" 
+url="/images/1322ae3-codefresh_snyk_token-1.png"
 alt="codefresh_snyk_token-1.png"
 max-width="40%"
 %}
@@ -49,8 +49,8 @@ The result of snyk test in Codefresh you can see bellow
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/9b76b4b-codefresh_snyk_test-1.png" 
-url="/uploads/images/docs/9b76b4b-codefresh_snyk_test-1.png"
+file="/images/9b76b4b-codefresh_snyk_test-1.png" 
+url="/images/9b76b4b-codefresh_snyk_test-1.png"
 alt="codefresh_snyk_test-1.png"
 max-width="40%"
 %}

@@ -15,8 +15,8 @@ To run Unit Test with a DB or other services you shall create a composition and 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/f97b857-Screen_Shot_2016-11-10_at_10.16.52_AM.png" 
-url="/uploads/images/docs/f97b857-Screen_Shot_2016-11-10_at_10.16.52_AM.png"
+file="/images/f97b857-Screen_Shot_2016-11-10_at_10.16.52_AM.png" 
+url="/images/f97b857-Screen_Shot_2016-11-10_at_10.16.52_AM.png"
 alt="Screen Shot 2016-11-10 at 10.16.52 AM.png"
 max-width="40%"
 %}
@@ -25,8 +25,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/4204fb0-Screen_Shot_2016-11-10_at_10.22.36_AM.png" 
-url="/uploads/images/docs/4204fb0-Screen_Shot_2016-11-10_at_10.22.36_AM.png"
+file="/images/4204fb0-Screen_Shot_2016-11-10_at_10.22.36_AM.png" 
+url="/images/4204fb0-Screen_Shot_2016-11-10_at_10.22.36_AM.png"
 alt="Screen Shot 2016-11-10 at 10.22.36 AM.png"
 max-width="40%"
 %}

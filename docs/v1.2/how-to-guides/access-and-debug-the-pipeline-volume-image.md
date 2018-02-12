@@ -16,8 +16,8 @@ Navigate to the **Images** view, and switch the toggle
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/33a8af0-toggle.png" 
-url="/uploads/images/docs/33a8af0-toggle.png"
+file="/images/33a8af0-toggle.png" 
+url="/images/33a8af0-toggle.png"
 alt="toggle.png"
 max-width="40%"
 %}
@@ -34,8 +34,8 @@ Simply press the **Promote** icon from the **Images** view
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/bf235fa-promote.png" 
-url="/uploads/images/docs/bf235fa-promote.png"
+file="/images/bf235fa-promote.png" 
+url="/images/bf235fa-promote.png"
 alt="promote.png"
 max-width="40%"
 %}
@@ -48,8 +48,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/9c0b1c8-copy.png" 
-url="/uploads/images/docs/9c0b1c8-copy.png"
+file="/images/9c0b1c8-copy.png" 
+url="/images/9c0b1c8-copy.png"
 alt="copy.png"
 max-width="40%"
 %}
@@ -61,8 +61,8 @@ steps 2-4 can be ignored if you already have a terminal composition.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/3a2be7b-create.png" 
-url="/uploads/images/docs/3a2be7b-create.png"
+file="/images/3a2be7b-create.png" 
+url="/images/3a2be7b-create.png"
 alt="create.png"
 max-width="40%"
 %}
@@ -72,8 +72,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/8a6c727-templates.png" 
-url="/uploads/images/docs/8a6c727-templates.png"
+file="/images/8a6c727-templates.png" 
+url="/images/8a6c727-templates.png"
 alt="templates.png"
 max-width="40%"
 %}
@@ -83,8 +83,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/69ad3e3-terminal.png" 
-url="/uploads/images/docs/69ad3e3-terminal.png"
+file="/images/69ad3e3-terminal.png" 
+url="/images/69ad3e3-terminal.png"
 alt="terminal.png"
 max-width="40%"
 %}
@@ -105,8 +105,8 @@ Optional (but recommended):
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/9fc80f6-env_var.png" 
-url="/uploads/images/docs/9fc80f6-env_var.png"
+file="/images/9fc80f6-env_var.png" 
+url="/images/9fc80f6-env_var.png"
 alt="env var.png"
 max-width="40%"
 %}
@@ -122,16 +122,16 @@ You can use the "Terminal" composition for any image you wish, not just a volume
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/685c979-launch2.png" 
-url="/uploads/images/docs/685c979-launch2.png"
+file="/images/685c979-launch2.png" 
+url="/images/685c979-launch2.png"
 alt="launch2.png"
 max-width="40%"
 %}
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/87c36a2-open-app.png" 
-url="/uploads/images/docs/87c36a2-open-app.png"
+file="/images/87c36a2-open-app.png" 
+url="/images/87c36a2-open-app.png"
 alt="open-app.png"
 max-width="40%"
 %}
@@ -140,8 +140,8 @@ And now you can start exploring your image.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/4722827-terminal.png" 
-url="/uploads/images/docs/4722827-terminal.png"
+file="/images/4722827-terminal.png" 
+url="/images/4722827-terminal.png"
 alt="terminal.png"
 max-width="40%"
 %}

@@ -20,8 +20,8 @@ You must define a composition in the Codefresh composition module. This composit
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/fb724ab-Screen_Shot_2016-11-10_at_11.37.07_AM.png" 
-url="/uploads/images/docs/fb724ab-Screen_Shot_2016-11-10_at_11.37.07_AM.png"
+file="/images/fb724ab-Screen_Shot_2016-11-10_at_11.37.07_AM.png" 
+url="/images/fb724ab-Screen_Shot_2016-11-10_at_11.37.07_AM.png"
 alt="Screen Shot 2016-11-10 at 11.37.07 AM.png"
 max-width="40%" 
 %}
@@ -37,8 +37,8 @@ Follow these steps to run the the integration test
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/f504939-Screen_Shot_2016-11-10_at_11.55.04_AM.png" 
-url="/uploads/images/docs/f504939-Screen_Shot_2016-11-10_at_11.55.04_AM.png"
+file="/images/f504939-Screen_Shot_2016-11-10_at_11.55.04_AM.png" 
+url="/images/f504939-Screen_Shot_2016-11-10_at_11.55.04_AM.png"
 alt="Screen Shot 2016-11-10 at 11.55.04 AM.png"
 max-width="40%" 
 %}
@@ -48,8 +48,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/56fe408-Screen_Shot_2016-11-10_at_11.58.06_AM.png" 
-url="/uploads/images/docs/56fe408-Screen_Shot_2016-11-10_at_11.58.06_AM.png"
+file="/images/56fe408-Screen_Shot_2016-11-10_at_11.58.06_AM.png" 
+url="/images/56fe408-Screen_Shot_2016-11-10_at_11.58.06_AM.png"
 alt="Screen Shot 2016-11-10 at 11.58.06 AM.png"
 max-width="40%" 
 %}
@@ -59,8 +59,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/683f195-Screen_Shot_2016-11-10_at_11.58.39_AM.png" 
-url="/uploads/images/docs/683f195-Screen_Shot_2016-11-10_at_11.58.39_AM.png"
+file="/images/683f195-Screen_Shot_2016-11-10_at_11.58.39_AM.png" 
+url="/images/683f195-Screen_Shot_2016-11-10_at_11.58.39_AM.png"
 alt="Screen Shot 2016-11-10 at 11.58.06 AM.png"
 max-width="40%"
 caption="This is our test image, which contains the integration test code" 
@@ -71,8 +71,8 @@ caption="This is our test image, which contains the integration test code"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/fd371d0-Screen_Shot_2016-11-10_at_11.59.00_AM.png" 
-url="/uploads/images/docs/fd371d0-Screen_Shot_2016-11-10_at_11.59.00_AM.png"
+file="/images/fd371d0-Screen_Shot_2016-11-10_at_11.59.00_AM.png" 
+url="/images/fd371d0-Screen_Shot_2016-11-10_at_11.59.00_AM.png"
 alt="Screen Shot 2016-11-10 at 11.59.00 AM.png"
 max-width="40%"
 %} 

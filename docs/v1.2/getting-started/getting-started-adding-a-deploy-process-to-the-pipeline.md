@@ -38,8 +38,8 @@ As part of this step, you will configure the Deploy Script section of the Democh
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/9ad3aab-var.PNG" 
-url="/uploads/images/docs/9ad3aab-var.PNG"
+file="/images/9ad3aab-var.PNG" 
+url="/images/9ad3aab-var.PNG"
 alt="var.PNG"
 max-width="40%" 
 %}
@@ -52,8 +52,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/18a442e-swaggertoken.PNG" 
-url="/uploads/images/docs/18a442e-swaggertoken.PNG"
+file="/images/18a442e-swaggertoken.PNG" 
+url="/images/18a442e-swaggertoken.PNG"
 alt="swaggertoken.PNG"
 max-width="40%" 
 %}
@@ -72,8 +72,8 @@ A new row is added.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/2c9a1d2-token.PNG" 
-url="/uploads/images/docs/2c9a1d2-token.PNG"
+file="/images/2c9a1d2-token.PNG" 
+url="/images/2c9a1d2-token.PNG"
 alt="token.PNG"
 max-width="40%" 
 %}

@@ -22,8 +22,8 @@ Change the path to build context of your microservice
  
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/fd23238-codefresh_service-1.png" 
-url="/uploads/images/docs/fd23238-codefresh_service-1.png"
+file="/images/fd23238-codefresh_service-1.png" 
+url="/images/fd23238-codefresh_service-1.png"
 alt="codefresh_service-1.png"
 max-width="40%"
 %}
@@ -76,8 +76,8 @@ Try the following example to see how it works. Just ADD SERVICE and then go to p
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/640a46f-codefresh_yml_builds.png" 
-url="/uploads/images/docs/640a46f-codefresh_yml_builds.png"
+file="/images/640a46f-codefresh_yml_builds.png" 
+url="/images/640a46f-codefresh_yml_builds.png"
 alt="codefresh_yml_builds.png"
 max-width="40%"
 %}

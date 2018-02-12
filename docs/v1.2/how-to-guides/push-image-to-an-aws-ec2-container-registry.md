@@ -26,8 +26,8 @@ In the **Pipelines** view, you can configure to which registry the build image w
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/db8ba11-select_repo.png" 
-url="/uploads/images/docs/db8ba11-select_repo.png"
+file="/images/db8ba11-select_repo.png" 
+url="/images/db8ba11-select_repo.png"
 alt="select repo.png"
 max-width="40%"
 %}
@@ -41,8 +41,8 @@ Make sure the repository exist in ECR
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/bf72fa4-save-reg.png" 
-url="/uploads/images/docs/bf72fa4-save-reg.png"
+file="/images/bf72fa4-save-reg.png" 
+url="/images/bf72fa4-save-reg.png"
 alt="save-reg.png"
 max-width="40%"
 %}
@@ -60,8 +60,8 @@ The **Images** view has an option to manually push images to a registry.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/15695ce-promote.png" 
-url="/uploads/images/docs/15695ce-promote.png"
+file="/images/15695ce-promote.png" 
+url="/images/15695ce-promote.png"
 alt="promote.png"
 max-width="40%"
 %}
@@ -72,8 +72,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/7b7c876-ecr2.png" 
-url="/uploads/images/docs/7b7c876-ecr2.png"
+file="/images/7b7c876-ecr2.png" 
+url="/images/7b7c876-ecr2.png"
 alt="ecr2.png"
 max-width="40%"
 %}
@@ -83,8 +83,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/f2b0ec5-ecr3.png" 
-url="/uploads/images/docs/f2b0ec5-ecr3.png"
+file="/images/f2b0ec5-ecr3.png" 
+url="/images/f2b0ec5-ecr3.png"
 alt="ecr3.png"
 max-width="40%"
 %}   

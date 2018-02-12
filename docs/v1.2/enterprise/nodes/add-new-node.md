@@ -16,8 +16,8 @@ This procedure launches docker-node instance and registers it in Codefresh - mak
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/827bd1e-codefresh_admin_management.png"
-url="/uploads/images/docs/827bd1e-codefresh_admin_management.png"
+file="/images/827bd1e-codefresh_admin_management.png"
+url="/images/827bd1e-codefresh_admin_management.png"
 alt="codefresh_admin_management.png"
 max-width="40%"
 %}
@@ -27,8 +27,8 @@ max-width="40%"
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/cc5b518-codefresh_admin_nodes.png"
-url="/uploads/images/docs/cc5b518-codefresh_admin_nodes.png"
+file="/images/cc5b518-codefresh_admin_nodes.png"
+url="/images/cc5b518-codefresh_admin_nodes.png"
 alt="codefresh_admin_nodes.png"
 max-width="40%"
 %}
@@ -38,8 +38,8 @@ max-width="40%"
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/3319b20-codefresh_creating_node.png"
-url="/uploads/images/docs/3319b20-codefresh_creating_node.png"
+file="/images/3319b20-codefresh_creating_node.png"
+url="/images/3319b20-codefresh_creating_node.png"
 alt="codefresh_creating_node.png"
 max-width="40%"
 %}

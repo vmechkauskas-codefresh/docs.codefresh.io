@@ -12,8 +12,8 @@ was_hidden: true
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/dfdf973-Kubernetes_logos.png" 
-url="/uploads/images/docs/dfdf973-Kubernetes_logos.png" 
+file="/images/dfdf973-Kubernetes_logos.png" 
+url="/images/dfdf973-Kubernetes_logos.png" 
 alt="Kubernetes logos" 
 max-width="40%" 
 %}

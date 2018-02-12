@@ -44,8 +44,8 @@ launch_composition_step:
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/a4054be-Screen_Shot_2017-01-19_at_09.27.53.png" 
-url="/uploads/images/docs/a4054be-Screen_Shot_2017-01-19_at_09.27.53.png"
+file="/images/a4054be-Screen_Shot_2017-01-19_at_09.27.53.png" 
+url="/images/a4054be-Screen_Shot_2017-01-19_at_09.27.53.png"
 alt="Screen Shot 2017-01-19 at 09.27.53.png"
 max-width="40%" 
 %}
@@ -88,8 +88,8 @@ when:
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/df14346-Screen_Shot_2017-01-19_at_10.29.16.png" 
-url="/uploads/images/docs/df14346-Screen_Shot_2017-01-19_at_10.29.16.png"
+file="/images/df14346-Screen_Shot_2017-01-19_at_10.29.16.png" 
+url="/images/df14346-Screen_Shot_2017-01-19_at_10.29.16.png"
 alt="Screen Shot 2017-01-19 at 10.29.16.png"
 max-width="40%" 
 %}

@@ -39,8 +39,8 @@ The first are`repoName`, `repoOwner` and `pipelineName`, which can be found in t
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/f79bfe1-2016-12-29_1353.png" 
-url="/uploads/images/docs/f79bfe1-2016-12-29_1353.png" 
+file="/images/f79bfe1-2016-12-29_1353.png" 
+url="/images/f79bfe1-2016-12-29_1353.png" 
 alt="2016-12-29_1353.png" 
 max-width="40%" 
 %}
@@ -49,8 +49,8 @@ The last parameter you need is `accountName`, which can be found in the top righ
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/245d05e-2016-12-29_1237.png" 
-url="/uploads/images/docs/245d05e-2016-12-29_1237.png" 
+file="/images/245d05e-2016-12-29_1237.png" 
+url="/images/245d05e-2016-12-29_1237.png" 
 alt="2016-12-29_1237.png" 
 max-width="40%" 
 %}
@@ -66,8 +66,8 @@ First copy the image URL like shown below:
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/97f154d-2016-12-29_1219.png" 
-url="/uploads/images/docs/97f154d-2016-12-29_1219.png" 
+file="/images/97f154d-2016-12-29_1219.png" 
+url="/images/97f154d-2016-12-29_1219.png" 
 alt="2016-12-29_1219.png" 
 max-width="40%" 
 %}

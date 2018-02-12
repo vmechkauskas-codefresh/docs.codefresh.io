@@ -36,8 +36,8 @@ services:
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/5251676-Screen_Shot_2016-11-17_at_09.05.30.png" 
-url="/uploads/images/docs/5251676-Screen_Shot_2016-11-17_at_09.05.30.png"
+file="/images/5251676-Screen_Shot_2016-11-17_at_09.05.30.png" 
+url="/images/5251676-Screen_Shot_2016-11-17_at_09.05.30.png"
 alt="Screen Shot 2016-11-17 at 09.05.30.png"
 max-width="40%"
 %}

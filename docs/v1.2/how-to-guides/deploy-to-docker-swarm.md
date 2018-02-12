@@ -84,16 +84,16 @@ SSH_KEY=$(cat ~/.ssh/my_ssh_key_file | tr '\n' ',')
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/2f1884a-codefresh_env_vars.png" 
-url="/uploads/images/docs/2f1884a-codefresh_env_vars.png"
+file="/images/2f1884a-codefresh_env_vars.png" 
+url="/images/2f1884a-codefresh_env_vars.png"
 alt="codefresh_env_vars.png"
 max-width="40%"
 %}
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/ef6768e-codefresh_builds_result.png" 
-url="/uploads/images/docs/ef6768e-codefresh_builds_result.png"
+file="/images/ef6768e-codefresh_builds_result.png" 
+url="/images/ef6768e-codefresh_builds_result.png"
 alt="codefresh_builds_result.png"
 max-width="40%"
 %}

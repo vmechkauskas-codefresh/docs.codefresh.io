@@ -66,8 +66,8 @@ The screen with processes of drone you can see below
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/bf4623d-codefresh_drone_processes.png" 
-url="/uploads/images/docs/bf4623d-codefresh_drone_processes.png"
+file="/images/bf4623d-codefresh_drone_processes.png" 
+url="/images/bf4623d-codefresh_drone_processes.png"
 alt="codefresh_drone_processes.png"
 max-width="40%"
 %}
@@ -132,8 +132,8 @@ The screen with processes of Codefresh build you can see below
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/9c12ebe-codefresh_processes.png" 
-url="/uploads/images/docs/9c12ebe-codefresh_processes.png"
+file="/images/9c12ebe-codefresh_processes.png" 
+url="/images/9c12ebe-codefresh_processes.png"
 alt="codefresh_processes.png"
 max-width="40%"
 %}

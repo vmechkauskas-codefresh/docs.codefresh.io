@@ -155,8 +155,8 @@ kubectl get pods -l app=alpine-nginx
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/6312f01-kube-deploy.png" 
-url="/uploads/images/docs/6312f01-kube-deploy.png"
+file="/images/6312f01-kube-deploy.png" 
+url="/images/6312f01-kube-deploy.png"
 alt="kube-deploy.png"
 max-width="40%" 
 %}

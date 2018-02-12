@@ -52,8 +52,8 @@ step-name:
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/b694c19-2016-10-18_17-42-38.png" 
-url="/uploads/images/docs/b694c19-2016-10-18_17-42-38.png"
+file="/images/b694c19-2016-10-18_17-42-38.png" 
+url="/images/b694c19-2016-10-18_17-42-38.png"
 alt="2016-10-18_17-42-38.png"
 max-width="40%"
 %}
@@ -62,8 +62,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/de17013-2016-10-18_17-49-22.png" 
-url="/uploads/images/docs/de17013-2016-10-18_17-49-22.png"
+file="/images/de17013-2016-10-18_17-49-22.png" 
+url="/images/de17013-2016-10-18_17-49-22.png"
 alt="2016-10-18_17-49-22.png"
 max-width="40%"
 %}

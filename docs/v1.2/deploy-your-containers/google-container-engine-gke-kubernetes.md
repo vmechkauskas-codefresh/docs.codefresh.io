@@ -110,8 +110,8 @@ kubectl get pods -l app=alpine-nginx
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/670df2f-codefresh_deploy_to_kubernetes.png" 
-url="/uploads/images/docs/670df2f-codefresh_deploy_to_kubernetes.png"
+file="/images/670df2f-codefresh_deploy_to_kubernetes.png" 
+url="/images/670df2f-codefresh_deploy_to_kubernetes.png"
 alt="codefresh_deploy_to_kubernetes"
 max-width="40%" 
 %}

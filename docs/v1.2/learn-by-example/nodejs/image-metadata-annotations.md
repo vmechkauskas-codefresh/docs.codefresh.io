@@ -22,8 +22,8 @@ Visit the [Example](https://github.com/codefreshdemo/cf-example-image-metadata) 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/fd686c1-codefresh_quality_image.png" 
-url="/uploads/images/docs/fd686c1-codefresh_quality_image.png"
+file="/images/fd686c1-codefresh_quality_image.png" 
+url="/images/fd686c1-codefresh_quality_image.png"
 alt="codefresh_quality_image.png"
 max-width="40%"
 %}
@@ -33,8 +33,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/05dda43-codefresh_image_metadata.png" 
-url="/uploads/images/docs/05dda43-codefresh_image_metadata.png"
+file="/images/05dda43-codefresh_image_metadata.png" 
+url="/images/05dda43-codefresh_image_metadata.png"
 alt="codefresh_image_metadata.png"
 max-width="40%"
 %}

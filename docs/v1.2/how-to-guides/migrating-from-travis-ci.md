@@ -56,8 +56,8 @@ script:
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/94376d0-travis-ci-build.png"
-url="/uploads/images/docs/94376d0-travis-ci-build.png"
+file="/images/94376d0-travis-ci-build.png"
+url="/images/94376d0-travis-ci-build.png"
 alt="94376d0-travis-ci-build.png"
 max-width="40%"
 %}
@@ -119,8 +119,8 @@ steps:
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/9fc17cc-codefresh_processes.png"
-url="/uploads/images/docs/9fc17cc-codefresh_processes.png"
+file="/images/9fc17cc-codefresh_processes.png"
+url="/images/9fc17cc-codefresh_processes.png"
 alt="codefresh_processes.png"
 max-width="40%"
 %}
@@ -190,8 +190,8 @@ Now go to the pipelines of the repository and set the path to certain codefresh.
 
 {% include image.html
 lightbox="true"
-file="/uploads/images/docs/aaa0cc6-codefresh_pipelines.png"
-url="/uploads/images/docs/aaa0cc6-codefresh_pipelines.png"
+file="/images/aaa0cc6-codefresh_pipelines.png"
+url="/images/aaa0cc6-codefresh_pipelines.png"
 alt="codefresh_pipelines.png"
 max-width="40%"
 %}
@@ -351,8 +351,8 @@ step_name:
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/bb55c94-codefresh-encr_vars.png" 
-url="/uploads/images/docs/bb55c94-codefresh-encr_vars.png"
+file="/images/bb55c94-codefresh-encr_vars.png" 
+url="/images/bb55c94-codefresh-encr_vars.png"
 alt="codefresh-encr_vars.png"
 max-width="40%"
 %}
@@ -442,8 +442,8 @@ In the pipeline of repository, need to provide the following environment variabl
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/60d70d4-codefresh_eb_env_vars.png" 
-url="/uploads/images/docs/60d70d4-codefresh_eb_env_vars.png"
+file="/images/60d70d4-codefresh_eb_env_vars.png" 
+url="/images/60d70d4-codefresh_eb_env_vars.png"
 alt="codefresh_eb_env_vars.png"
 max-width="40%"
 %}

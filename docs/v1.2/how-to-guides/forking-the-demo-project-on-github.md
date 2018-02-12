@@ -21,8 +21,8 @@ The following procedure describes how to fork the Demochat project on Github.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/b4d759e-forkgithub.PNG" 
-url="/uploads/images/docs/b4d759e-forkgithub.PNG"
+file="/images/b4d759e-forkgithub.PNG" 
+url="/images/b4d759e-forkgithub.PNG"
 alt="forkgithub.PNG"
 max-width="40%"
 %}
@@ -31,8 +31,8 @@ The project is forked to your repository.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/6b302c6-afterforking.PNG" 
-url="/uploads/images/docs/6b302c6-afterforking.PNG"
+file="/images/6b302c6-afterforking.PNG" 
+url="/images/6b302c6-afterforking.PNG"
 alt="afterforking.PNG"
 max-width="40%"
 %}

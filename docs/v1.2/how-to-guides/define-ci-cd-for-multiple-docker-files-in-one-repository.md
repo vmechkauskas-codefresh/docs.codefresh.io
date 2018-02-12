@@ -42,8 +42,8 @@ Follow these steps to define CI/CD for multiple micro-services located in a sing
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/59ad2ea-2016-10-12_17-24-27.png" 
-url="/uploads/images/docs/59ad2ea-2016-10-12_17-24-27.png"
+file="/images/59ad2ea-2016-10-12_17-24-27.png" 
+url="/images/59ad2ea-2016-10-12_17-24-27.png"
 alt="2016-10-12_17-24-27.png"
 max-width="40%"
 %}
@@ -53,8 +53,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/c8d60f9-2016-10-12_17-28-55.png" 
-url="/uploads/images/docs/c8d60f9-2016-10-12_17-28-55.png"
+file="/images/c8d60f9-2016-10-12_17-28-55.png" 
+url="/images/c8d60f9-2016-10-12_17-28-55.png"
 alt="2016-10-12_17-28-55.png"
 max-width="40%"
 %}
@@ -64,8 +64,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/176270d-2016-10-12_17-36-32.png" 
-url="/uploads/images/docs/176270d-2016-10-12_17-36-32.png"
+file="/images/176270d-2016-10-12_17-36-32.png" 
+url="/images/176270d-2016-10-12_17-36-32.png"
 alt="2016-10-12_17-36-32.png"
 max-width="40%"
 %}

@@ -16,8 +16,8 @@ Codefresh lets you use your own host as a node to run/build containers.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/ba652cc-Account_Settings.png" 
-url="/uploads/images/docs/ba652cc-Account_Settings.png"
+file="/images/ba652cc-Account_Settings.png" 
+url="/images/ba652cc-Account_Settings.png"
 alt="Account Settings.png"
 max-width="40%"
 %}
@@ -31,8 +31,8 @@ Require a request to expose this feature on your account. Contact with us to ena
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/3f37c72-codefresh_account_nodes.png" 
-url="/uploads/images/docs/3f37c72-codefresh_account_nodes.png"
+file="/images/3f37c72-codefresh_account_nodes.png" 
+url="/images/3f37c72-codefresh_account_nodes.png"
 alt="codefresh_account_nodes.png"
 max-width="40%"
 %}
@@ -52,8 +52,8 @@ In order for Codefresh to communicate with the Docker daemon running on your nod
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/ad2e504-917195e-codefresh_add_private_node.png" 
-url="/uploads/images/docs/ad2e504-917195e-codefresh_add_private_node.png"
+file="/images/ad2e504-917195e-codefresh_add_private_node.png" 
+url="/images/ad2e504-917195e-codefresh_add_private_node.png"
 alt="917195e-codefresh_add_private_node.png"
 max-width="40%"
 %}

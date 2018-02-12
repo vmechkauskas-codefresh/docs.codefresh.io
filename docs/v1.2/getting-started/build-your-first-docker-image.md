@@ -28,8 +28,8 @@ To start building your first Docker image, you need to add a service.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/3c3d052-codefresh_add_your_first_service.png" 
-url="/uploads/images/docs/3c3d052-codefresh_add_your_first_service.png"
+file="/images/3c3d052-codefresh_add_your_first_service.png" 
+url="/images/3c3d052-codefresh_add_your_first_service.png"
 alt="codefresh_add_your_first_service"
 max-width="40%"
 caption="Add a service (click image to enlarge)" 
@@ -46,8 +46,8 @@ Add the repository for the service you're adding
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/dab7fbb-codefresh_new_wizard_1.png" 
-url="/uploads/images/docs/dab7fbb-codefresh_new_wizard_1.png"
+file="/images/dab7fbb-codefresh_new_wizard_1.png" 
+url="/images/dab7fbb-codefresh_new_wizard_1.png"
 alt="codefresh_new_wizard_1"
 max-width="40%"
 %}
@@ -69,8 +69,8 @@ Try the **ADD BY URL** option.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/ae0653e-codefresh_add_by_url.png" 
-url="/uploads/images/docs/ae0653e-codefresh_add_by_url.png"
+file="/images/ae0653e-codefresh_add_by_url.png" 
+url="/images/ae0653e-codefresh_add_by_url.png"
 alt="codefresh_add_by_url"
 max-width="40%"
 %}
@@ -90,8 +90,8 @@ Click **SELECT** for chosen build method.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/e61459b-codefresh_new_wizard_2.png" 
-url="/uploads/images/docs/e61459b-codefresh_new_wizard_2.png"
+file="/images/e61459b-codefresh_new_wizard_2.png" 
+url="/images/e61459b-codefresh_new_wizard_2.png"
 alt="codefresh_new_wizard_2"
 max-width="40%"
 %}
@@ -120,8 +120,8 @@ More information about codefresh.yml you can read [**here**](doc:doc:what-is-the
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/28bca0b-codefresh_wizard_build_method_1.png" 
-url="/uploads/images/docs/28bca0b-codefresh_wizard_build_method_1.png"
+file="/images/28bca0b-codefresh_wizard_build_method_1.png" 
+url="/images/28bca0b-codefresh_wizard_build_method_1.png"
 alt="codefresh_wizard_build_method_1"
 max-width="40%"
 %}
@@ -149,8 +149,8 @@ Build context is where we can find your Dockerfile as well as running commands. 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/444e9e2-codefresh_wizard_dockerfile_method.png" 
-url="/uploads/images/docs/444e9e2-codefresh_wizard_dockerfile_method.png"
+file="/images/444e9e2-codefresh_wizard_dockerfile_method.png" 
+url="/images/444e9e2-codefresh_wizard_dockerfile_method.png"
 alt="codefresh_wizard_dockerfile_method"
 max-width="40%"
 %}
@@ -170,8 +170,8 @@ If your repository doesn't include a Dockerfile, that's okay, you can use one of
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/257b98f-codefresh_wizard_template_method.png" 
-url="/uploads/images/docs/257b98f-codefresh_wizard_template_method.png"
+file="/images/257b98f-codefresh_wizard_template_method.png" 
+url="/images/257b98f-codefresh_wizard_template_method.png"
 alt="codefresh_wizard_template_method"
 max-width="40%"
 %}
@@ -184,8 +184,8 @@ Review the Dockerfile/codefresh.yml, and when you're done, click **Create**.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/69a5511-codefresh_wizard_review_screen.png" 
-url="/uploads/images/docs/69a5511-codefresh_wizard_review_screen.png"
+file="/images/69a5511-codefresh_wizard_review_screen.png" 
+url="/images/69a5511-codefresh_wizard_review_screen.png"
 alt="codefresh_wizard_review_screen"
 max-width="40%"
 caption="Review Dockerfile (click image to enlarge)"
@@ -199,8 +199,8 @@ GREAT! Now that you added your service to Codefresh, you're ready to build your 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/9c2a3a3-codefresh_new_wizard_4_1.png" 
-url="/uploads/images/docs/9c2a3a3-codefresh_new_wizard_4_1.png"
+file="/images/9c2a3a3-codefresh_new_wizard_4_1.png" 
+url="/images/9c2a3a3-codefresh_new_wizard_4_1.png"
 alt="codefresh_new_wizard_4_1"
 max-width="40%"
 %}

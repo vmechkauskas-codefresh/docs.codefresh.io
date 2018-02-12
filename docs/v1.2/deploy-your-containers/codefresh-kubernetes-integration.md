@@ -41,8 +41,8 @@ You will be redirected to google and will be asked to enter your google account 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/9633a57-Screen_Shot_2017-07-31_at_5.55.35_PM.png" 
-url="/uploads/images/docs/9633a57-Screen_Shot_2017-07-31_at_5.55.35_PM.png" 
+file="/images/9633a57-Screen_Shot_2017-07-31_at_5.55.35_PM.png" 
+url="/images/9633a57-Screen_Shot_2017-07-31_at_5.55.35_PM.png" 
 alt="Screen Shot 2017-07-31 at 5.55.35 PM.png" 
 max-width="40%" 
 %}
@@ -52,8 +52,8 @@ In the google cloud integration window, you will be able to add your K8 clusters
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/ff31a16-Screen_Shot_2017-07-31_at_5.56.00_PM.png" 
-url="/uploads/images/docs/ff31a16-Screen_Shot_2017-07-31_at_5.56.00_PM.png" 
+file="/images/ff31a16-Screen_Shot_2017-07-31_at_5.56.00_PM.png" 
+url="/images/ff31a16-Screen_Shot_2017-07-31_at_5.56.00_PM.png" 
 alt="Screen Shot 2017-07-31 at 5.56.00 PM.png" 
 max-width="40%" 
 %}
@@ -81,8 +81,8 @@ In this view, you will be able to perform the following actions
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/1f46c20-Screen_Shot_2017-07-31_at_10.06.32_PM.png" 
-url="/uploads/images/docs/1f46c20-Screen_Shot_2017-07-31_at_10.06.32_PM.png" 
+file="/images/1f46c20-Screen_Shot_2017-07-31_at_10.06.32_PM.png" 
+url="/images/1f46c20-Screen_Shot_2017-07-31_at_10.06.32_PM.png" 
 alt="Screen Shot 2017-07-31 at 10.06.32 PM.png" 
 max-width="40%" 
 %}
@@ -100,8 +100,8 @@ You can add images built in Codefresh which were pushed to Codefresh registry, o
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/d07104d-Screen_Shot_2017-07-23_at_6.46.17_PM.png" 
-url="/uploads/images/docs/d07104d-Screen_Shot_2017-07-23_at_6.46.17_PM.png" 
+file="/images/d07104d-Screen_Shot_2017-07-23_at_6.46.17_PM.png" 
+url="/images/d07104d-Screen_Shot_2017-07-23_at_6.46.17_PM.png" 
 alt="Screen Shot 2017-07-23 at 6.46.17 PM.png" 
 max-width="40%" 
 %}
@@ -130,8 +130,8 @@ kubectl create secret docker-registry cfcr\
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/58ac43c-Screen_Shot_2017-07-23_at_6.42.58_PM.png" 
-url="/uploads/images/docs/58ac43c-Screen_Shot_2017-07-23_at_6.42.58_PM.png" 
+file="/images/58ac43c-Screen_Shot_2017-07-23_at_6.42.58_PM.png" 
+url="/images/58ac43c-Screen_Shot_2017-07-23_at_6.42.58_PM.png" 
 alt="Screen Shot 2017-07-23 at 6.42.58 PM.png" 
 max-width="40%" 
 %}
@@ -141,8 +141,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/d072267-Screen_Shot_2017-07-31_at_10.12.53_PM.png" 
-url="/uploads/images/docs/d072267-Screen_Shot_2017-07-31_at_10.12.53_PM.png" 
+file="/images/d072267-Screen_Shot_2017-07-31_at_10.12.53_PM.png" 
+url="/images/d072267-Screen_Shot_2017-07-31_at_10.12.53_PM.png" 
 alt="Screen Shot 2017-07-31 at 10.12.53 PM.png" 
 max-width="40%" 
 %}
@@ -157,16 +157,16 @@ Copy and paste your existing K8 yaml files:
   
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/cc01a9f-Pasted_image_at_2017_07_23_03_17_PM.png" 
-url="/uploads/images/docs/cc01a9f-Pasted_image_at_2017_07_23_03_17_PM.png" 
+file="/images/cc01a9f-Pasted_image_at_2017_07_23_03_17_PM.png" 
+url="/images/cc01a9f-Pasted_image_at_2017_07_23_03_17_PM.png" 
 alt="Pasted image at 2017_07_23 03_17 PM.png" 
 max-width="40%" 
 %}
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/7238315-Pasted_image_at_2017_07_23_03_18_PM.png" 
-url="/uploads/images/docs/7238315-Pasted_image_at_2017_07_23_03_18_PM.png" 
+file="/images/7238315-Pasted_image_at_2017_07_23_03_18_PM.png" 
+url="/images/7238315-Pasted_image_at_2017_07_23_03_18_PM.png" 
 alt="Pasted image at 2017_07_23 03_18 PM.png" 
 max-width="40%" 
 %}
@@ -184,8 +184,8 @@ Just add the following to your [pipeline definition]({{ site.baseurl }}/docs/{{ 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/023f2ba-Screen_Shot_2017-08-01_at_12.09.31_PM.png" 
-url="/uploads/images/docs/023f2ba-Screen_Shot_2017-08-01_at_12.09.31_PM.png" 
+file="/images/023f2ba-Screen_Shot_2017-08-01_at_12.09.31_PM.png" 
+url="/images/023f2ba-Screen_Shot_2017-08-01_at_12.09.31_PM.png" 
 alt="Screen Shot 2017-08-01 at 12.09.31 PM.png" 
 max-width="40%" 
 %}
@@ -195,16 +195,16 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/ee8330b-Screen_Shot_2017-07-31_at_10.10.46_PM.png" 
-url="/uploads/images/docs/ee8330b-Screen_Shot_2017-07-31_at_10.10.46_PM.png" 
+file="/images/ee8330b-Screen_Shot_2017-07-31_at_10.10.46_PM.png" 
+url="/images/ee8330b-Screen_Shot_2017-07-31_at_10.10.46_PM.png" 
 alt="Screen Shot 2017-07-31 at 10.10.46 PM.png" 
 max-width="40%" 
 %}
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/3f7c1cf-Screen_Shot_2017-07-31_at_10.19.23_PM.png" 
-url="/uploads/images/docs/3f7c1cf-Screen_Shot_2017-07-31_at_10.19.23_PM.png" 
+file="/images/3f7c1cf-Screen_Shot_2017-07-31_at_10.19.23_PM.png" 
+url="/images/3f7c1cf-Screen_Shot_2017-07-31_at_10.19.23_PM.png" 
 alt="Screen Shot 2017-07-31 at 10.19.23 PM.png" 
 max-width="40%" 
 %}

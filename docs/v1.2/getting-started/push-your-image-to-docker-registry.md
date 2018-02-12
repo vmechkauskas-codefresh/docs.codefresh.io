@@ -32,8 +32,8 @@ What's a Docker registry? Learn more at the [Docker Documentation Center](https:
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/a59e344-2016-09-29_1224.png" 
-url="/uploads/images/docs/a59e344-2016-09-29_1224.png"
+file="/images/a59e344-2016-09-29_1224.png" 
+url="/images/a59e344-2016-09-29_1224.png"
 alt="2016-09-29_1224.png"
 max-width="40%"
 caption="Services view (click image to enlarge)" 
@@ -59,8 +59,8 @@ Notice that the name you define is important and you should provide a name that 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/69e5ee8-Screen_Shot_2016-09-29_at_12.35.44_PM.png" 
-url="/uploads/images/docs/69e5ee8-Screen_Shot_2016-09-29_at_12.35.44_PM.png"
+file="/images/69e5ee8-Screen_Shot_2016-09-29_at_12.35.44_PM.png" 
+url="/images/69e5ee8-Screen_Shot_2016-09-29_at_12.35.44_PM.png"
 alt="Screen Shot 2016-09-29 at 12.35.44 PM.png"
 max-width="40%"
 caption="Define the image name (click image to enlarge)" 
@@ -72,8 +72,8 @@ If you haven't configured your Docker Hub registry credentials you are prompted 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/8dc84a9-2016-09-29_1227.png" 
-url="/uploads/images/docs/8dc84a9-2016-09-29_1227.png"
+file="/images/8dc84a9-2016-09-29_1227.png" 
+url="/images/8dc84a9-2016-09-29_1227.png"
 alt="2016-09-29_1227.png"
 max-width="40%"
 caption="Navigate to Integration page (click image to enlarge)" 
@@ -84,8 +84,8 @@ Now, navigate back to your service's configuration page.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/3459a25-Screen_Shot_2016-09-29_at_12.36.45_PM.png" 
-url="/uploads/images/docs/3459a25-Screen_Shot_2016-09-29_at_12.36.45_PM.png"
+file="/images/3459a25-Screen_Shot_2016-09-29_at_12.36.45_PM.png" 
+url="/images/3459a25-Screen_Shot_2016-09-29_at_12.36.45_PM.png"
 alt="Screen Shot 2016-09-29 at 12.36.45 PM.png"
 max-width="40%"
 caption="Setting credentials (click image to enlarge)" 
@@ -108,8 +108,8 @@ Want to push your image to a different registry? Check out our [Docker Registry 
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/6cae216-Screen_Shot_2016-09-29_at_12.32.14_PM.png" 
-url="/uploads/images/docs/6cae216-Screen_Shot_2016-09-29_at_12.32.14_PM.png"
+file="/images/6cae216-Screen_Shot_2016-09-29_at_12.32.14_PM.png" 
+url="/images/6cae216-Screen_Shot_2016-09-29_at_12.32.14_PM.png"
 alt="Screen Shot 2016-09-29 at 12.32.14 PM.png"
 max-width="40%"
 caption="Automatic push enabled (click image to enlarge)" 
@@ -121,8 +121,8 @@ When your image builds, it is automatically pushed to your defined registry.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/50ce3dc-2016-09-29_1229.png" 
-url="/uploads/images/docs/50ce3dc-2016-09-29_1229.png"
+file="/images/50ce3dc-2016-09-29_1229.png" 
+url="/images/50ce3dc-2016-09-29_1229.png"
 alt="2016-09-29_1229.png"
 max-width="40%"
 caption="Trigger a new build (click image to enlarge)" 

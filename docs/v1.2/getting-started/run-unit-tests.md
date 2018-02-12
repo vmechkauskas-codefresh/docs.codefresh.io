@@ -28,8 +28,8 @@ You configure your unit test script inside the service's settings page.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/b2e9629-a59e344-2016-09-29_1224.png" 
-url="/uploads/images/docs/b2e9629-a59e344-2016-09-29_1224.png"
+file="/images/b2e9629-a59e344-2016-09-29_1224.png" 
+url="/images/b2e9629-a59e344-2016-09-29_1224.png"
 alt="a59e344-2016-09-29_1224.png"
 max-width="40%"
 caption="Services view (click image to enlarge)"
@@ -55,8 +55,8 @@ Please note,  you need to ensure your testing frameworks are installed in your s
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/990987d-Screen_Shot_2016-09-29_at_2.26.44_PM.png" 
-url="/uploads/images/docs/990987d-Screen_Shot_2016-09-29_at_2.26.44_PM.png"
+file="/images/990987d-Screen_Shot_2016-09-29_at_2.26.44_PM.png" 
+url="/images/990987d-Screen_Shot_2016-09-29_at_2.26.44_PM.png"
 alt="Screen Shot 2016-09-29 at 2.26.44 PM.png"
 max-width="40%"
 caption="Unit Test Script box (click image to enlarge)"
@@ -72,8 +72,8 @@ caption="Unit Test Script box (click image to enlarge)"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/6c54eef-2016-10-13_20-09-41.png" 
-url="/uploads/images/docs/6c54eef-2016-10-13_20-09-41.png"
+file="/images/6c54eef-2016-10-13_20-09-41.png" 
+url="/images/6c54eef-2016-10-13_20-09-41.png"
 alt="2016-10-13_20-09-41.png"
 max-width="40%"
 %}
@@ -83,8 +83,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/acce127-2016-10-13_20-15-53.png" 
-url="/uploads/images/docs/acce127-2016-10-13_20-15-53.png"
+file="/images/acce127-2016-10-13_20-15-53.png" 
+url="/images/acce127-2016-10-13_20-15-53.png"
 alt="2016-10-13_20-15-53.png"
 max-width="40%"
 %}

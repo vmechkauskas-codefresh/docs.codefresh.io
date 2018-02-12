@@ -17,8 +17,8 @@ A service is the basic building block in the Codefresh system. Services can be s
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/82f6b7c-Screen_Shot_2016-09-29_at_16.17.20.png" 
-url="/uploads/images/docs/82f6b7c-Screen_Shot_2016-09-29_at_16.17.20.png"
+file="/images/82f6b7c-Screen_Shot_2016-09-29_at_16.17.20.png" 
+url="/images/82f6b7c-Screen_Shot_2016-09-29_at_16.17.20.png"
 alt="Screen Shot 2016-09-29 at 16.17.20.png"
 max-width="40%"
 %}

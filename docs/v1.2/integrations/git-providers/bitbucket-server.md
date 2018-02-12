@@ -7,8 +7,8 @@ Email the Codefresh team, or click the **Chat** icon to speak with someone at Co
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/7b09528-2016-10-04_15-51-01.png" 
-url="/uploads/images/docs/7b09528-2016-10-04_15-51-01.png"
+file="/images/7b09528-2016-10-04_15-51-01.png" 
+url="/images/7b09528-2016-10-04_15-51-01.png"
 alt="2016-10-04_15-51-01.png"
 max-width="40%"
 %}
@@ -19,8 +19,8 @@ After you send a request to Codefresh, we will send you an invitation by email.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/b721ffa-2016-10-04_15-31-57.png" 
-url="/uploads/images/docs/b721ffa-2016-10-04_15-31-57.png"
+file="/images/b721ffa-2016-10-04_15-31-57.png" 
+url="/images/b721ffa-2016-10-04_15-31-57.png"
 alt="2016-10-04_15-31-57.png"
 max-width="40%"
 caption="Invite looks like this"
@@ -30,8 +30,8 @@ In the email, click the **Activate** button.
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/abaa7ea-2016-10-04_15-32-23.png" 
-url="/uploads/images/docs/abaa7ea-2016-10-04_15-32-23.png"
+file="/images/abaa7ea-2016-10-04_15-32-23.png" 
+url="/images/abaa7ea-2016-10-04_15-32-23.png"
 alt="2016-10-04_15-32-23.png"
 max-width="40%"
 %}
@@ -55,8 +55,8 @@ max-width="40%"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/db9a7de-2016-10-04_15-32-45.png" 
-url="/uploads/images/docs/db9a7de-2016-10-04_15-32-45.png"
+file="/images/db9a7de-2016-10-04_15-32-45.png" 
+url="/images/db9a7de-2016-10-04_15-32-45.png"
 alt="2016-10-04_15-32-45.png"
 max-width="40%"
 caption="Sign up Screen"
@@ -73,8 +73,8 @@ caption="Sign up Screen"
 
 {% include image.html 
 lightbox="true" 
-file="/uploads/images/docs/f539b84-ad2bbd1-codefresh_stash_internal_new2.png" 
-url="/uploads/images/docs/f539b84-ad2bbd1-codefresh_stash_internal_new2.png"
+file="/images/f539b84-ad2bbd1-codefresh_stash_internal_new2.png" 
+url="/images/f539b84-ad2bbd1-codefresh_stash_internal_new2.png"
 alt="codefresh_stash_internal_new2"
 max-width="40%"
 %}
