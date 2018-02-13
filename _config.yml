@@ -102,3 +102,10 @@ cdn:
 toc:
   min_level:        2
   max_level:        4
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

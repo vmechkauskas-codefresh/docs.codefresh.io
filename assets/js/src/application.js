@@ -137,7 +137,7 @@
             return hit
           })
         },
-        debug: true // Set debug to true if you want to inspect the dropdown
+        debug: false // Set debug to true if you want to inspect the dropdown
       })
       docSearch.autocomplete.on('autocomplete:opened', function (event) {
         // console.log(event)

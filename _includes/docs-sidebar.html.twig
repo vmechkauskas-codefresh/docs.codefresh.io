@@ -18,12 +18,6 @@
     {%- assign page_slug = page_url | last -%}
   {% endif %}
 
-  <!--
-  page_slug_index: {{ page_slug_index }}
-  page_slug: {{ page_slug }}
-  sub_page_slug: {{ sub_page_slug }}
-  -->
-
   {%- for navItem in site.data.nav -%}
 
     {% if navItem.url %}
@@ -41,10 +35,7 @@
     {% endif %}
 
     {%- assign active = nil -%}
-    <!--
-      page.group: {{ page.group }}
-      group_slug: {{ group_slug }}
-    -->
+
     {%- if page.group == group_slug -%}
       {%- assign active = 'active' -%}
     {%- endif -%}
@@ -102,19 +93,11 @@
 
                   {%- assign sub_active = nil -%}
 
-                  <!--
-                    page.sub_group: {{ page.sub_group }}
-                    group_slug: {{ group_slug }}
-                    doc_slug: {{ doc_slug }}
-                    sub_page_slug: {{ sub_page_slug }}
-                    sub_doc_slug: {{ sub_doc_slug }}
-                  -->
-
                   {%- if page.sub_group == doc_slug and sub_page_slug == sub_doc_slug -%}
                     {%- assign sub_active = 'active bd-sidenav-active' -%}
                   {%- endif -%}
 
-                  <li class="{% unless sub_active == nil %}{{ sub_active }}{% endunless %} {% if subdoc_disabled == true %}disabled{% endif %} ">
+                  <li class="bd-sidenav-item{% unless sub_active == nil %} {{ sub_active }}{% endunless %}{% if subdoc_disabled == true %} disabled{% endif %} ">
                     <a href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ doc_slug }}/{{ sub_doc_slug }}/"
                       {% if subdoc_disabled == true %} class="disabled"{% endif %}
                     >
