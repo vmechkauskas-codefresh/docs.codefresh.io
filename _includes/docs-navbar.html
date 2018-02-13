@@ -3,7 +3,7 @@
     {%- include icons/codefresh.svg width="196" height="40" class="d-inline-block align-middle" -%}
     <span>Docs</span>
   </a>
-
+  {% comment %}
   <!--
   <div class="navbar-nav-scroll">
     <ul class="navbar-nav bd-navbar-nav flex-row">
@@ -35,14 +35,16 @@
   </div>
   -->
   <!--<form class="form-inline mt-2 mt-md-0 mr-md-auto order-2 order-md-1">-->
-  <form class="bd-search d-flex mt-1 mb-1 mt-md-0 mr-md-auto order-2 order-md-1 align-items-center">
+  {% endcomment %}
+
+  <form class="bd-search d-flex mt-1 mb-1 mt-md-0 ml-md-auto order-2 order-md-2 align-items-center">
     <input type="search" class="form-control form-control-dark mr-sm-2 doc-search-input" id="navbar-search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
     <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
       {%- include icons/menu.svg width="30" height="30" -%}
     </button>
   </form>
 
-  <div class="navbar-nav-scroll order-1 order-md-2">
+  <div class="navbar-nav-scroll order-1 order-md-1 ml-md-auto mr-md-auto">
   <ul class="navbar-nav flex-row ml-md-auto">
     <li class="nav-item">
       <a class="nav-link {% if page.layout == "home" %}active{% endif %}" href="{{ site.baseurl }}/" onclick="ga('send', 'event', 'Navbar', Docs links', 'Home');">Home</a>
@@ -68,13 +70,14 @@
     <li class="nav-item">
       <a class="nav-link" href="{{ site.codefresh_signup }}" onclick="ga('send', 'event', 'Navbar', 'Docs links', 'SignUp');" target="_blank" rel="noopener">SignUp</a>
     </li>
+    {% comment %}
     <!--
     <li class="nav-item dropdown">
       <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         v1.2
       </a>
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-        <a class="dropdown-item active" href="{{ site.baseurl }}/docs/">Latest</a>        
+        <a class="dropdown-item active" href="{{ site.baseurl }}/docs/">Latest</a>
       </div>
     </li>
 
@@ -89,6 +92,7 @@
       </a>
     </li>
     -->
+    {% endcomment %}
   </ul>
   </div>
 
