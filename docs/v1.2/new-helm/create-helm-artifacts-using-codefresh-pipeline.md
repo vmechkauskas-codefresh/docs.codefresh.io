@@ -26,7 +26,7 @@ The `helm package` command expects a path to an unpacked chart, replace `<mychar
 See [helm package docs](https://github.com/kubernetes/helm/blob/master/docs/helm/helm_package.md){:target="_blank"} and [helm charts overview](https://github.com/kubernetes/helm/blob/master/docs/charts.md){:target="_blank"} for more information.
 
 {{site.data.callout.callout_info}}
-Note the usage of `cf_export` to make the variable available for other steps in the pipeline as described here: [/codefresh-yaml/variables/]({{ site.baseurl }}/docs/variables). 
+Note the usage of `cf_export` to make the variable available for other steps in the pipeline as described here: [Codefresh Yaml Variables]({{ site.baseurl }}/docs/variables). 
 {{site.data.callout.end}}
 
 ## Exampe 1: Push the chart to GCS based Helm Repository
