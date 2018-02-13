@@ -19,6 +19,8 @@ $bd-topaz-bright: lighten(saturate($bd-topaz-main, 5%), 15%) !default;
 $bd-topaz-light:  lighten(saturate($bd-topaz-main, 5%), 45%) !default;
 $bd-topaz-dark:    rgb(11, 111, 99) !default;
 
+$bd-greenish-blue: #2a897d;
+
 // Navbar colors
 $bd-topaz-navbar-g1: #0f9c8d;
 $bd-topaz-navbar-g2: #11b5a4;
@@ -34,6 +36,10 @@ $btn-get-started:   #235f5d;
 // Doc Sidebar colors
 $bd-doc-sidebar-link: $bd-black;
 $bd-doc-sidebar-link-active: $bd-topaz-main;
+
+// Doc Content
+$bd-doc-content-bg: #f7f7f7;
+$bd-doc-content-border: #dadada;
 
 // Links
 //

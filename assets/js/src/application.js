@@ -119,7 +119,7 @@
       var docSearch = window.docsearch({
         apiKey: '3d145052b8422fa173d681e9a761f81e',
         indexName: 'codefresh',
-        inputSelector: '#search-input',
+        inputSelector: '.doc-search-input',
         handleSelected: function (input, event, suggestion) {
           var url = suggestion.url
           url = suggestion.isLvl1 ? url.split('#')[0] : url
@@ -127,7 +127,7 @@
           window.location.href = url
         },
         algoliaOptions: {
-          hitsPerPage: 10
+          hitsPerPage: 6
         },
         transformData: function (hits) {
           return hits.map(function (hit) {
@@ -137,7 +137,7 @@
             return hit
           })
         },
-        debug: false // Set debug to true if you want to inspect the dropdown
+        debug: true // Set debug to true if you want to inspect the dropdown
       })
       docSearch.autocomplete.on('autocomplete:opened', function (event) {
         // console.log(event)

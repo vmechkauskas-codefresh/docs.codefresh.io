@@ -4,8 +4,20 @@
 // Automatically style Markdown-based tables like a Bootstrap `.table`.
 //
 
+.docs-layout {
+  background: $bd-doc-content-bg;
+}
+
+
 .bd-content {
+  position: relative;
   order: 1;
+
+  > .bd-content-inner {
+    background: $white;
+    border: 1px solid $bd-doc-content-border;
+    border-radius: 4px;
+  }
 
   // Hack the sticky header
   > h2[id],
