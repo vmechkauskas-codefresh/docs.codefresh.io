@@ -16,7 +16,7 @@ layout: home
           Instantly build, test and deploy Docker images.
         </p>
         <div class="d-flex flex-column flex-md-row lead mb-3">
-          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/"
+          <a href="{{ site.baseurl }}/docs/getting-started/introduction/"
              class="btn btn-get-started mb-3 mb-md-0 mr-md-3"
              onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">
             Get started
@@ -32,7 +32,7 @@ layout: home
             Schedule demo
           </a>
           <!--
-          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/"
+          <a href="{{ site.baseurl }}/docs/getting-started/download/"
              class="btn btn-lg btn-outline-secondary"
              onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">
             Download
@@ -60,7 +60,7 @@ layout: home
     <ul>
       {% for homeContentLink in homeContent.links %}
         {% if homeContentLink.localurl %}
-          {% assign localurl = homeContentLink.localurl | replace: "{{ site.docs_version }}", site.docs_version %}
+          {% assign localurl = homeContentLink.localurl %}
         {% else %}
           {% assign localurl = nil %}
         {% endif %}
