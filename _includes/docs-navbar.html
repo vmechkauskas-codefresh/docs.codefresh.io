@@ -11,7 +11,7 @@
         <a class="nav-link {% if page.layout == "home" %}active{% endif %}" href="{{ site.baseurl }}/" onclick="ga('send', 'event', 'Navbar', Docs links', 'Home');">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link {% if page.layout == "docs" %}active{% endif %}" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/create-a-codefresh-account/" onclick="ga('send', 'event', 'Navbar', 'Docs links', 'Docs');">Documentation</a>
+        <a class="nav-link {% if page.layout == "docs" %}active{% endif %}" href="{{ site.baseurl }}/docs/getting-started/create-a-codefresh-account/" onclick="ga('send', 'event', 'Navbar', 'Docs links', 'Docs');">Documentation</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{ site.features }}" onclick="ga('send', 'event', 'Navbar', 'Docs links', 'Features');" target="_blank" rel="noopener">Features</a>
@@ -74,7 +74,7 @@
         v1.2
       </a>
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-        <a class="dropdown-item active" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/">Latest (1.2)</a>
+        <a class="dropdown-item active" href="{{ site.baseurl }}/docs/">Latest</a>        
       </div>
     </li>
 
