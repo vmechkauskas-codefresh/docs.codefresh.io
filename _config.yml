@@ -78,9 +78,6 @@ social_image_path:  /assets/brand/codefresh-social.png
 social_logo_path:   /assets/brand/codefresh-social-logo.png
 
 # Custom variables
-current_version:      4.0.0-beta.3
-current_ruby_version: 4.0.0.beta3
-docs_version:         v1.2
 repo:                 "https://github.com/codefresh/docs.codefresh.io"
 features:             "https://codefresh.io/features/"
 enterprise:           "https://codefresh.io/enterprise/"
@@ -90,10 +87,6 @@ codefresh_login:      "http://g.codefresh.io/login"
 codefresh_signup:     "https://g.codefresh.io/signup"
 
 ga_tracking_code:     "UA-112283329-1"
-
-download:
-  source:           "https://github.com/twbs/bootstrap/archive/v4.0.0-beta.3.zip"
-  dist:             "https://github.com/twbs/bootstrap/releases/download/v4.0.0-beta.3/bootstrap-4.0.0-beta.3-dist.zip"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
