@@ -51,7 +51,7 @@
 
     <div class="bd-toc-item opened{% unless active == nil %} {{ active }}{% endunless %}">
       <!-- first lvl - group -->
-      <span class="bd-toc-link text-uppercase" data-href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
+      <span class="bd-toc-link text-uppercase" data-href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
         {{ navItem.title }}
       </span>
       <!-- 2nd lvl menu -->
@@ -77,7 +77,7 @@
           {%- endif -%}
           <!-- 2nd lvl menu item -->
           <li class="opened{% unless active == nil %} {{ active }}{% endunless %} {% if doc_disabled == true %}disabled{% endif %}">
-            <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/" data-doc-slug="{{ doc_slug }}"
+            <a href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ doc_slug }}/" data-doc-slug="{{ doc_slug }}"
               {% if doc_disabled == true %} class="disabled"{% endif %}
             >
               {{ doc.title }}
@@ -115,7 +115,7 @@
                   {%- endif -%}
 
                   <li class="{% unless sub_active == nil %}{{ sub_active }}{% endunless %} {% if subdoc_disabled == true %}disabled{% endif %} ">
-                    <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/{{ sub_doc_slug }}/"
+                    <a href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ doc_slug }}/{{ sub_doc_slug }}/"
                       {% if subdoc_disabled == true %} class="disabled"{% endif %}
                     >
                       {{ subdoc.title }}
