@@ -191,7 +191,7 @@ max-width="40%"
 caption="Review Dockerfile (click image to enlarge)"
 %}
 
-## 5. Build your Docker Image"
+## 5. Build your Docker Image
 
 GREAT! Now that you added your service to Codefresh, you're ready to build your Docker image. 
 
