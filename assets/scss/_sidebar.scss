@@ -19,7 +19,7 @@
 
 .section-nav {
   padding-left: 0;
-  border-left: 1px solid #eee;
+  //border-left: 1px solid #eee;
 
   ul {
     display: block;
@@ -35,14 +35,31 @@
   display: block;
 
   a {
-    display: block;
-    padding: .125rem 1.5rem;
-    color: #99979c;
-
+    position: relative;
+    display: inline-block;
+    padding: .125rem 1.5rem .125rem 0;
+    color: $bd-doc-toc-link;
+    transition: color 200ms linear, padding-left 200ms linear, height 200ms linear;
+    &::before {
+      position: absolute;
+      top: 0;
+      left: -15px;
+      height: 0;
+      content: "";
+      border-left: 3px solid $bd-doc-toc-link-active;
+      transition: height 200ms linear;
+    }
     &:hover,
     &.active {
-      color: $bd-link-color;
+      color: $bd-doc-toc-link-active;
       text-decoration: none;
+    }
+    &.active {
+      padding-left: 15px;
+      &::before {
+        left: 0;
+        height: 100%;
+      }
     }
   }
 }
@@ -54,7 +71,7 @@
 .bd-sidebar {
   order: 0;
   // background-color: #f5f2f9;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  //border-bottom: 1px solid rgba(0, 0, 0, .1);
 
   @include media-breakpoint-up(md) {
     @supports (position: sticky) {
@@ -63,7 +80,7 @@
       z-index: 1000;
       height: calc(100vh - 4rem);
     }
-    border-right: 1px solid rgba(0, 0, 0, .1);
+    //border-right: 1px solid rgba(0, 0, 0, .1);
   }
 
   @include media-breakpoint-up(xl) {
@@ -126,17 +143,21 @@
   display: block;
   padding: .25rem 1.5rem;
   font-weight: 500;
-  color: rgba($bd-doc-sidebar-link, .65);
+  color: rgba($bd-doc-sidebar-link, 1);
+  transition: color 200ms linear;
 
   &:hover {
-    color: rgba($bd-doc-sidebar-link, .85);
+    color: rgba($bd-doc-sidebar-link-active, 1);
     text-decoration: none;
   }
 }
 
-.bd-toc-item {
+.bd-nav-links-item {
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
   &.opened {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     &:not(:first-child) {
       margin-top: 1rem;
     }
@@ -169,11 +190,12 @@
   display: block;
   padding: .25rem 1.5rem;
   font-size: 90%;
-  color: rgba($bd-doc-sidebar-link, .65);
+  color: rgba($bd-doc-sidebar-link, 1);
+  transition: color 200ms linear;
 }
 
 .bd-sidebar .nav > li > a:hover {
-  color: rgba($bd-doc-sidebar-link, .85);
+  color: rgba($bd-doc-sidebar-link-active, 1);
   text-decoration: none;
   background-color: transparent;
 }

@@ -41,6 +41,15 @@
     }
   }
 
+  .navbar-brand {
+    span {
+      font-size: 18px;
+      font-weight: 700;
+      color: $white;
+      opacity: .4;
+    }
+  }
+
   .navbar-nav {
     .nav-link {
       padding-right: .5rem;
@@ -88,7 +97,7 @@
     &::placeholder {
       color: rgba($bd-topaz-extra-light, .75);
       // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
-      opacity: 1;
+      opacity: .75;
     }
     &.form-control-dark {
       color: $bd-topaz-extra-light;
@@ -97,6 +106,11 @@
       &:focus {
         border-color: transparent;
         box-shadow: 0 0 0 1px rgba($bd-topaz-extra-light, .25);
+        &::placeholder {
+          color: rgba($bd-topaz-extra-light, .55);
+          // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
+          opacity: .55;
+        }
       }
     }
   }

@@ -10,13 +10,21 @@
 <nav class="collapse bd-links" id="bd-docs-nav">
   {%- assign page_url = page.url | split: '/' -%}
 
-  {% if page_url.size == 6 %}
+  {% if page_url.size == 5 %}
     {%- assign page_slug_index = page_url.size | minus: 2 -%}
     {%- assign page_slug = page_url[page_slug_index] -%}
     {%- assign sub_page_slug = page_url | last -%}
   {% else %}
     {%- assign page_slug = page_url | last -%}
   {% endif %}
+
+  {% comment %}
+  <!--
+  page_slug_index: {{ page_slug_index }}
+  page_slug: {{ page_slug }}
+  sub_page_slug: {{ sub_page_slug }}
+  -->
+  {% endcomment %}
 
   {%- for navItem in site.data.nav -%}
 
@@ -36,13 +44,20 @@
 
     {%- assign active = nil -%}
 
+    {% comment %}
+    <!--
+      page.group: {{ page.group }}
+      group_slug: {{ group_slug }}
+    -->
+    {% endcomment %}
+
     {%- if page.group == group_slug -%}
       {%- assign active = 'active' -%}
     {%- endif -%}
 
-    <div class="bd-toc-item opened{% unless active == nil %} {{ active }}{% endunless %}">
+    <div class="bd-toc-item bd-nav-links-item opened{% unless active == nil %} {{ active }}{% endunless %}">
       <!-- first lvl - group -->
-      <span class="bd-toc-link text-uppercase" data-href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
+      <span class="h6 bd-toc-link font-weight-bold" data-href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
         {{ navItem.title }}
       </span>
       <!-- 2nd lvl menu -->
@@ -74,8 +89,8 @@
               {{ doc.title }}
             </a>
 
-            <!--3rd lvl menu -->
             {% unless doc.sub-pages == nil %}
+              <!--3rd lvl menu -->
               <ul class="nav bd-sidenav">
                 {%- for subdoc in doc.sub-pages -%}
 
@@ -93,6 +108,16 @@
 
                   {%- assign sub_active = nil -%}
 
+                  {% comment %}
+                  <!--
+                    page.sub_group: {{ page.sub_group }}
+                    group_slug: {{ group_slug }}
+                    doc_slug: {{ doc_slug }}
+                    sub_page_slug: {{ sub_page_slug }}
+                    sub_doc_slug: {{ sub_doc_slug }}
+                  -->
+                  {% endcomment %}
+
                   {%- if page.sub_group == doc_slug and sub_page_slug == sub_doc_slug -%}
                     {%- assign sub_active = 'active bd-sidenav-active' -%}
                   {%- endif -%}
@@ -107,8 +132,8 @@
 
                 {%- endfor -%}
               </ul>
+              <!--/3rd lvl menu-->
             {% endunless %}
-            <!--/-->
 
             {%- comment -%}
 

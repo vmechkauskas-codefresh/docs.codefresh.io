@@ -21,24 +21,11 @@
         {% if page.toc %}
         <div class="d-none d-xl-block col-xl-2 bd-toc">
           <div class="toc-inner">
+            <h6 class="text-uppercase font-weight-bold">Page Contents</h6>
             {% include docs-toc.html.twig sanitize=true html=content h_min=2 h_max=4 class="section-nav" item_class="toc-entry nav" item_link_class="nav-link" %}
           </div>
         </div>
         {% endif %}
-
-        {% comment %}
-        {% if site.github %}
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-            <div id="toc" class="toc-inner"></div>
-          </div>
-        {% else %}
-          {% if page.toc %}
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-            {{ content | toc_only }}
-          </div>
-          {% endif %}
-        {% endif %}
-        {% endcomment %}
 
         <main class="col-12 col-md-9 col-xl-8 py-3 pl-3 bd-content" role="main">
           <div class="bd-content-inner py-md-3 pl-4 pl-md-5 pr-4">
