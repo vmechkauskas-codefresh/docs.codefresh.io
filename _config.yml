@@ -24,6 +24,12 @@ baseurl:        "/docs.codefresh.io"
 # Sitemap
 url:            "https://vmechkauskas-codefresh.github.io"
 encoding:       UTF-8
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
 exclude:
   - .idea/
   - .git/
