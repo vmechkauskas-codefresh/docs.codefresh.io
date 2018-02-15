@@ -103,7 +103,7 @@
     $('.bd-content-inner > h2, .bd-content-inner > h3, .bd-content-inner > h4, .bd-content-inner > h5').wrapInner('<div></div>')
 
     $('a').smoothScroll({
-      offset: -75
+      offset: 0
     })
 
     $('.section-nav')
