@@ -64,7 +64,7 @@ collections:
 defaults:
   # _docs
   - scope:
-      path: ""
+      path: "docs"
       type: docs
     values:
       layout: docs
