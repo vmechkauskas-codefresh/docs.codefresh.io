@@ -59,6 +59,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -68,6 +71,18 @@ defaults:
       type: docs
     values:
       layout: docs
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: simple
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: simple
 
 # Social
 title:              Codefresh | Docs
