@@ -4,8 +4,19 @@
 // Automatically style Markdown-based tables like a Bootstrap `.table`.
 //
 
+.docs-layout {
+  background: $bd-doc-content-bg;
+}
+
 .bd-content {
+  position: relative;
   order: 1;
+}
+
+.bd-content-inner {
+  background: $white;
+  border: 1px solid $bd-doc-content-border;
+  border-radius: 4px;
 
   // Hack the sticky header
   > h2[id],
@@ -71,7 +82,7 @@
 // Docs sections
 //
 
-.bd-content {
+.bd-content-inner {
   > h2:not(:first-child) {
     margin-top: 3rem;
   }
@@ -97,7 +108,7 @@
 .bd-title {
   margin-top: 1rem;
   margin-bottom: .5rem;
-  font-weight: 300;
+  font-weight: 600;
 
   @include media-breakpoint-up(sm) {
     font-size: 3rem;

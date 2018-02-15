@@ -99,11 +99,11 @@
     anchors.options = {
       icon: '#'
     }
-    anchors.add('.bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5')
-    $('.bd-content > h2, .bd-content > h3, .bd-content > h4, .bd-content > h5').wrapInner('<div></div>')
+    anchors.add('.bd-content-inner > h2, .bd-content-inner > h3, .bd-content-inner > h4, .bd-content-inner > h5')
+    $('.bd-content-inner > h2, .bd-content-inner > h3, .bd-content-inner > h4, .bd-content-inner > h5').wrapInner('<div></div>')
 
     $('a').smoothScroll({
-      offset: -15
+      offset: 0
     })
 
     $('.section-nav')
@@ -119,7 +119,7 @@
       var docSearch = window.docsearch({
         apiKey: '3d145052b8422fa173d681e9a761f81e',
         indexName: 'codefresh',
-        inputSelector: '#search-input',
+        inputSelector: '.doc-search-input',
         handleSelected: function (input, event, suggestion) {
           var url = suggestion.url
           url = suggestion.isLvl1 ? url.split('#')[0] : url
@@ -127,7 +127,7 @@
           window.location.href = url
         },
         algoliaOptions: {
-          hitsPerPage: 10
+          hitsPerPage: 6
         },
         transformData: function (hits) {
           return hits.map(function (hit) {

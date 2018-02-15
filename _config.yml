@@ -24,6 +24,12 @@ baseurl:        "/docs.codefresh.io"
 # Sitemap
 url:            "https://vmechkauskas-codefresh.github.io"
 encoding:       UTF-8
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
 exclude:
   - .idea/
   - .git/
@@ -59,15 +65,30 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
   # _docs
   - scope:
-      path: ""
+      path: "docs"
       type: docs
     values:
       layout: docs
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: simple
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: simple
 
 # Social
 title:              Codefresh | Docs
@@ -102,3 +123,10 @@ cdn:
 toc:
   min_level:        2
   max_level:        4
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

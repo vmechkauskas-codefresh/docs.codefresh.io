@@ -91,7 +91,15 @@
     {% endif %}
 {% endcapture %}
 {% assign tocWorkspace = '' %}
+
 {% assign newSubUlClass = 'nav' %}
 {% capture subUlTpl %}ul class="{{ newSubUlClass }}"{% endcapture %}
 {% assign subUl = subUlTpl | append: ">" | prepend: "<" %}
-{{ my_toc | markdownify | replace: '<ul>', subUl | strip }}
+{% assign result = my_toc | markdownify | replace: '<ul>', subUl | strip  %}
+{% if result contains 'ul' %}
+  <span class="h6 text-uppercase font-weight-bold">Page Contents</span>
+{% endif %}
+{{ result }}
+
+
+

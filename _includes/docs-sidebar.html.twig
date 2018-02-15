@@ -1,14 +1,16 @@
+{% comment %}
 <form class="bd-search d-flex align-items-center">
-  <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
+  <input type="search" class="form-control doc-search-input" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
   <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
     {%- include icons/menu.svg width="30" height="30" -%}
   </button>
 </form>
+{% endcomment %}
 
 <nav class="collapse bd-links" id="bd-docs-nav">
   {%- assign page_url = page.url | split: '/' -%}
 
-  {% if page_url.size == 6 %}
+  {% if page_url.size == 5 %}
     {%- assign page_slug_index = page_url.size | minus: 2 -%}
     {%- assign page_slug = page_url[page_slug_index] -%}
     {%- assign sub_page_slug = page_url | last -%}
@@ -16,11 +18,13 @@
     {%- assign page_slug = page_url | last -%}
   {% endif %}
 
+  {% comment %}
   <!--
   page_slug_index: {{ page_slug_index }}
   page_slug: {{ page_slug }}
   sub_page_slug: {{ sub_page_slug }}
   -->
+  {% endcomment %}
 
   {%- for navItem in site.data.nav -%}
 
@@ -39,17 +43,21 @@
     {% endif %}
 
     {%- assign active = nil -%}
+
+    {% comment %}
     <!--
       page.group: {{ page.group }}
       group_slug: {{ group_slug }}
     -->
+    {% endcomment %}
+
     {%- if page.group == group_slug -%}
       {%- assign active = 'active' -%}
     {%- endif -%}
 
-    <div class="bd-toc-item opened{% unless active == nil %} {{ active }}{% endunless %}">
+    <div class="bd-toc-item bd-nav-links-item opened{% unless active == nil %} {{ active }}{% endunless %}">
       <!-- first lvl - group -->
-      <span class="bd-toc-link text-uppercase" data-href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
+      <span class="h6 bd-toc-link font-weight-bold" data-href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
         {{ navItem.title }}
       </span>
       <!-- 2nd lvl menu -->
@@ -81,8 +89,8 @@
               {{ doc.title }}
             </a>
 
-            <!--3rd lvl menu -->
             {% unless doc.sub-pages == nil %}
+              <!--3rd lvl menu -->
               <ul class="nav bd-sidenav">
                 {%- for subdoc in doc.sub-pages -%}
 
@@ -100,6 +108,7 @@
 
                   {%- assign sub_active = nil -%}
 
+                  {% comment %}
                   <!--
                     page.sub_group: {{ page.sub_group }}
                     group_slug: {{ group_slug }}
@@ -107,12 +116,13 @@
                     sub_page_slug: {{ sub_page_slug }}
                     sub_doc_slug: {{ sub_doc_slug }}
                   -->
+                  {% endcomment %}
 
                   {%- if page.sub_group == doc_slug and sub_page_slug == sub_doc_slug -%}
                     {%- assign sub_active = 'active bd-sidenav-active' -%}
                   {%- endif -%}
 
-                  <li class="{% unless sub_active == nil %}{{ sub_active }}{% endunless %} {% if subdoc_disabled == true %}disabled{% endif %} ">
+                  <li class="bd-sidenav-item{% unless sub_active == nil %} {{ sub_active }}{% endunless %}{% if subdoc_disabled == true %} disabled{% endif %} ">
                     <a href="{{ site.baseurl }}/docs/{{ group_slug }}/{{ doc_slug }}/{{ sub_doc_slug }}/"
                       {% if subdoc_disabled == true %} class="disabled"{% endif %}
                     >
@@ -122,8 +132,8 @@
 
                 {%- endfor -%}
               </ul>
+              <!--/3rd lvl menu-->
             {% endunless %}
-            <!--/-->
 
             {%- comment -%}
 

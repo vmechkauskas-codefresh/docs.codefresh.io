@@ -38,6 +38,6 @@
   "tag-name-match": true,
   "tag-self-close": false,
   "text-ignore-regex": false,
-  "title-max-len": 70,
+  "title-max-len": 120,
   "title-no-dup": true
 }

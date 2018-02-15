@@ -3,7 +3,7 @@
   <head>
     {% include header.html %}
   </head>
-  <body data-spy="scroll" data-target=".bd-toc" data-offset="25">
+  <body data-spy="scroll" data-target=".bd-toc" data-offset="100">
     <a id="skippy" class="sr-only sr-only-focusable" href="#content">
       <div class="container">
         <span class="skiplink-text">Skip to main content</span>
@@ -12,7 +12,7 @@
 
     {% include docs-navbar.html %}
 
-    <div class="container-fluid">
+    <div class="container-fluid docs-layout">
       <div class="row flex-xl-nowrap">
         <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
           {% include docs-sidebar.html.twig %}
@@ -26,24 +26,12 @@
         </div>
         {% endif %}
 
-        {% comment %}
-        {% if site.github %}
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-            <div id="toc" class="toc-inner"></div>
+        <main class="col-12 col-md-9 col-xl-8 py-3 pl-3 bd-content" role="main">
+          <div class="bd-content-inner py-md-3 pl-4 pl-md-5 pr-4">
+            <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
+            <p class="bd-lead">{{ page.description | smartify }}</p>
+            {{ content }}
           </div>
-        {% else %}
-          {% if page.toc %}
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-            {{ content | toc_only }}
-          </div>
-          {% endif %}
-        {% endif %}
-        {% endcomment %}
-
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-          <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
-          <p class="bd-lead">{{ page.description | smartify }}</p>
-          {{ content }}
         </main>
       </div>
     </div>
